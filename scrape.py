@@ -48,23 +48,19 @@ JS_SUPERVIN_CARDS = """() => [...document.querySelectorAll('article[app-product-
   text: a.innerText
 }))"""
 
-# De første ~48 hits ligger i sidens egen server-renderede data med alle tre prisniveauer
-JS_SUPERVIN_PRICE_TABLES = """() => {
+# Hver side har sine produkter i sidens egen server-renderede data (ng-state),
+# inkl. alle tre prisniveauer (1 fl., "normal" 6-pris, kampagnepris) og udløbsdato.
+JS_SUPERVIN_HITS = """() => {
   try {
     const st = JSON.parse(document.getElementById('ng-state').textContent);
-    return JSON.parse(st['searchPageResults.hits']).hits.map(h => ({
-      name: h.field_product, price_table: h.price_table, ratings: h.ratings
-    }));
+    const res = JSON.parse(st['searchPageResults.hits'] || '{"hits":[]}');
+    const stats = JSON.parse(st['searchStats.state'] || '{}');
+    const keep = ['field_product', 'field_producer', 'field_vintage', 'district', 'facet_types',
+      'field_grapes', 'default_price', 'price_table', 'wine_ratings', 'ratings', 'organic',
+      'discount_expiration_date', 'commerce_stock_bool', 'is_leftover', 'content_label', 'node_path'];
+    return {nbHits: stats.nbHits ?? null, hits: res.hits.map(h => {
+      const o = {}; keep.forEach(k => { if (k in h) o[k] = h[k]; }); return o; })};
   } catch (e) { return null; }
-}"""
-
-JS_SUPERVIN_SCROLL = """() => {
-  const a = document.querySelectorAll('article[app-product-widget]');
-  if (a.length) a[a.length - 1].scrollIntoView({block: 'center'});
-}"""
-JS_SUPERVIN_LOADER = """() => {
-  const l = document.querySelector('.loading-wrapper');
-  if (l) l.scrollIntoView({block: 'center'}); else window.scrollTo(0, document.body.scrollHeight);
 }"""
 JS_MAIN_TEXT = "() => (document.querySelector('main') || document.body).innerText"
 
@@ -87,6 +83,29 @@ def find_chromium():
     return None
 
 
+def launch(pw):
+    """Starter Chromium MED sandbox (Playwright slår den ellers fra som standard).
+    Falder kun tilbage til uden sandbox, hvis det ikke kan lade sig gøre – og noterer det i meta.json."""
+    exe = find_chromium()
+    attempts = [(exe, True), (None, True), (exe, False), (None, False)] if exe \
+        else [(None, True), (None, False)]
+    last = None
+    for path, sandbox in attempts:
+        kwargs = {"headless": True, "chromium_sandbox": sandbox}
+        if path:
+            kwargs["executable_path"] = path
+        try:
+            browser = pw.chromium.launch(**kwargs)
+            info = {"executable": path or "playwright-bundled", "sandbox": sandbox}
+            if not sandbox:
+                log("ADVARSEL: Chromium kører uden sandbox")
+            return browser, info
+        except Exception as e:
+            last = e
+            log(f"Start fejlede ({path or 'bundled'}, sandbox={sandbox}): {str(e).splitlines()[0][:200]}")
+    raise last
+
+
 def goto(page, url):
     page.goto(url, wait_until="domcontentloaded", timeout=60_000)
     try:
@@ -95,31 +114,29 @@ def goto(page, url):
         pass  # nogle sider bliver aldrig helt "idle"; det er OK
 
 
-def scrape_supervin(page, url=SUPERVIN, max_rounds=60):
-    goto(page, url)
-    page.wait_for_timeout(2000)
-    price_tables = page.evaluate(JS_SUPERVIN_PRICE_TABLES)
-    total_text = page.evaluate(JS_MAIN_TEXT)
-    m = re.search(r"(\d+)\s+produkter fundet", total_text, re.I)
-    total = int(m.group(1)) if m else None
-
-    prev, stable = -1, 0
-    for _ in range(max_rounds):
-        n = page.locator("article[app-product-widget]").count()
-        if total and n >= total:
+def scrape_supervin(page, url=SUPERVIN, max_pages=12):
+    """Bladrer med sidens egen URL-parameter (Products_dk[page]=N, 48 pr. side).
+    Hver side er server-renderet med produktdata (inkl. alle tre prisniveauer) i ng-state,
+    så vi undgår infinite scroll, som ikke virker pålideligt headless."""
+    hits, cards, total = [], [], None
+    for p in range(1, max_pages + 1):
+        goto(page, f"{url}&Products_dk%5Bpage%5D={p}")
+        page.wait_for_timeout(1500)
+        data = page.evaluate(JS_SUPERVIN_HITS)
+        if data is None:
             break
-        stable = stable + 1 if n == prev else 0
-        if stable >= 6:
+        if total is None:
+            total = data["nbHits"]
+        if not data["hits"]:
             break
-        prev = n
-        page.evaluate(JS_SUPERVIN_SCROLL)
-        page.wait_for_timeout(700)
-        page.evaluate(JS_SUPERVIN_LOADER)
-        page.wait_for_timeout(1800)
-
-    cards = page.evaluate(JS_SUPERVIN_CARDS)
-    return {"url": url, "total_reported": total, "count": len(cards),
-            "cards": cards, "price_tables_first_page": price_tables}
+        for h in data["hits"]:
+            h["page"] = p
+        hits.extend(data["hits"])
+        cards.extend(page.evaluate(JS_SUPERVIN_CARDS))
+        if total is not None and len(hits) >= total:
+            break
+    return {"url": url, "total_reported": total, "count": len(hits),
+            "hits": hits, "cards": cards}
 
 
 def scrape_jyskvin(page, url=JYSKVIN):
@@ -171,13 +188,7 @@ def main():
         jobs[f"forside_{name}"] = (lambda u: (lambda pg: scrape_homepage(pg, u)))(url)
 
     with sync_playwright() as pw:
-        exe = find_chromium()
-        try:
-            browser = pw.chromium.launch(headless=True, executable_path=exe) if exe \
-                else pw.chromium.launch(headless=True)
-        except Exception:
-            log(f"Kunne ikke starte {exe}; prøver Playwrights egen Chromium")
-            browser = pw.chromium.launch(headless=True)
+        browser, meta["browser"] = launch(pw)
         ctx = browser.new_context(locale="da-DK", viewport={"width": 1280, "height": 1600})
         for name, job in jobs.items():
             page = ctx.new_page()
