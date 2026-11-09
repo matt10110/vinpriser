@@ -1,6 +1,6 @@
 {
  "date": "2026-11-09",
- "started": "2026-11-09T00:41:10",
+ "started": "2026-11-09T06:15:01",
  "results": {
   "supervin": 125,
   "jyskvin": 16226,
@@ -15,5 +15,5 @@
   "executable": "/usr/bin/chromium",
   "sandbox": true
  },
- "finished": "2026-11-09T00:42:23"
+ "finished": "2026-11-09T06:16:26"
 }
