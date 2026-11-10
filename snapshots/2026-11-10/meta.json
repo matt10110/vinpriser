@@ -1,0 +1,19 @@
+{
+ "date": "2026-11-10",
+ "started": "2026-11-10T06:15:01",
+ "results": {
+  "supervin": 125,
+  "jyskvin": 16234,
+  "uhrskov": 425,
+  "uhrskov_outlet": 22,
+  "forside_supervin": 6000,
+  "forside_jyskvin": 6000,
+  "forside_uhrskov": 6000
+ },
+ "errors": {},
+ "browser": {
+  "executable": "/usr/bin/chromium",
+  "sandbox": true
+ },
+ "finished": "2026-11-10T06:16:27"
+}
