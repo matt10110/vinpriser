@@ -1,0 +1,1587 @@
+{
+ "url": "https://www.supervin.dk/vin/frankrig/bourgogne?Products_dk%5Bconfigure%5D%5BhitsPerPage%5D=48&Products_dk%5Bconfigure%5D%5Bfilters%5D=&Products_dk%5Btoggle%5D%5Bon_discount%5D=true&Products_dk%5BrefinementList%5D%5Bcountry%5D%5B0%5D=Frankrig&Products_dk%5BrefinementList%5D%5Barea%5D%5B0%5D=Bourgogne&Products_dk%5BrefinementList%5D%5Bfield_grapes%5D%5B0%5D=Chardonnay&Products_dk%5BrefinementList%5D%5Bfield_grapes%5D%5B1%5D=Pinot%20Noir&Products_dk%5BrefinementList%5D%5Battribute_set%5D%5B0%5D=Vin",
+ "total_reported": 23,
+ "count": 23,
+ "hits": [
+  {
+   "field_product": "Veuve Ambal Crémant de Bourgogne Blanc de Blancs Brut",
+   "field_producer": "/producent/veuve-ambal{(-_-)}Veuve Ambal",
+   "district": "Crémant de Bourgogne",
+   "facet_types": [
+    "Mousserende vin"
+   ],
+   "field_grapes": [
+    "Chardonnay",
+    "Aligoté"
+   ],
+   "default_price": 99.95,
+   "price_table": {
+    "def": 6,
+    "unit": "fl.",
+    "pricings": [
+     {
+      "ex": 143.96,
+      "inc": 179.95,
+      "min": 1,
+      "max": 5,
+      "discount": []
+     },
+     {
+      "ex": 107.96,
+      "inc": 134.95,
+      "min": 6,
+      "max": -1,
+      "discount": {
+       "price": 99.95,
+       "to": "2026-11-16T23:00:00+00:00"
+      }
+     }
+    ]
+   },
+   "wine_ratings": [
+    {
+     "reviewer": "Dorthe Kristine",
+     "max_rating": "",
+     "rating_label": "",
+     "rating": 93,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "Mad og Monopolet",
+     "max_rating": "",
+     "rating_label": "",
+     "rating": 92,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "Flaskehalsen",
+     "max_rating": "",
+     "rating_label": "",
+     "rating": 90,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "Houlberg",
+     "max_rating": "",
+     "rating_label": "",
+     "rating": 90,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "Concours General Agricole",
+     "max_rating": "",
+     "rating_label": "Gold Medal Winner",
+     "rating": null,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "Guide Hachette des Vins",
+     "max_rating": "",
+     "rating_label": "Coup de Coeur “Remarkable Wine”",
+     "rating": null,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "Féminalise",
+     "max_rating": "",
+     "rating_label": "Gold Medal Winner",
+     "rating": null,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "Burgondia",
+     "max_rating": "",
+     "rating_label": "Gold Medal Winner",
+     "rating": null,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "Vinalies Nationales",
+     "max_rating": "",
+     "rating_label": "Gold Medal Winner",
+     "rating": null,
+     "is_previous_vintage": false
+    }
+   ],
+   "ratings": {
+    "Dorthe Kristine": 93,
+    "Mad og Monopolet": 92,
+    "Flaskehalsen": 90,
+    "Houlberg": 90
+   },
+   "organic": 0,
+   "discount_expiration_date": 1794870000,
+   "commerce_stock_bool": 1,
+   "is_leftover": false,
+   "content_label": "75 cl",
+   "node_path": "veuve-ambal-cremant-de-bourgogne-blanc-de-blancs-brut",
+   "page": 1
+  },
+  {
+   "field_product": "Domaine Pascal Renaud Mâcon-Charnay \"Clos de la Tournache\" Monopole 2025",
+   "field_producer": "/producent/domaine-pascal-renaud{(-_-)}Domaine Pascal Renaud",
+   "field_vintage": 2025,
+   "district": "Mâcon",
+   "facet_types": [
+    "Hvidvin"
+   ],
+   "field_grapes": [
+    "Chardonnay"
+   ],
+   "default_price": 119.95,
+   "price_table": {
+    "def": 6,
+    "unit": "fl.",
+    "pricings": [
+     {
+      "ex": 183.96,
+      "inc": 229.95,
+      "min": 1,
+      "max": 5,
+      "discount": []
+     },
+     {
+      "ex": 143.96,
+      "inc": 179.95,
+      "min": 6,
+      "max": -1,
+      "discount": {
+       "price": 119.95,
+       "to": "2026-11-22T23:00:00+00:00"
+      }
+     }
+    ]
+   },
+   "wine_ratings": [
+    {
+     "reviewer": "Flaskehalsen",
+     "max_rating": "",
+     "rating_label": "★★★★★ – Imponerende kvalitet til prisen",
+     "rating": 94,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "Houlberg",
+     "max_rating": "",
+     "rating_label": "",
+     "rating": 93,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "Winewherever, Rasmus Christensen",
+     "max_rating": "",
+     "rating_label": "",
+     "rating": 92,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "Vivino",
+     "max_rating": "",
+     "rating_label": "⭐ 4,0",
+     "rating": null,
+     "is_previous_vintage": false
+    }
+   ],
+   "ratings": {
+    "Flaskehalsen": 94,
+    "Houlberg": 93,
+    "Winewherever, Rasmus Christensen": 92
+   },
+   "organic": 0,
+   "discount_expiration_date": 1795388400,
+   "commerce_stock_bool": 1,
+   "is_leftover": false,
+   "content_label": "75 cl",
+   "node_path": "domaine-pascal-renaud-macon-charnay-clos-de-la-tournache-monopole-2025",
+   "page": 1
+  },
+  {
+   "field_product": "Prosper Maufoux Mâcon IGE Grand Terroir 2024",
+   "field_producer": "/producent/prosper-maufoux{(-_-)}Prosper Maufoux",
+   "field_vintage": 2024,
+   "district": "Mâcon",
+   "facet_types": [
+    "Hvidvin"
+   ],
+   "field_grapes": [
+    "Chardonnay"
+   ],
+   "default_price": 129.95,
+   "price_table": {
+    "def": 6,
+    "unit": "fl.",
+    "pricings": [
+     {
+      "ex": 183.96,
+      "inc": 229.95,
+      "min": 1,
+      "max": 5,
+      "discount": []
+     },
+     {
+      "ex": 147.96,
+      "inc": 184.95,
+      "min": 6,
+      "max": -1,
+      "discount": {
+       "price": 129.95,
+       "to": "2026-11-16T23:00:00+00:00"
+      }
+     }
+    ]
+   },
+   "wine_ratings": [
+    {
+     "reviewer": "Vivino",
+     "max_rating": "",
+     "rating_label": "4,0 stjerner",
+     "rating": null,
+     "is_previous_vintage": false
+    }
+   ],
+   "ratings": [],
+   "organic": 0,
+   "discount_expiration_date": 1794870000,
+   "commerce_stock_bool": 1,
+   "is_leftover": false,
+   "content_label": "75 cl",
+   "node_path": "prosper-maufoux-macon-ige-grand-terroir-2024",
+   "page": 1
+  },
+  {
+   "field_product": "Domaine Claudine Gerard Bourgogne Hautes-Côtes de Beaune 2022",
+   "field_producer": "/producent/domaine-claudine-gerard{(-_-)}Domaine Claudine Gerard",
+   "field_vintage": 2022,
+   "district": "Hautes-Côtes de Beaune",
+   "facet_types": [
+    "Rødvin"
+   ],
+   "field_grapes": [
+    "Pinot Noir"
+   ],
+   "default_price": 134.95,
+   "price_table": {
+    "def": 6,
+    "unit": "fl.",
+    "pricings": [
+     {
+      "ex": 167.96,
+      "inc": 209.95,
+      "min": 1,
+      "max": 5,
+      "discount": []
+     },
+     {
+      "ex": 123.96,
+      "inc": 154.95,
+      "min": 6,
+      "max": -1,
+      "discount": {
+       "price": 134.95,
+       "to": "2026-11-16T23:00:00+00:00"
+      }
+     }
+    ]
+   },
+   "wine_ratings": [
+    {
+     "reviewer": "Mad og Monopolet",
+     "max_rating": "",
+     "rating_label": "",
+     "rating": 92,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "Winewherever, Rasmus Christensen",
+     "max_rating": "",
+     "rating_label": "",
+     "rating": 92,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "Flaskehalsen",
+     "max_rating": "",
+     "rating_label": "",
+     "rating": 91,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "Gilbert & Gaillard",
+     "max_rating": "",
+     "rating_label": "Gold Medal Winner",
+     "rating": null,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "Wine Enthusiast",
+     "max_rating": "",
+     "rating_label": "",
+     "rating": null,
+     "is_previous_vintage": false
+    }
+   ],
+   "ratings": {
+    "Mad og Monopolet": 92,
+    "Winewherever, Rasmus Christensen": 92,
+    "Flaskehalsen": 91
+   },
+   "organic": 0,
+   "discount_expiration_date": 1794870000,
+   "commerce_stock_bool": 1,
+   "is_leftover": false,
+   "content_label": "75 cl",
+   "node_path": "domaine-claudine-gerard-bourgogne-hautes-cotes-de-beaune-2022",
+   "page": 1
+  },
+  {
+   "field_product": "Domaine George Chablis Lieu-dit Talva Monopole 2025",
+   "field_producer": "/producent/domaine-george{(-_-)}Domaine George",
+   "field_vintage": 2025,
+   "district": "Chablis",
+   "facet_types": [
+    "Hvidvin"
+   ],
+   "field_grapes": [
+    "Chardonnay"
+   ],
+   "default_price": 164.95,
+   "price_table": {
+    "def": 6,
+    "unit": "fl.",
+    "pricings": [
+     {
+      "ex": 207.96,
+      "inc": 259.95,
+      "min": 1,
+      "max": 5,
+      "discount": []
+     },
+     {
+      "ex": 163.96,
+      "inc": 204.95,
+      "min": 6,
+      "max": -1,
+      "discount": {
+       "price": 164.95,
+       "to": "2026-11-16T23:00:00+00:00"
+      }
+     }
+    ]
+   },
+   "wine_ratings": [],
+   "ratings": [],
+   "organic": 0,
+   "discount_expiration_date": 1794870000,
+   "commerce_stock_bool": 1,
+   "is_leftover": false,
+   "content_label": "75 cl",
+   "node_path": "domaine-george-chablis-lieu-dit-talva-monopole-2025",
+   "page": 1
+  },
+  {
+   "field_product": "Domaine Jean Monnier & Fils Bourgogne Pinot Noir Côte d'Or 2023",
+   "field_producer": "/producent/domaine-jean-monnier-fils{(-_-)}Domaine Jean Monnier & Fils",
+   "field_vintage": 2023,
+   "district": "Bourgogne Côte d'Or",
+   "facet_types": [
+    "Rødvin"
+   ],
+   "field_grapes": [
+    "Pinot Noir"
+   ],
+   "default_price": 189.95,
+   "price_table": {
+    "def": 6,
+    "unit": "fl.",
+    "pricings": [
+     {
+      "ex": 239.96,
+      "inc": 299.95,
+      "min": 1,
+      "max": 5,
+      "discount": []
+     },
+     {
+      "ex": 199.96,
+      "inc": 249.95,
+      "min": 6,
+      "max": -1,
+      "discount": {
+       "price": 189.95,
+       "to": "2026-11-29T23:00:00+00:00"
+      }
+     }
+    ]
+   },
+   "wine_ratings": [
+    {
+     "reviewer": "Dorthe Kristine",
+     "max_rating": "",
+     "rating_label": "",
+     "rating": 96,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "Flaskehalsen",
+     "max_rating": "",
+     "rating_label": "★★★★★ – Imponerende kvalitet til prisen",
+     "rating": 94,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "Vinonyme",
+     "max_rating": "",
+     "rating_label": "",
+     "rating": 92,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "Vin.connaisseur",
+     "max_rating": "",
+     "rating_label": "Value: ★★★★★ 5/6",
+     "rating": null,
+     "is_previous_vintage": false
+    }
+   ],
+   "ratings": {
+    "Dorthe Kristine": 96,
+    "Flaskehalsen": 94,
+    "Vinonyme": 92
+   },
+   "organic": 0,
+   "discount_expiration_date": 1795993200,
+   "commerce_stock_bool": 1,
+   "is_leftover": false,
+   "content_label": "75 cl",
+   "node_path": "bourgogne-pinot-noir-cote-d-or-2023",
+   "page": 1
+  },
+  {
+   "field_product": "Château de Melin Hautes Côtes de Beaune Rouge 2023 BIO",
+   "field_producer": "/producent/chateau-de-melin{(-_-)}Château de Melin",
+   "field_vintage": 2023,
+   "district": "Hautes-Côtes de Beaune",
+   "facet_types": [
+    "Rødvin"
+   ],
+   "field_grapes": [
+    "Pinot Noir"
+   ],
+   "default_price": 189.95,
+   "price_table": {
+    "def": 1,
+    "unit": "fl.",
+    "pricings": [
+     {
+      "ex": 239.96,
+      "inc": 299.95,
+      "min": 1,
+      "max": -1,
+      "discount": {
+       "price": 189.95,
+       "to": "2080-01-01T00:00:00+00:00"
+      }
+     }
+    ]
+   },
+   "wine_ratings": [],
+   "ratings": [],
+   "organic": 1,
+   "discount_expiration_date": 3471292800,
+   "commerce_stock_bool": 1,
+   "is_leftover": true,
+   "content_label": "75 cl",
+   "node_path": "chateau-de-melin-hautes-cotes-de-beaune-rouge-2023-bio",
+   "page": 1
+  },
+  {
+   "field_product": "Domaine Tremeaux Mercurey 1er Cru Les Croichots 2024",
+   "field_producer": "/producent/domaine-tremeaux{(-_-)}Domaine Tremeaux",
+   "field_vintage": 2024,
+   "district": "Mercurey",
+   "facet_types": [
+    "Rødvin"
+   ],
+   "field_grapes": [
+    "Pinot Noir"
+   ],
+   "default_price": 199.95,
+   "price_table": {
+    "def": 1,
+    "unit": "fl.",
+    "pricings": [
+     {
+      "ex": 319.96,
+      "inc": 399.95,
+      "min": 1,
+      "max": -1,
+      "discount": {
+       "price": 199.95,
+       "to": "2080-01-01T00:00:00+00:00"
+      }
+     }
+    ]
+   },
+   "wine_ratings": [
+    {
+     "reviewer": "Vinonyme",
+     "max_rating": "",
+     "rating_label": "",
+     "rating": 93,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "Houlberg",
+     "max_rating": "",
+     "rating_label": "",
+     "rating": 92,
+     "is_previous_vintage": false
+    }
+   ],
+   "ratings": {
+    "Vinonyme": 93,
+    "Houlberg": 92
+   },
+   "organic": 0,
+   "discount_expiration_date": 3471292800,
+   "commerce_stock_bool": 1,
+   "is_leftover": true,
+   "content_label": "75 cl",
+   "node_path": "domaine-tremeaux-mercurey-1er-cru-les-croichots-2024",
+   "page": 1
+  },
+  {
+   "field_product": "Domaine Louis Lequin et Fils Santenay 1er Cru Le Passe-Temps 2022",
+   "field_producer": "/producent/domaine-louis-lequin{(-_-)}Domaine Louis Lequin",
+   "field_vintage": 2022,
+   "district": "Santenay",
+   "facet_types": [
+    "Rødvin"
+   ],
+   "field_grapes": [
+    "Pinot Noir"
+   ],
+   "default_price": 249.95,
+   "price_table": {
+    "def": 6,
+    "unit": "fl.",
+    "pricings": [
+     {
+      "ex": 303.96,
+      "inc": 379.95,
+      "min": 1,
+      "max": 5,
+      "discount": []
+     },
+     {
+      "ex": 279.96,
+      "inc": 349.95,
+      "min": 6,
+      "max": -1,
+      "discount": {
+       "price": 249.95,
+       "to": "2026-11-16T23:00:00+00:00"
+      }
+     }
+    ]
+   },
+   "wine_ratings": [],
+   "ratings": [],
+   "organic": 0,
+   "discount_expiration_date": 1794870000,
+   "commerce_stock_bool": 1,
+   "is_leftover": false,
+   "content_label": "75 cl",
+   "node_path": "domaine-louis-lequin-et-fils-santenay-1er-cru-le-passe-temps-2022",
+   "page": 1
+  },
+  {
+   "field_product": "Domaine Geantet Pansiot Bourgogne Pinot Fin 2023",
+   "field_producer": "/producent/domaine-geantet-pansiot{(-_-)}Domaine Geantet Pansiot",
+   "field_vintage": 2023,
+   "district": "Øvrige",
+   "facet_types": [
+    "Rødvin"
+   ],
+   "field_grapes": [
+    "Pinot Noir"
+   ],
+   "default_price": 284.95,
+   "price_table": {
+    "def": 6,
+    "unit": "fl.",
+    "pricings": [
+     {
+      "ex": 407.96,
+      "inc": 509.95,
+      "min": 1,
+      "max": 5,
+      "discount": []
+     },
+     {
+      "ex": 323.96,
+      "inc": 404.95,
+      "min": 6,
+      "max": -1,
+      "discount": {
+       "price": 284.95,
+       "to": "2026-12-31T23:00:00+00:00"
+      }
+     }
+    ]
+   },
+   "wine_ratings": [
+    {
+     "reviewer": "Flaskehalsen",
+     "max_rating": "",
+     "rating_label": "",
+     "rating": 93,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "Vin.connaisseur",
+     "max_rating": "",
+     "rating_label": "",
+     "rating": 92,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "James Suckling",
+     "max_rating": "",
+     "rating_label": "",
+     "rating": 91,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "Vivino",
+     "max_rating": "",
+     "rating_label": "⭐ 4,1",
+     "rating": null,
+     "is_previous_vintage": false
+    }
+   ],
+   "ratings": {
+    "Flaskehalsen": 93,
+    "Vin.connaisseur": 92,
+    "James Suckling": 91
+   },
+   "organic": 0,
+   "discount_expiration_date": 1798758000,
+   "commerce_stock_bool": 1,
+   "is_leftover": false,
+   "content_label": "75 cl",
+   "node_path": "domaine-geantet-pansiot-bourgogne-pinot-fin-2023",
+   "page": 1
+  },
+  {
+   "field_product": "Domaine Geantet Pansiot Marsannay Rouge 2023",
+   "field_producer": "/producent/domaine-geantet-pansiot{(-_-)}Domaine Geantet Pansiot",
+   "field_vintage": 2023,
+   "district": "Marsannay",
+   "facet_types": [
+    "Rødvin"
+   ],
+   "field_grapes": [
+    "Pinot Noir"
+   ],
+   "default_price": 384.95,
+   "price_table": {
+    "def": 6,
+    "unit": "fl.",
+    "pricings": [
+     {
+      "ex": 567.96,
+      "inc": 709.95,
+      "min": 1,
+      "max": 5,
+      "discount": []
+     },
+     {
+      "ex": 483.96,
+      "inc": 604.95,
+      "min": 6,
+      "max": -1,
+      "discount": {
+       "price": 384.95,
+       "to": "2026-12-31T23:00:00+00:00"
+      }
+     }
+    ]
+   },
+   "wine_ratings": [
+    {
+     "reviewer": "James Suckling",
+     "max_rating": "",
+     "rating_label": "",
+     "rating": 92,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "Vivino",
+     "max_rating": "",
+     "rating_label": "⭐4,0",
+     "rating": null,
+     "is_previous_vintage": false
+    }
+   ],
+   "ratings": {
+    "James Suckling": 92
+   },
+   "organic": 0,
+   "discount_expiration_date": 1798758000,
+   "commerce_stock_bool": 1,
+   "is_leftover": false,
+   "content_label": "75 cl",
+   "node_path": "domaine-geantet-pansiot-marsannay-rouge-2023",
+   "page": 1
+  },
+  {
+   "field_product": "Prosper Maufoux Nuits-Saint-Georges 2023",
+   "field_producer": "/producent/prosper-maufoux{(-_-)}Prosper Maufoux",
+   "field_vintage": 2023,
+   "district": "Nuits-Saint-Georges",
+   "facet_types": [
+    "Rødvin"
+   ],
+   "field_grapes": [
+    "Pinot Noir"
+   ],
+   "default_price": 404.95,
+   "price_table": {
+    "def": 1,
+    "unit": "fl.",
+    "pricings": [
+     {
+      "ex": 487.96,
+      "inc": 609.95,
+      "min": 1,
+      "max": -1,
+      "discount": {
+       "price": 404.95,
+       "to": "2080-01-01T00:00:00+00:00"
+      }
+     }
+    ]
+   },
+   "wine_ratings": [
+    {
+     "reviewer": "Wine Enthusiast",
+     "max_rating": "",
+     "rating_label": "",
+     "rating": 96,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "Vivino",
+     "max_rating": "",
+     "rating_label": "4,2 stjerner",
+     "rating": null,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "Jancis Robinson",
+     "max_rating": "",
+     "rating_label": "",
+     "rating": null,
+     "is_previous_vintage": false
+    }
+   ],
+   "ratings": {
+    "Wine Enthusiast": 96
+   },
+   "organic": 0,
+   "discount_expiration_date": 3471292800,
+   "commerce_stock_bool": 1,
+   "is_leftover": true,
+   "content_label": "75 cl",
+   "node_path": "prosper-maufoux-nuits-saint-georges-2023",
+   "page": 1
+  },
+  {
+   "field_product": "Domaine Geantet Pansiot Marsannay Rouge Les Longeroies 2023",
+   "field_producer": "/producent/domaine-geantet-pansiot{(-_-)}Domaine Geantet Pansiot",
+   "field_vintage": 2023,
+   "district": "Marsannay",
+   "facet_types": [
+    "Rødvin"
+   ],
+   "field_grapes": [
+    "Pinot Noir"
+   ],
+   "default_price": 434.95,
+   "price_table": {
+    "def": 6,
+    "unit": "fl.",
+    "pricings": [
+     {
+      "ex": 647.96,
+      "inc": 809.95,
+      "min": 1,
+      "max": 5,
+      "discount": []
+     },
+     {
+      "ex": 483.96,
+      "inc": 604.95,
+      "min": 6,
+      "max": -1,
+      "discount": {
+       "price": 434.95,
+       "to": "2026-12-31T23:00:00+00:00"
+      }
+     }
+    ]
+   },
+   "wine_ratings": [],
+   "ratings": [],
+   "organic": 0,
+   "discount_expiration_date": 1798758000,
+   "commerce_stock_bool": 1,
+   "is_leftover": false,
+   "content_label": "75 cl",
+   "node_path": "domaine-geantet-pansiot-marsannay-rouge-les-longeroies-2023",
+   "page": 1
+  },
+  {
+   "field_product": "Domaine Geantet Pansiot Marsannay Les Champs Perdrix 2023",
+   "field_producer": "/producent/domaine-geantet-pansiot{(-_-)}Domaine Geantet Pansiot",
+   "field_vintage": 2023,
+   "district": "Marsannay",
+   "facet_types": [
+    "Rødvin"
+   ],
+   "field_grapes": [
+    "Pinot Noir"
+   ],
+   "default_price": 454.95,
+   "price_table": {
+    "def": 6,
+    "unit": "fl.",
+    "pricings": [
+     {
+      "ex": 647.96,
+      "inc": 809.95,
+      "min": 1,
+      "max": 5,
+      "discount": []
+     },
+     {
+      "ex": 483.96,
+      "inc": 604.95,
+      "min": 6,
+      "max": -1,
+      "discount": {
+       "price": 454.95,
+       "to": "2026-12-31T23:00:00+00:00"
+      }
+     }
+    ]
+   },
+   "wine_ratings": [
+    {
+     "reviewer": "James Suckling",
+     "max_rating": "",
+     "rating_label": "",
+     "rating": 93,
+     "is_previous_vintage": false
+    }
+   ],
+   "ratings": {
+    "James Suckling": 93
+   },
+   "organic": 0,
+   "discount_expiration_date": 1798758000,
+   "commerce_stock_bool": 1,
+   "is_leftover": false,
+   "content_label": "75 cl",
+   "node_path": "domaine-geantet-pansiot-marsannay-les-champs-perdrix-2023",
+   "page": 1
+  },
+  {
+   "field_product": "Domaine Caillot Meursault La Barre Dessus - Clos Marguerite 2018",
+   "field_producer": "/producent/domaine-caillot{(-_-)}Domaine Caillot",
+   "field_vintage": 2018,
+   "district": "Meursault",
+   "facet_types": [
+    "Hvidvin"
+   ],
+   "field_grapes": [
+    "Chardonnay"
+   ],
+   "default_price": 554.95,
+   "price_table": {
+    "def": 1,
+    "unit": "fl.",
+    "pricings": [
+     {
+      "ex": 711.96,
+      "inc": 889.95,
+      "min": 1,
+      "max": -1,
+      "discount": {
+       "price": 554.95,
+       "to": "2080-01-01T00:00:00+00:00"
+      }
+     }
+    ]
+   },
+   "wine_ratings": [],
+   "ratings": [],
+   "organic": 0,
+   "discount_expiration_date": 3471292800,
+   "commerce_stock_bool": 1,
+   "is_leftover": true,
+   "content_label": "75 cl",
+   "node_path": "domaine-caillot-meursault-la-barre-dessus-clos-maguerite-2018",
+   "page": 1
+  },
+  {
+   "field_product": "Domaine Geantet Pansiot Gevrey-Chambertin 2023",
+   "field_producer": "/producent/domaine-geantet-pansiot{(-_-)}Domaine Geantet Pansiot",
+   "field_vintage": 2023,
+   "district": "Gevrey-Chambertin",
+   "facet_types": [
+    "Rødvin"
+   ],
+   "field_grapes": [
+    "Pinot Noir"
+   ],
+   "default_price": 559.95,
+   "price_table": {
+    "def": 6,
+    "unit": "fl.",
+    "pricings": [
+     {
+      "ex": 807.96,
+      "inc": 1009.95,
+      "min": 1,
+      "max": 5,
+      "discount": []
+     },
+     {
+      "ex": 643.96,
+      "inc": 804.95,
+      "min": 6,
+      "max": -1,
+      "discount": {
+       "price": 559.95,
+       "to": "2026-12-31T23:00:00+00:00"
+      }
+     }
+    ]
+   },
+   "wine_ratings": [
+    {
+     "reviewer": "Vinonyme",
+     "max_rating": "",
+     "rating_label": "",
+     "rating": 95,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "Winewherever, Rasmus Christensen",
+     "max_rating": "",
+     "rating_label": "",
+     "rating": 94,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "Vivino",
+     "max_rating": "",
+     "rating_label": "⭐ 4,1",
+     "rating": null,
+     "is_previous_vintage": false
+    }
+   ],
+   "ratings": {
+    "Vinonyme": 95,
+    "Winewherever, Rasmus Christensen": 94
+   },
+   "organic": 0,
+   "discount_expiration_date": 1798758000,
+   "commerce_stock_bool": 1,
+   "is_leftover": false,
+   "content_label": "75 cl",
+   "node_path": "domaine-geantet-pansiot-gevrey-chambertin-domaine-2023",
+   "page": 1
+  },
+  {
+   "field_product": "Domaine Alain Chavy Puligny-Montrachet 'Les 8 Climats' 2023",
+   "field_producer": "/producent/domaine-alain-chavy{(-_-)}Domaine Alain Chavy",
+   "field_vintage": 2023,
+   "district": "Puligny-Montrachet",
+   "facet_types": [
+    "Hvidvin"
+   ],
+   "field_grapes": [
+    "Chardonnay"
+   ],
+   "default_price": 599.95,
+   "price_table": {
+    "def": 1,
+    "unit": "fl.",
+    "pricings": [
+     {
+      "ex": 607.96,
+      "inc": 759.95,
+      "min": 1,
+      "max": -1,
+      "discount": {
+       "price": 599.95,
+       "to": "2080-01-01T00:00:00+00:00"
+      }
+     }
+    ]
+   },
+   "wine_ratings": [
+    {
+     "reviewer": "Vivino",
+     "max_rating": "",
+     "rating_label": "⭐ 4,2",
+     "rating": null,
+     "is_previous_vintage": false
+    }
+   ],
+   "ratings": [],
+   "organic": 0,
+   "discount_expiration_date": 3471292800,
+   "commerce_stock_bool": 1,
+   "is_leftover": true,
+   "content_label": "75 cl",
+   "node_path": "domaine-alain-chavy-puligny-montrachet-les-8-climats-2023",
+   "page": 1
+  },
+  {
+   "field_product": "Domaine Geantet Pansiot Gevrey Chambertin Vieilles Vignes 2023",
+   "field_producer": "/producent/domaine-geantet-pansiot{(-_-)}Domaine Geantet Pansiot",
+   "field_vintage": 2023,
+   "district": "Gevrey-Chambertin",
+   "facet_types": [
+    "Rødvin"
+   ],
+   "field_grapes": [
+    "Pinot Noir"
+   ],
+   "default_price": 649.95,
+   "price_table": {
+    "def": 6,
+    "unit": "fl.",
+    "pricings": [
+     {
+      "ex": 967.96,
+      "inc": 1209.95,
+      "min": 1,
+      "max": 5,
+      "discount": []
+     },
+     {
+      "ex": 803.96,
+      "inc": 1004.95,
+      "min": 6,
+      "max": -1,
+      "discount": {
+       "price": 649.95,
+       "to": "2026-12-31T23:00:00+00:00"
+      }
+     }
+    ]
+   },
+   "wine_ratings": [
+    {
+     "reviewer": "James Suckling",
+     "max_rating": "",
+     "rating_label": "",
+     "rating": 93,
+     "is_previous_vintage": false
+    }
+   ],
+   "ratings": {
+    "James Suckling": 93
+   },
+   "organic": 0,
+   "discount_expiration_date": 1798758000,
+   "commerce_stock_bool": 1,
+   "is_leftover": false,
+   "content_label": "75 cl",
+   "node_path": "domaine-geantet-pansiot-gevrey-chambertin-vieilles-vignes-2023",
+   "page": 1
+  },
+  {
+   "field_product": "Domaine Jean Monnier & Fils Puligny Montrachet 2024",
+   "field_producer": "/producent/domaine-jean-monnier-fils{(-_-)}Domaine Jean Monnier & Fils",
+   "field_vintage": 2024,
+   "district": "Puligny-Montrachet",
+   "facet_types": [
+    "Hvidvin"
+   ],
+   "field_grapes": [
+    "Chardonnay"
+   ],
+   "default_price": 699.95,
+   "price_table": {
+    "def": 6,
+    "unit": "fl.",
+    "pricings": [
+     {
+      "ex": 799.96,
+      "inc": 999.95,
+      "min": 1,
+      "max": 5,
+      "discount": []
+     },
+     {
+      "ex": 759.96,
+      "inc": 949.95,
+      "min": 6,
+      "max": -1,
+      "discount": {
+       "price": 699.95,
+       "to": "2026-11-16T23:00:00+00:00"
+      }
+     }
+    ]
+   },
+   "wine_ratings": [
+    {
+     "reviewer": "Flaskehalsen",
+     "max_rating": "",
+     "rating_label": "",
+     "rating": 97,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "Vin.connaisseur",
+     "max_rating": "",
+     "rating_label": "",
+     "rating": 95,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "Vinonyme",
+     "max_rating": "",
+     "rating_label": "",
+     "rating": 95,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "Vivino",
+     "max_rating": "",
+     "rating_label": "⭐4,2",
+     "rating": null,
+     "is_previous_vintage": false
+    }
+   ],
+   "ratings": {
+    "Flaskehalsen": 97,
+    "Vin.connaisseur": 95,
+    "Vinonyme": 95
+   },
+   "organic": 0,
+   "discount_expiration_date": 1794870000,
+   "commerce_stock_bool": 1,
+   "is_leftover": false,
+   "content_label": "75 cl",
+   "node_path": "puligny-montrachet-2024",
+   "page": 1
+  },
+  {
+   "field_product": "Domaine Geantet Pansiot Gevrey-Chambertin Vieilles Vignes 2019",
+   "field_producer": "/producent/domaine-geantet-pansiot{(-_-)}Domaine Geantet Pansiot",
+   "field_vintage": 2019,
+   "district": "Gevrey-Chambertin",
+   "facet_types": [
+    "Rødvin"
+   ],
+   "field_grapes": [
+    "Pinot Noir"
+   ],
+   "default_price": 799.95,
+   "price_table": {
+    "def": 6,
+    "unit": "fl.",
+    "pricings": [
+     {
+      "ex": 967.96,
+      "inc": 1209.95,
+      "min": 1,
+      "max": 5,
+      "discount": []
+     },
+     {
+      "ex": 803.96,
+      "inc": 1004.95,
+      "min": 6,
+      "max": -1,
+      "discount": {
+       "price": 799.95,
+       "to": "2026-12-31T23:00:00+00:00"
+      }
+     }
+    ]
+   },
+   "wine_ratings": [
+    {
+     "reviewer": "Flaskehalsen",
+     "max_rating": "",
+     "rating_label": "",
+     "rating": 98,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "Houlberg",
+     "max_rating": "",
+     "rating_label": "",
+     "rating": 97,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "Vinonyme",
+     "max_rating": "",
+     "rating_label": "",
+     "rating": 96,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "Winewherever, Rasmus Christensen",
+     "max_rating": "",
+     "rating_label": "",
+     "rating": 95,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "Vin.connaisseur",
+     "max_rating": "",
+     "rating_label": "",
+     "rating": 95,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "Vivino",
+     "max_rating": "",
+     "rating_label": "⭐ 4,2",
+     "rating": null,
+     "is_previous_vintage": false
+    }
+   ],
+   "ratings": {
+    "Flaskehalsen": 98,
+    "Houlberg": 97,
+    "Vinonyme": 96,
+    "Winewherever, Rasmus Christensen": 95,
+    "Vin.connaisseur": 95
+   },
+   "organic": 0,
+   "discount_expiration_date": 1798758000,
+   "commerce_stock_bool": 1,
+   "is_leftover": false,
+   "content_label": "75 cl",
+   "node_path": "domaine-geantet-pansiot-gevrey-chambertin-vieilles-vignes-2019",
+   "page": 1
+  },
+  {
+   "field_product": "Domaine Geantet Pansiot Gevrey Chambertin 1er Cru Le Poissenot 2023",
+   "field_producer": "/producent/domaine-geantet-pansiot{(-_-)}Domaine Geantet Pansiot",
+   "field_vintage": 2023,
+   "district": "Gevrey-Chambertin",
+   "facet_types": [
+    "Rødvin"
+   ],
+   "field_grapes": [
+    "Pinot Noir"
+   ],
+   "default_price": 1109.95,
+   "price_table": {
+    "def": 6,
+    "unit": "fl.",
+    "pricings": [
+     {
+      "ex": 2007.96,
+      "inc": 2509.95,
+      "min": 1,
+      "max": 5,
+      "discount": []
+     },
+     {
+      "ex": 1603.96,
+      "inc": 2004.95,
+      "min": 6,
+      "max": -1,
+      "discount": {
+       "price": 1109.95,
+       "to": "2026-12-31T23:00:00+00:00"
+      }
+     }
+    ]
+   },
+   "wine_ratings": [
+    {
+     "reviewer": "James Suckling",
+     "max_rating": "",
+     "rating_label": "",
+     "rating": 94,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "Decanter",
+     "max_rating": "",
+     "rating_label": "",
+     "rating": 94,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "The Drinks Business",
+     "max_rating": "",
+     "rating_label": "93+ Point",
+     "rating": 93,
+     "is_previous_vintage": false
+    }
+   ],
+   "ratings": {
+    "James Suckling": 94,
+    "Decanter": 94,
+    "The Drinks Business": 93
+   },
+   "organic": 0,
+   "discount_expiration_date": 1798758000,
+   "commerce_stock_bool": 1,
+   "is_leftover": false,
+   "content_label": "75 cl",
+   "node_path": "domaine-geantet-pansiot-gevrey-chambertin-1er-cru-le-poissenot-2023",
+   "page": 1
+  },
+  {
+   "field_product": "Domaine Louis Lequin et Fils Corton-Charlemagne Grand Cru 2018",
+   "field_producer": "/producent/domaine-louis-lequin{(-_-)}Domaine Louis Lequin",
+   "field_vintage": 2018,
+   "district": "Corton-Charlemagne",
+   "facet_types": [
+    "Hvidvin"
+   ],
+   "field_grapes": [
+    "Chardonnay"
+   ],
+   "default_price": 1604.95,
+   "price_table": {
+    "def": 1,
+    "unit": "fl.",
+    "pricings": [
+     {
+      "ex": 1367.96,
+      "inc": 1709.95,
+      "min": 1,
+      "max": -1,
+      "discount": {
+       "price": 1604.95,
+       "to": "2080-01-01T00:00:00+00:00"
+      }
+     }
+    ]
+   },
+   "wine_ratings": [
+    {
+     "reviewer": "La Revue du Vin de France",
+     "max_rating": "",
+     "rating_label": "",
+     "rating": 95,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "Vivino",
+     "max_rating": "",
+     "rating_label": "4,4 ⭐",
+     "rating": null,
+     "is_previous_vintage": false
+    }
+   ],
+   "ratings": {
+    "La Revue du Vin de France": 95
+   },
+   "organic": 0,
+   "discount_expiration_date": 3471292800,
+   "commerce_stock_bool": 1,
+   "is_leftover": true,
+   "content_label": "75 cl",
+   "node_path": "domaine-louis-lequin-et-fils-corton-charlemagne-grand-cru-2018",
+   "page": 1
+  },
+  {
+   "field_product": "Domaine Geantet Pansiot Charmes-Chambertin Grand Cru 2023",
+   "field_producer": "/producent/domaine-geantet-pansiot{(-_-)}Domaine Geantet Pansiot",
+   "field_vintage": 2023,
+   "district": "Charmes-Chambertin",
+   "facet_types": [
+    "Rødvin"
+   ],
+   "field_grapes": [
+    "Pinot Noir"
+   ],
+   "default_price": 1909.95,
+   "price_table": {
+    "def": 6,
+    "unit": "fl.",
+    "pricings": [
+     {
+      "ex": 2807.96,
+      "inc": 3509.95,
+      "min": 1,
+      "max": 5,
+      "discount": []
+     },
+     {
+      "ex": 2403.96,
+      "inc": 3004.95,
+      "min": 6,
+      "max": -1,
+      "discount": {
+       "price": 1909.95,
+       "to": "2026-12-31T23:00:00+00:00"
+      }
+     }
+    ]
+   },
+   "wine_ratings": [
+    {
+     "reviewer": "James Suckling",
+     "max_rating": "",
+     "rating_label": "",
+     "rating": 95,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "Vivino",
+     "max_rating": "",
+     "rating_label": "⭐4,4",
+     "rating": null,
+     "is_previous_vintage": false
+    }
+   ],
+   "ratings": {
+    "James Suckling": 95
+   },
+   "organic": 0,
+   "discount_expiration_date": 1798758000,
+   "commerce_stock_bool": 1,
+   "is_leftover": false,
+   "content_label": "75 cl",
+   "node_path": "domaine-geantet-pansiot-charmes-chambertin-2023",
+   "page": 1
+  }
+ ],
+ "cards": [
+  {
+   "name": "Veuve Ambal Crémant de Bourgogne Blanc de Blancs Brut",
+   "href": "https://www.supervin.dk/veuve-ambal-cremant-de-bourgogne-blanc-de-blancs-brut",
+   "text": "PRISEN UDLØBER OM:\n0 dage 17 timer 44 min 52 sek\n\nVeuve Ambal Crémant de Bourgogne Blanc de Blancs Brut\n\n93 point. En crémant der hvisker champagne-vibes – uden at tømme kontoen. Champagne, kom bare an... Det her Bourgogne Blanc de Blancs af...\n93 Point\nDorthe Kristine\n92 Point\nMad og Monopolet\n90 Point\nFlaskehalsen\n1 fl. pr. stk.\n179,95 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n99,95 DKK\nLÆG I KURV"
+  },
+  {
+   "name": "Domaine Pascal Renaud Mâcon-Charnay \"Clos de la Tournache\" Monopole 2025",
+   "href": "https://www.supervin.dk/domaine-pascal-renaud-macon-charnay-clos-de-la-tournache-monopole-2025",
+   "text": "PRISEN UDLØBER OM:\n6 dage 17 timer 44 min 52 sek\n\nDomaine Pascal Renaud Mâcon-Charnay \"Clos de la Tournache\" Monopole 2025\n\n94 point. Til tilbudsprisen er der virkelig meget hvid Bourgogne i flasken. ”Showing well”. Når selveste Jasper Morris fra Inside Burgundy...\n★★★★★ – Imponerende kvalitet til prisen\nFlaskehalsen\n93 Point\nHoulberg\n92 Point\nWinewherever, Rasmus Christensen\n1 fl. pr. stk.\n229,95 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n119,95 DKK\nLÆG I KURV"
+  },
+  {
+   "name": "Prosper Maufoux Mâcon IGE Grand Terroir 2024",
+   "href": "https://www.supervin.dk/prosper-maufoux-macon-ige-grand-terroir-2024",
+   "text": "PRISEN UDLØBER OM:\n0 dage 17 timer 44 min 52 sek\n\nProsper Maufoux Mâcon IGE Grand Terroir 2024\n\n95 point. Vinmageren Nadine Gublin er således den første kvindelige ”Winemaker of the Year”, og uanset hvor meget eller hvor lidt, det siger...\n4,0 stjerner\nVivino\n1 fl. pr. stk.\n229,95 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n129,95 DKK\nLÆG I KURV"
+  },
+  {
+   "name": "Domaine Claudine Gerard Bourgogne Hautes-Côtes de Beaune 2022",
+   "href": "https://www.supervin.dk/domaine-claudine-gerard-bourgogne-hautes-cotes-de-beaune-2022",
+   "text": "PRISEN UDLØBER OM:\n0 dage 17 timer 44 min 52 sek\n\nDomaine Claudine Gerard Bourgogne Hautes-Côtes de Beaune 2022\n\n92 point. Elegant og skøn Bourgogne ... Det er et godt eksempel på, at du får virkelig meget for pengene her. Er du skræmt af flaskepriser over 500 kr...\n92 Point\nMad og Monopolet\n92 Point\nWinewherever, Rasmus Christensen\n91 Point\nFlaskehalsen\n1 fl. pr. stk.\n209,95 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n134,95 DKK\nLÆG I KURV"
+  },
+  {
+   "name": "Domaine George Chablis Lieu-dit Talva Monopole 2025",
+   "href": "https://www.supervin.dk/domaine-george-chablis-lieu-dit-talva-monopole-2025",
+   "text": "PRISEN UDLØBER OM:\n0 dage 17 timer 44 min 52 sek\n\nDomaine George Chablis Lieu-dit Talva Monopole 2025\n\n94 point. Stram, energisk og seriøs – virkelig flot Chablis med karakter og længde. Value: ★★★★★★ 6/6 Chablis-kuppet fra monopolmarken Talva...\n1 fl. pr. stk.\n259,95 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n164,95 DKK\nLÆG I KURV"
+  },
+  {
+   "name": "Domaine Jean Monnier & Fils Bourgogne Pinot Noir Côte d'Or 2023",
+   "href": "https://www.supervin.dk/bourgogne-pinot-noir-cote-d-or-2023",
+   "text": "Domaine Jean Monnier & Fils Bourgogne Pinot Noir Côte d'Or 2023\n\n96 point. Her får du noter af kirsebær, hindbær og skovjordbær, suppleret af et let krydret og jordet præg ... Den diskrete fadlagring giver...\n96 Point\nDorthe Kristine\n★★★★★ – Imponerende kvalitet til prisen\nFlaskehalsen\n92 Point\nVinonyme\n1 fl. pr. stk.\n299,95 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n189,95 DKK\nLÆG I KURV"
+  },
+  {
+   "name": "",
+   "href": "https://www.supervin.dk/chateau-de-melin-hautes-cotes-de-beaune-rouge-2023-bio",
+   "text": "UNDER 6 fl. TILBAGE - BEDSTE PRIS V. 1 STK.\n1\nSTK. PRIS\n\nØkologisk\n\nChâteau de Melin Hautes Côtes de Beaune Rouge 2023 BIO\n\n\"The vines are located exclusively in the commune of Sampigny-lès-Maranges, on clay\u0002limestone soils with a high clay content. The clay Trias...\n1 fl. pr. stk.\n299,95 DKK\nBEDSTE PRIS\n1 fl. pr. stk.\n189,95 DKK\nLÆG I KURV"
+  },
+  {
+   "name": "",
+   "href": "https://www.supervin.dk/domaine-tremeaux-mercurey-1er-cru-les-croichots-2024",
+   "text": "UNDER 6 fl. TILBAGE - BEDSTE PRIS V. 1 STK.\n1\nSTK. PRIS\n\nDomaine Tremeaux Mercurey 1er Cru Les Croichots 2024\n\n93 point. Det er sgu god Bourgogne. “Most people who know Burgundy agree that the very best examples of Mercurey represent the best rapport...\n93 Point\nVinonyme\n92 Point\nHoulberg\n1 fl. pr. stk.\n399,95 DKK\nBEDSTE PRIS\n1 fl. pr. stk.\n199,95 DKK\nLÆG I KURV"
+  },
+  {
+   "name": "Domaine Louis Lequin et Fils Santenay 1er Cru Le Passe-Temps 2022",
+   "href": "https://www.supervin.dk/domaine-louis-lequin-et-fils-santenay-1er-cru-le-passe-temps-2022",
+   "text": "PRISEN UDLØBER OM:\n0 dage 17 timer 44 min 52 sek\n\nDomaine Louis Lequin et Fils Santenay 1er Cru Le Passe-Temps 2022\n\n96 point. Superflot balance mellem de røde frugter og den sublime friskhed. Vi har ventet hele 8 årgange på nye flasker af denne sublime røde...\n1 fl. pr. stk.\n379,95 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n249,95 DKK\nLÆG I KURV"
+  },
+  {
+   "name": "Domaine Geantet Pansiot Bourgogne Pinot Fin 2023",
+   "href": "https://www.supervin.dk/domaine-geantet-pansiot-bourgogne-pinot-fin-2023",
+   "text": "Domaine Geantet Pansiot Bourgogne Pinot Fin 2023\n\n93 point. Det er fint, nuancerigt, mørkt og alligevel diskret... “Pinot Fin, a rare and precious grape variety, is distinguished by its small...\n93 Point\nFlaskehalsen\n92 Point\nVin.connaisseur\n91 Point\nJames Suckling\n1 fl. pr. stk.\n509,95 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n284,95 DKK\nLÆG I KURV"
+  },
+  {
+   "name": "Domaine Geantet Pansiot Marsannay Rouge 2023",
+   "href": "https://www.supervin.dk/domaine-geantet-pansiot-marsannay-rouge-2023",
+   "text": "Domaine Geantet Pansiot Marsannay Rouge 2023\n\nVery youthful and brambly, with warm roasted spices, white sesame, dark cherries and berry fruit. Racy and firm, with lightly chewy tannins...\n92 Point\nJames Suckling\n⭐4,0\nVivino\n1 fl. pr. stk.\n709,95 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n384,95 DKK\nLÆG I KURV"
+  },
+  {
+   "name": "",
+   "href": "https://www.supervin.dk/prosper-maufoux-nuits-saint-georges-2023",
+   "text": "UNDER 6 fl. TILBAGE - BEDSTE PRIS V. 1 STK.\n1\nSTK. PRIS\n\nProsper Maufoux Nuits-Saint-Georges 2023\n\n96 points. Superb (årgangsskema, rød Côte de Nuits 2023) En flodbølge af frugt… 2023 er en fuldstændig unik charmeårgang, som Jancis...\n96 Point\nWine Enthusiast\n4,2 stjerner\nVivino\n1 fl. pr. stk.\n609,95 DKK\nBEDSTE PRIS\n1 fl. pr. stk.\n404,95 DKK\nLÆG I KURV"
+  },
+  {
+   "name": "Domaine Geantet Pansiot Marsannay Rouge Les Longeroies 2023",
+   "href": "https://www.supervin.dk/domaine-geantet-pansiot-marsannay-rouge-les-longeroies-2023",
+   "text": "Domaine Geantet Pansiot Marsannay Rouge Les Longeroies 2023\n\n“'Les Longeroies' stands out for the richness of its clay-silt-sand soils. The nose opens with vibrant aromas of raspberry and tart cherry,...\n1 fl. pr. stk.\n809,95 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n434,95 DKK\nLÆG I KURV"
+  },
+  {
+   "name": "Domaine Geantet Pansiot Marsannay Les Champs Perdrix 2023",
+   "href": "https://www.supervin.dk/domaine-geantet-pansiot-marsannay-les-champs-perdrix-2023",
+   "text": "Domaine Geantet Pansiot Marsannay Les Champs Perdrix 2023\n\n93 points. Dark cherries and berries dotted with spices and a touch of walnut shell. Excellent midpalate intensity with a compact, medium- to...\n93 Point\nJames Suckling\n1 fl. pr. stk.\n809,95 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n454,95 DKK\nLÆG I KURV"
+  },
+  {
+   "name": "",
+   "href": "https://www.supervin.dk/domaine-caillot-meursault-la-barre-dessus-clos-maguerite-2018",
+   "text": "UNDER 6 fl. TILBAGE - BEDSTE PRIS V. 1 STK.\n1\nSTK. PRIS\n\nDomaine Caillot Meursault La Barre Dessus - Clos Marguerite 2018\n\n97 point. NR. #1 HVIDVINE - 2025’s STØRSTE ØJEBLIKKE – SO FAR … Ægte mesterkvalitet fornægter sig ikke. Og når Domaine Caillot skruer helt op...\n1 fl. pr. stk.\n889,95 DKK\nBEDSTE PRIS\n1 fl. pr. stk.\n554,95 DKK\nLÆG I KURV"
+  },
+  {
+   "name": "Domaine Geantet Pansiot Gevrey-Chambertin 2023",
+   "href": "https://www.supervin.dk/domaine-geantet-pansiot-gevrey-chambertin-domaine-2023",
+   "text": "Domaine Geantet Pansiot Gevrey-Chambertin 2023\n\n95 point. Er du vimmer man.. Det her er altså Gevrey, med alt, hvad kommunen står for – mørk charme, rå kraft og den der maskuline elegance,...\n95 Point\nVinonyme\n94 Point\nWinewherever, Rasmus Christensen\n⭐ 4,1\nVivino\n1 fl. pr. stk.\n1.009,95 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n559,95 DKK\nLÆG I KURV"
+  },
+  {
+   "name": "",
+   "href": "https://www.supervin.dk/domaine-alain-chavy-puligny-montrachet-les-8-climats-2023",
+   "text": "UNDER 6 fl. TILBAGE - BEDSTE PRIS V. 1 STK.\n1\nSTK. PRIS\n\nDomaine Alain Chavy Puligny-Montrachet 'Les 8 Climats' 2023\n\n“Since the split with his brother, Alain has made the bigger changes and the wines are evolving into a dinstinctive, classic style. The...\n⭐ 4,2\nVivino\n1 fl. pr. stk.\n759,95 DKK\nBEDSTE PRIS\n1 fl. pr. stk.\n599,95 DKK\nLÆG I KURV"
+  },
+  {
+   "name": "Domaine Geantet Pansiot Gevrey Chambertin Vieilles Vignes 2023",
+   "href": "https://www.supervin.dk/domaine-geantet-pansiot-gevrey-chambertin-vieilles-vignes-2023",
+   "text": "Domaine Geantet Pansiot Gevrey Chambertin Vieilles Vignes 2023\n\n93 points. Lovely sweet red berry and blackberry aromas with touches of licorice and spices that serve to enhance and not dominate. Typical...\n93 Point\nJames Suckling\n1 fl. pr. stk.\n1.209,95 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n649,95 DKK\nLÆG I KURV"
+  },
+  {
+   "name": "Domaine Jean Monnier & Fils Puligny Montrachet 2024",
+   "href": "https://www.supervin.dk/puligny-montrachet-2024",
+   "text": "PRISEN UDLØBER OM:\n0 dage 17 timer 44 min 52 sek\n\nDomaine Jean Monnier & Fils Puligny Montrachet 2024\n\n97 point. Fænomenal ... Puligny i sin mest rene og aristokratiske form. “★★★★ Excellent producer. This is an estate whose wines I recommend with much enthusiasm...\n97 Point\nFlaskehalsen\n95 Point\nVin.connaisseur\n95 Point\nVinonyme\n1 fl. pr. stk.\n999,95 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n699,95 DKK\nLÆG I KURV"
+  },
+  {
+   "name": "Domaine Geantet Pansiot Gevrey-Chambertin Vieilles Vignes 2019",
+   "href": "https://www.supervin.dk/domaine-geantet-pansiot-gevrey-chambertin-vieilles-vignes-2019",
+   "text": "Domaine Geantet Pansiot Gevrey-Chambertin Vieilles Vignes 2019\n\n98 point. Fænomenal. Høj burgundisk klasse. Der er noget magisk over Gevrey-Chambertin ... Du kan finde skrækkeligt dyre rødvine fra det...\n98 Point\nFlaskehalsen\n97 Point\nHoulberg\n96 Point\nVinonyme\n1 fl. pr. stk.\n1.209,95 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n799,95 DKK\nLÆG I KURV"
+  },
+  {
+   "name": "Domaine Geantet Pansiot Gevrey Chambertin 1er Cru Le Poissenot 2023",
+   "href": "https://www.supervin.dk/domaine-geantet-pansiot-gevrey-chambertin-1er-cru-le-poissenot-2023",
+   "text": "Domaine Geantet Pansiot Gevrey Chambertin 1er Cru Le Poissenot 2023\n\n94 points. Ethereal and deep… “Perched at 350 meters in altitude, just above the prestigious Lavaux Saint-Jacques, the Premier Cru 'Le...\n94 Point\nJames Suckling\n94 Point\nDecanter\n93+ Point\nThe Drinks Business\n1 fl. pr. stk.\n2.509,95 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n1.109,95 DKK\nLÆG I KURV"
+  },
+  {
+   "name": "",
+   "href": "https://www.supervin.dk/domaine-louis-lequin-et-fils-corton-charlemagne-grand-cru-2018",
+   "text": "UNDER 6 fl. TILBAGE - BEDSTE PRIS V. 1 STK.\n1\nSTK. PRIS\n\nDomaine Louis Lequin et Fils Corton-Charlemagne Grand Cru 2018\n\n95 points. Jagten på den forsvindende lille mængde af hvid Gran Cru Bourgogne bliver hvert år vildere og vildere. Derfor er det et held, at...\n95 Point\nLa Revue du Vin de France\n4,4 ⭐\nVivino\n1 fl. pr. stk.\n1.709,95 DKK\nBEDSTE PRIS\n1 fl. pr. stk.\n1.604,95 DKK\nLÆG I KURV"
+  },
+  {
+   "name": "Domaine Geantet Pansiot Charmes-Chambertin Grand Cru 2023",
+   "href": "https://www.supervin.dk/domaine-geantet-pansiot-charmes-chambertin-2023",
+   "text": "Domaine Geantet Pansiot Charmes-Chambertin Grand Cru 2023\n\n95 points. Quite woody at the moment, but there is excellent depth hidden beneath. Expect dark fruit, from ripe black cherries to almost blackberries...\n95 Point\nJames Suckling\n⭐4,4\nVivino\n1 fl. pr. stk.\n3.509,95 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n1.909,95 DKK\nLÆG I KURV"
+  }
+ ]
+}
