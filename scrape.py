@@ -169,23 +169,115 @@ def _supervin_paginate(page, url, max_pages):
     return hits, cards, total, key, diag
 
 
-def _supervin_dom_fallback(page, url, rounds=80):
-    """Sidste udvej: indlæs siden, afvis cookies (kun nødvendige), og rul med musehjulet."""
-    goto(page, url)
-    page.wait_for_timeout(2000)
+def _decline_cookies(page):
+    """Vælger det mest privatlivsvenlige cookie-valg (kun nødvendige), hvis banneret vises."""
     for sel in ("#CybotCookiebotDialogBodyButtonDecline",
                 "button:has-text('Afvis')", "button:has-text('Kun nødvendige')"):
         try:
             if page.locator(sel).first.is_visible(timeout=1000):
                 page.locator(sel).first.click()
                 page.wait_for_timeout(800)
-                break
+                return
         except Exception:
             pass
+
+
+def _scroll_step(page):
+    page.evaluate("""() => {
+      const a = document.querySelectorAll('article[app-product-widget]');
+      if (a.length) a[a.length - 1].scrollIntoView({block: 'center'});
+    }""")
+    page.wait_for_timeout(600)
+    page.mouse.wheel(0, 3000)
+    page.wait_for_timeout(1400)
+
+
+SUPERVIN_KEEP = ("objectID", "field_product", "field_producer", "field_vintage", "area", "district",
+                 "facet_types", "field_grapes", "default_price", "price_table", "wine_ratings", "ratings",
+                 "organic", "tags", "discount_expiration_date", "commerce_stock_bool", "is_leftover",
+                 "content_label", "node_path")
+
+
+def _supervin_network(page, url, max_rounds=120):
+    """Indlæser siden som en almindelig browser og læser de produktsvar, siden SELV henter
+    (som at kigge i netværksfanen), mens vi ruller ned. Siden står selv for alle forespørgsler."""
+    # Siden kan sende flere slags søgninger (fx først uden filtre, så med). Svarene grupperes
+    # derfor efter filter, og til sidst vælges gruppen med tilbudsfilteret.
+    pending, groups, info = [], {}, {"nbHits": None, "responses": 0, "params": None, "groups": []}
+    from urllib.parse import parse_qsl
+
+    def group_key(params):
+        drop = {"page", "hitsPerPage", "clickAnalytics", "analytics", "userToken", "analyticsTags",
+                "highlightPreTag", "highlightPostTag", "attributesToRetrieve", "facets", "maxValuesPerFacet"}
+        return "&".join(f"{k}={v}" for k, v in sorted(parse_qsl(params or "")) if k not in drop)
+
+    def best():
+        if not groups:
+            return None
+        disc = [g for g in groups.values() if "on_discount" in g["key"]]
+        return max(disc or groups.values(), key=lambda g: len(g["hits"]))
+
+    def on_response(resp):
+        if "algolia" in resp.url and "queries" in resp.url:
+            pending.append(resp)
+
+    def drain():
+        while pending:
+            resp = pending.pop(0)
+            try:
+                data = resp.json()
+            except Exception:
+                continue
+            info["responses"] += 1
+            for r in data.get("results", []):
+                hits = r.get("hits") or []
+                if r.get("hitsPerPage", 0) and hits and "price_table" in hits[0]:
+                    k = group_key(r.get("params"))
+                    g = groups.setdefault(k, {"key": k, "params": (r.get("params") or "")[:600], "hits": {}})
+                    g["nbHits"] = r.get("nbHits")
+                    for h in hits:
+                        g["hits"][h.get("objectID") or h.get("node_path")] = {x: h[x] for x in SUPERVIN_KEEP if x in h}
+            b = best()
+            if b:
+                info["nbHits"], info["params"] = b["nbHits"], b["params"]
+                captured.clear()
+                captured.update(b["hits"])
+
+    captured = {}
+
+    page.on("response", on_response)
+    try:
+        goto(page, url)
+        page.wait_for_timeout(2500)
+        _decline_cookies(page)
+        prev, stable = -1, 0
+        for _ in range(max_rounds):
+            drain()
+            n = len(captured)
+            if info["nbHits"] is not None and n >= info["nbHits"]:
+                break
+            stable = stable + 1 if n == prev else 0
+            if stable >= 10:
+                break
+            prev = n
+            _scroll_step(page)
+        drain()
+        cards = page.evaluate(JS_SUPERVIN_CARDS)
+    finally:
+        page.remove_listener("response", on_response)
+    info["groups"] = [{"params": g["params"][:300], "nbHits": g.get("nbHits"), "count": len(g["hits"])}
+                      for g in groups.values()]
+    return list(captured.values()), cards, info
+
+
+def _supervin_dom_fallback(page, url, rounds=80):
+    """Sidste udvej: indlæs siden, afvis cookies (kun nødvendige), og rul."""
+    goto(page, url)
+    page.wait_for_timeout(2000)
+    _decline_cookies(page)
     prev, stable = -1, 0
     for _ in range(rounds):
-        page.mouse.wheel(0, 2500)
-        page.wait_for_timeout(700)
+        _scroll_step(page)
         n = page.locator("article[app-product-widget]").count()
         stable = stable + 1 if n == prev else 0
         if stable >= 8:
@@ -195,9 +287,20 @@ def _supervin_dom_fallback(page, url, rounds=80):
 
 
 def scrape_supervin(page, url=SUPERVIN, max_pages=25):
-    """Prøver det fulde filter, så kun tilbudsfilteret, så hele Bourgogne-kategorien.
-    Gemmer diagnose for hver variant, der ikke gav resultater."""
+    """1) Læs sidens egne produktsvar, mens vi ruller (virker uanset server-rendering).
+    2) Ellers: server-renderede sider via URL-parameter (fuldt filter, kun tilbud, alle).
+    3) Ellers: kortenes tekst. Gemmer diagnose for hver variant, der ikke gav resultater."""
     attempts = []
+    try:
+        hits, cards, info = _supervin_network(page, url)
+        attempts.append({"variant": "netvaerk", "url": url, "count": len(hits), "total": info["nbHits"],
+                         "responses": info["responses"], "params": info["params"], "groups": info["groups"]})
+        if hits:
+            return {"url": url, "variant": "netvaerk", "total_reported": info["nbHits"], "count": len(hits),
+                    "truncated": bool(info["nbHits"] and len(hits) < info["nbHits"]),
+                    "hits": hits, "cards": cards, "attempts": attempts}
+    except Exception as e:
+        attempts.append({"variant": "netvaerk", "error": f"{type(e).__name__}: {str(e).splitlines()[0][:200]}"})
     for variant, u in (("filter", url), ("kun_tilbud", SUPERVIN_DISCOUNT_ONLY), ("alle", SUPERVIN_PLAIN)):
         hits, cards, total, key, diag = _supervin_paginate(page, u, max_pages)
         attempts.append({"variant": variant, "url": u, "count": len(hits), "total": total,
