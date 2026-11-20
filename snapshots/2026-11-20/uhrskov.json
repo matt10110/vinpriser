@@ -1,7 +1,7 @@
 {
  "url": "https://www.uhrskov-vine.dk/produkter/vin/roedvin/frankrig-roedvin/bourgogne-roedvin?p={p}&product_list_limit=36&product_list_order=price&product_list_dir=asc",
- "total_reported": 428,
- "count": 428,
+ "total_reported": 429,
+ "count": 429,
  "items": [
   {
    "text": "Louis Jadot\n\nBeaujolais-Villages 2025 Combe aux Jacques, Louis Jadot\n\n169,00 DKK ved 1 stk.\n\n149,00 DKK\nved 6 stk.\nSpar i alt 120,00\nLæg i kurv\nLevering 1-3 hverdage",
@@ -9,7 +9,7 @@
    "page": 1
   },
   {
-   "text": "Régnié 2023 La Croix Penet Domaine du Vieux Bourg\n\n179,00 DKK ved 1 stk.\n\n149,00 DKK\nved 6 stk.\nSpar i alt 180,00\nLæg i kurv\nIkke på Lager | Lev. 5-8 hverdage",
+   "text": "Régnié 2023 La Croix Penet Domaine du Vieux Bourg\n\n179,00 DKK ved 1 stk.\n\n149,00 DKK\nved 6 stk.\nSpar i alt 180,00\nLæg i kurv\nLevering 1-3 hverdage",
    "href": "https://www.uhrskov-vine.dk/regnie-2023-la-croix-penet-vieux-bourg",
    "page": 1
   },
@@ -139,7 +139,7 @@
    "page": 1
   },
   {
-   "text": "Domaine Frédéric Esmonin\n\nGevrey-Chambertin 2025 Domaine Frédéric Esmonin\n\nFør: 599,00 DKK\n\n299,00 DKK\nved 1 stk.\nSpar 300,00\nLæg i kurv\nLevering 1-3 hverdage",
+   "text": "Domaine Frédéric Esmonin\n\nGevrey-Chambertin 2025 Domaine Frédéric Esmonin\n\nFør: 599,00 DKK\n\n299,00 DKK\nved 1 stk.\nSpar 300,00\nUdsolgt\nUdsolgt",
    "href": "https://www.uhrskov-vine.dk/gevrey-chambertin-2025-fred-esmonin",
    "page": 1
   },
@@ -1769,6 +1769,11 @@
    "page": 10
   },
   {
+   "text": "Fleurie Cru Beaujolais 2022 Joseph Drouhin\n\n259,00 DKK\nved 1 stk.\nUdsolgt\nUdsolgt",
+   "href": "https://www.uhrskov-vine.dk/fleurie-cru-beaujolais-2022-joseph-drouhin",
+   "page": 10
+  },
+  {
    "text": "Hautes Cotes de Nuit 2020 Les Dames Huguettes, Patrice Rion\n\n260,00 DKK ved 1 stk.\n\n195,00 DKK\nved 6 stk.\nSpar i alt 390,00\nUdsolgt\nUdsolgt",
    "href": "https://www.uhrskov-vine.dk/hautes-cotes-de-nuit-2020-huguettes-rion",
    "page": 10
@@ -1801,7 +1806,7 @@
   {
    "text": "Rully 1er Cru Préaux 2021 Château de Monthelie, Domaine Eric de Suremain\n\n349,00 DKK\nved 1 stk.\nUdsolgt\nUdsolgt",
    "href": "https://www.uhrskov-vine.dk/rully-premier-cru-preaux-2021-chateau-monthelie",
-   "page": 10
+   "page": 11
   },
   {
    "text": "Côte de Nuits Villages Rouge 2022 Domaine Pillot-Henry\n\n349,00 DKK\nved 1 stk.\nUdsolgt\nUdsolgt",
@@ -1981,7 +1986,7 @@
   {
    "text": "Domaine Ghislaine Barthod\n\nChambolle-Musigny 2022 Domaine Ghislaine Barthod\n\n799,00 DKK\nved 1 stk.\nUdsolgt\nUdsolgt",
    "href": "https://www.uhrskov-vine.dk/chambolle-musigny-2022-domaine-ghislaine-barthod",
-   "page": 11
+   "page": 12
   },
   {
    "text": "Domaine Méo-Camuzet\n\nFixin 1er CRU Clos du Chapitre 2020 Domaine Méo-Camuzet\n\n849,00 DKK\nved 1 stk.\nUdsolgt\nUdsolgt",

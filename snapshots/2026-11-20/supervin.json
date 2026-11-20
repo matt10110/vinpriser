@@ -1,8 +1,8 @@
 {
  "url": "https://www.supervin.dk/vin/frankrig/bourgogne?Products_dk%5Bconfigure%5D%5BhitsPerPage%5D=48&Products_dk%5Bconfigure%5D%5Bfilters%5D=&Products_dk%5Btoggle%5D%5Bon_discount%5D=true&Products_dk%5BrefinementList%5D%5Bcountry%5D%5B0%5D=Frankrig&Products_dk%5BrefinementList%5D%5Barea%5D%5B0%5D=Bourgogne&Products_dk%5BrefinementList%5D%5Bfield_grapes%5D%5B0%5D=Chardonnay&Products_dk%5BrefinementList%5D%5Bfield_grapes%5D%5B1%5D=Pinot%20Noir&Products_dk%5BrefinementList%5D%5Battribute_set%5D%5B0%5D=Vin",
  "variant": "netvaerk",
- "total_reported": 253,
- "count": 253,
+ "total_reported": 252,
+ "count": 252,
  "truncated": false,
  "hits": [
   {
@@ -6004,54 +6004,6 @@
    "is_leftover": false,
    "content_label": "75 cl",
    "node_path": "domaine-geantet-pansiot-hautes-cotes-de-nuits-2024"
-  },
-  {
-   "objectID": "166429",
-   "field_product": "Domaine George Chablis 1er Cru Montmains Les Butteaux 2024",
-   "field_producer": "/producent/domaine-george{(-_-)}Domaine George",
-   "field_vintage": 2024,
-   "area": "Bourgogne",
-   "district": "Chablis",
-   "facet_types": [
-    "Hvidvin"
-   ],
-   "field_grapes": [
-    "Chardonnay"
-   ],
-   "default_price": 249.95,
-   "price_table": {
-    "def": 1,
-    "unit": "fl.",
-    "pricings": [
-     {
-      "ex": 359.96,
-      "inc": 449.95,
-      "min": 1,
-      "max": -1,
-      "discount": {
-       "price": 249.95,
-       "to": "2080-01-01T00:00:00+00:00"
-      }
-     }
-    ]
-   },
-   "wine_ratings": [],
-   "ratings": [],
-   "organic": 0,
-   "tags": [
-    {
-     "icon": "/assets/country_icons/fr_round.svg",
-     "altText": "Frankrig",
-     "text": "",
-     "color": "",
-     "type": "country"
-    }
-   ],
-   "discount_expiration_date": 3471292800,
-   "commerce_stock_bool": 1,
-   "is_leftover": true,
-   "content_label": "75 cl",
-   "node_path": "domaine-george-chablis-1er-cru-montmains-les-butteaux-2024"
   },
   {
    "objectID": "167125",
@@ -18552,11 +18504,6 @@
    "text": ""
   },
   {
-   "name": "",
-   "href": "https://www.supervin.dk/domaine-george-chablis-1er-cru-montmains-les-butteaux-2024",
-   "text": ""
-  },
-  {
    "name": "Domaine Pascal Renaud Pouilly-Fuissé 1'er Cru \"Les Ménétrières\" 2023",
    "href": "https://www.supervin.dk/domaine-pascal-renaud-pouilly-fuisse-1-er-cru-les-menetrieres-2023",
    "text": ""
@@ -19264,7 +19211,7 @@
   {
    "name": "Veuve Ambal Cremant Jeroboam",
    "href": "https://www.supervin.dk/veuve-ambal-cremant-jeroboam",
-   "text": "SPAR\n8 %\nBlack Friday\n\nVeuve Ambal Cremant Jeroboam\n\nLet gylden i glasset med fine bobler. Forførende næse med hvide blomster, æble og citrus, samt elegante strejf af smør og brioche. I munden...\n93 Point\nBarego'mad\n92 Point\nDecanter\n92 Point\nMad og Monopolet\n1 fl. pr. stk.\n1.205,00 DKK\nBEDSTE PRIS\n1 fl. pr. stk.\n1.104,95 DKK\nLÆG I KURV"
+   "text": ""
   },
   {
    "name": "Domaine Geantet Pansiot Gevrey Chambertin 1er Cru Le Poissenot 2023",
@@ -19421,15 +19368,15 @@
   {
    "variant": "netvaerk",
    "url": "https://www.supervin.dk/vin/frankrig/bourgogne?Products_dk%5Bconfigure%5D%5BhitsPerPage%5D=48&Products_dk%5Bconfigure%5D%5Bfilters%5D=&Products_dk%5Btoggle%5D%5Bon_discount%5D=true&Products_dk%5BrefinementList%5D%5Bcountry%5D%5B0%5D=Frankrig&Products_dk%5BrefinementList%5D%5Barea%5D%5B0%5D=Bourgogne&Products_dk%5BrefinementList%5D%5Bfield_grapes%5D%5B0%5D=Chardonnay&Products_dk%5BrefinementList%5D%5Bfield_grapes%5D%5B1%5D=Pinot%20Noir&Products_dk%5BrefinementList%5D%5Battribute_set%5D%5B0%5D=Vin",
-   "count": 253,
-   "total": 253,
+   "count": 252,
+   "total": 252,
    "responses": 6,
    "params": "attributesToHighlight=%5B%5D&clickAnalytics=true&facetFilters=%5B%5B%22area%3ABourgogne%22%5D%2C%5B%22attribute_set%3AVin%22%5D%2C%5B%22country%3AFrankrig%22%5D%2C%5B%22field_grapes%3AChardonnay%22%2C%22field_grapes%3APinot+Noir%22%5D%2C%5B%22on_discount%3A1%22%5D%5D&facets=%5B%22alcohol%22%2C%22area%22%2C%22attribute_set%22%2C%22categories%22%2C%22closure%22%2C%22commerce_stock_bool%22%2C%22content_label%22%2C%22country%22%2C%22culture%22%2C%22default_price%22%2C%22discount_expiration_date%22%2C%22district%22%2C%22facet_types%22%2C%22field_food%22%2C%22field_grapes%22%2C%22field_klassikere%22",
    "groups": [
     {
      "params": "attributesToHighlight=%5B%5D&clickAnalytics=true&facetFilters=%5B%5B%22area%3ABourgogne%22%5D%2C%5B%22attribute_set%3AVin%22%5D%2C%5B%22country%3AFrankrig%22%5D%2C%5B%22field_grapes%3AChardonnay%22%2C%22field_grapes%3APinot+Noir%22%5D%2C%5B%22on_discount%3A1%22%5D%5D&facets=%5B%22alcohol%22%2C%22are",
-     "nbHits": 253,
-     "count": 253
+     "nbHits": 252,
+     "count": 252
     }
    ]
   }
