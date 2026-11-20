@@ -164,11 +164,6 @@
    "page": 1
   },
   {
-   "text": "Domaine de Bellene\n\nBourgogne Pinot Noir Vieilles Vignes 2023 Maison Dieu, Domaine de Bellene\n\n339,00 DKK ved 1 stk.\n\n159,00 DKK\nved 6 stk.\nSpar i alt 1080,00\nLæg i kurv\nLevering 1-3 hverdage",
-   "href": "https://www.uhrskov-vine.dk/bourgogne-pinot-noir-vieilles-vignes-2023-maison-dieu-bellene",
-   "page": 1
-  },
-  {
    "text": "Domaine de Bellene\n\nBourgogne Pinot Noir Vieilles Vignes 2023 Clos Bardot, Domaine de Bellene\n\n339,00 DKK ved 1 stk.\n\n159,00 DKK\nved 6 stk.\nSpar i alt 1080,00\nLæg i kurv\nLevering 1-3 hverdage",
    "href": "https://www.uhrskov-vine.dk/bourgogne-pinot-noir-2023-clos-bardot-bellene",
    "page": 1
@@ -176,6 +171,11 @@
   {
    "text": "Domaine Jean Grivot\n\nCoteaux Bourguignons 2023 Domaine Jean Grivot\n\n339,00 DKK\nved 1 stk.\nLæg i kurv\nLevering 1-3 hverdage",
    "href": "https://www.uhrskov-vine.dk/bourguignons-2023-domaine-jean-grivot",
+   "page": 1
+  },
+  {
+   "text": "Domaine de Bellene\n\nBourgogne Pinot Noir Vieilles Vignes 2023 Maison Dieu, Domaine de Bellene\n\n339,00 DKK ved 1 stk.\n\n135,00 DKK\nved 12 stk.\nSpar i alt 2448,00\nLæg i kurv\nLevering 1-3 hverdage",
+   "href": "https://www.uhrskov-vine.dk/bourgogne-pinot-noir-vieilles-vignes-2023-maison-dieu-bellene",
    "page": 1
   },
   {
@@ -226,21 +226,6 @@
   {
    "text": "Domaine Pierre Labet\n\nBourgogne Rouge Vieilles Vignes 2021 Domaine Pierre Labet\n\n375,00 DKK\nved 1 stk.\nLæg i kurv\nLevering 1-3 hverdage",
    "href": "https://www.uhrskov-vine.dk/bourgogne-rouge-vieilles-vignes-2021-domaine-pierre-labet",
-   "page": 2
-  },
-  {
-   "text": "Domaine Chavy-Chouet\n\nBourgogne Rouge 2025 La Taupe Domaine Chavy-Chouet\n\n375,00 DKK\nved 1 stk.\nLæg i kurv\nLevering 1-3 hverdage",
-   "href": "https://www.uhrskov-vine.dk/bourgogne-rouge-2025-la-taupe-domaine-chavy-chouet",
-   "page": 2
-  },
-  {
-   "text": "Domaine Chavy-Chouet\n\nMaranges Rouge 2025 Les Plantes Domaine Chavy-Chouet\n\n375,00 DKK\nved 1 stk.\nLæg i kurv\nLevering 1-3 hverdage",
-   "href": "https://www.uhrskov-vine.dk/maranges-rouge-2025-les-plantes-domaine-chavy-chouet-2",
-   "page": 2
-  },
-  {
-   "text": "Domaine Chavy-Chouet\n\nMaranges Blanc 2024 Les Meurees Domaine Chavy-Chouet\n\n375,00 DKK\nved 1 stk.\nLæg i kurv\nLevering 1-3 hverdage",
-   "href": "https://www.uhrskov-vine.dk/maranges-blanc-2024-les-meurees-domaine-chavy-chouet",
    "page": 2
   },
   {
@@ -331,6 +316,21 @@
   {
    "text": "Domaine Ghislaine Barthod\n\nBourgogne Rouge 2022, Domaine Ghislaine Barthod\n\n399,00 DKK\nved 1 stk.\nLæg i kurv\nLevering 1-3 hverdage",
    "href": "https://www.uhrskov-vine.dk/bourgogne-rouge-2022-domaine-ghislaine-barthod",
+   "page": 2
+  },
+  {
+   "text": "Domaine Chavy-Chouet\n\nMaranges Rouge 2025 Les Plantes Domaine Chavy-Chouet\n\n399,00 DKK ved 1 stk.\n\n249,00 DKK\nved 6 stk.\nSpar i alt 900,00\nLæg i kurv\nLevering 1-3 hverdage",
+   "href": "https://www.uhrskov-vine.dk/maranges-rouge-2025-les-plantes-domaine-chavy-chouet-2",
+   "page": 2
+  },
+  {
+   "text": "Domaine Chavy-Chouet\n\nMaranges Blanc 2024 Les Meurees Domaine Chavy-Chouet\n\n399,00 DKK ved 1 stk.\n\n249,00 DKK\nved 6 stk.\nSpar i alt 900,00\nLæg i kurv\nLevering 1-3 hverdage",
+   "href": "https://www.uhrskov-vine.dk/maranges-blanc-2024-les-meurees-domaine-chavy-chouet",
+   "page": 2
+  },
+  {
+   "text": "Domaine Chavy-Chouet\n\nBourgogne Rouge 2025 La Taupe Domaine Chavy-Chouet\n\n399,00 DKK ved 1 stk.\n\n199,00 DKK\nved 6 stk.\nSpar i alt 1200,00\nLæg i kurv\nLevering 1-3 hverdage",
+   "href": "https://www.uhrskov-vine.dk/bourgogne-rouge-2025-la-taupe-domaine-chavy-chouet",
    "page": 2
   },
   {
@@ -1049,7 +1049,7 @@
    "page": 6
   },
   {
-   "text": "Domaine Chavy-Chouet\n\nPommard 2025 1er Cru Les Chanlins Domaine Chavy-Chouet\n\n999,00 DKK ved 1 stk.\n\n749,00 DKK\nved 6 stk.\nSpar i alt 1500,00\nLæg i kurv\nLevering 1-3 hverdage",
+   "text": "Domaine Chavy-Chouet\n\nPommard 2025 1er Cru Les Chanlins Domaine Chavy-Chouet\n\n999,00 DKK ved 1 stk.\n\n625,00 DKK\nved 6 stk.\nSpar i alt 2244,00\nLæg i kurv\nLevering 1-3 hverdage",
    "href": "https://www.uhrskov-vine.dk/pommard-2025-1er-cru-les-chanlins-domaine-chavy-chouet",
    "page": 6
   },

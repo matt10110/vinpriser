@@ -1,7 +1,701 @@
 {
- "url": "https://www.supervin.dk/vin/frankrig/bourgogne?Products_dk%5Bconfigure%5D%5BhitsPerPage%5D=48&Products_dk%5Bconfigure%5D%5Bfilters%5D=&Products_dk%5Btoggle%5D%5Bon_discount%5D=true&Products_dk%5BrefinementList%5D%5Bcountry%5D%5B0%5D=Frankrig&Products_dk%5BrefinementList%5D%5Barea%5D%5B0%5D=Bourgogne&Products_dk%5BrefinementList%5D%5Bfield_grapes%5D%5B0%5D=Chardonnay&Products_dk%5BrefinementList%5D%5Bfield_grapes%5D%5B1%5D=Pinot%20Noir&Products_dk%5BrefinementList%5D%5Battribute_set%5D%5B0%5D=Vin",
+ "url": "https://www.supervin.dk/vin/frankrig/bourgogne?Products_dk%5Btoggle%5D%5Bon_discount%5D=true",
+ "variant": "dom_fallback",
  "total_reported": null,
- "count": 0,
+ "count": 96,
  "hits": [],
- "cards": []
+ "cards": [
+  {
+   "name": "Maison de Rien Bourgogne Chardonnay 2024",
+   "href": "https://www.supervin.dk/maison-di-rien-bourgogne-chardonnay-2024",
+   "text": ""
+  },
+  {
+   "name": "Stéphane Brocard Closerie des Alisiers Saint Bris 2024",
+   "href": "https://www.supervin.dk/closerie-des-alisiers-saint-bris-2024",
+   "text": ""
+  },
+  {
+   "name": "Jean Gagnerot Bourgogne Chardonnay 2024",
+   "href": "https://www.supervin.dk/jean-gagnerot-bourgogne-chardonnay-2024",
+   "text": ""
+  },
+  {
+   "name": "Bertrand de Monceny Bourgogne Pinot Noir 2022",
+   "href": "https://www.supervin.dk/bertrand-de-monceny-bourgogne-pinot-noir-2022",
+   "text": ""
+  },
+  {
+   "name": "Jean Gagnerot Mâcon-Villages 2024",
+   "href": "https://www.supervin.dk/jean-gagnerot-macon-villages-2024",
+   "text": ""
+  },
+  {
+   "name": "Prosper Maufoux Mâcon-Villages 2024",
+   "href": "https://www.supervin.dk/prosper-maufoux-macon-villages-2024",
+   "text": ""
+  },
+  {
+   "name": "Prosper Maufoux Bourgogne Pinot Noir 2024",
+   "href": "https://www.supervin.dk/prosper-maufoux-bourgogne-pinot-noir-2024",
+   "text": ""
+  },
+  {
+   "name": "Veuve Ambal Crémant de Bourgogne Grande Cuvee Brut",
+   "href": "https://www.supervin.dk/veuve-ambal-crmant-de-bourgogne-grande-cuvee-brut",
+   "text": ""
+  },
+  {
+   "name": "Prosper Maufoux Mâcon Rouge 2024",
+   "href": "https://www.supervin.dk/prosper-maufoux-macon-rouge-2024",
+   "text": ""
+  },
+  {
+   "name": "Prosper Maufoux Bourgogne Chardonnay 2024",
+   "href": "https://www.supervin.dk/prosper-maufoux-bourgogne-chardonnay-2024",
+   "text": ""
+  },
+  {
+   "name": "Brocard Closerie des Alisiers Bourgogne Chardonnay BIO 2023",
+   "href": "https://www.supervin.dk/brocard-closerie-des-alisiers-bourgogne-chardonnay-bio-2023",
+   "text": ""
+  },
+  {
+   "name": "Stéphane Brocard Closerie des Alisiers Mâcon-Fuisse 2023",
+   "href": "https://www.supervin.dk/stephane-brocard-macon-fuisse-2023",
+   "text": ""
+  },
+  {
+   "name": "Veuve Ambal Crémant de Bourgogne Blanc de Blancs Brut",
+   "href": "https://www.supervin.dk/veuve-ambal-cremant-de-bourgogne-blanc-de-blancs-brut",
+   "text": ""
+  },
+  {
+   "name": "Henri de Villamont Bourgogne Pinot Noir Préstige 2021",
+   "href": "https://www.supervin.dk/henri-de-villamont-bourgogne-pinot-noir-2021",
+   "text": ""
+  },
+  {
+   "name": "Domaine Les Vignes Devant Bourgogne Chardonnay Clos de Chenôves 2021",
+   "href": "https://www.supervin.dk/domaine-les-vignes-devant-bourgogne-chardonnay-clos-des-chenoves-2021",
+   "text": ""
+  },
+  {
+   "name": "Domaine Pascal Renaud Mâcon-Charnay \"Clos de la Tournache\" Monopole 2025",
+   "href": "https://www.supervin.dk/domaine-pascal-renaud-macon-charnay-clos-de-la-tournache-monopole-2025",
+   "text": ""
+  },
+  {
+   "name": "Maison Vaubourg Mâcon-Igé La Cra 2024",
+   "href": "https://www.supervin.dk/maison-vaubourg-macon-ige-la-cra-2024",
+   "text": ""
+  },
+  {
+   "name": "Stéphane Brocard Closerie des Alisiers Saint Veran Vieilles Vignes 2024",
+   "href": "https://www.supervin.dk/stephane-brocard-closerie-des-alisiers-saint-veran-vieilles-vignes-2024",
+   "text": ""
+  },
+  {
+   "name": "Veuve Ambal Cremant de Bourgogne Brut Tradition",
+   "href": "https://www.supervin.dk/veuve-ambal-cremant-de-bourgogne-brut-tradition",
+   "text": ""
+  },
+  {
+   "name": "Prosper Maufoux Bourgogne Chardonnay Elegance 2024",
+   "href": "https://www.supervin.dk/prosper-maufoux-bourgogne-chardonnay-elegance-2024",
+   "text": ""
+  },
+  {
+   "name": "Veuve Ambal Crémant de Bourgogne Millésimé Vintage Brut 2023",
+   "href": "https://www.supervin.dk/veuve-ambal-cremant-de-bourgogne-millesime-vintage-brut-2023",
+   "text": ""
+  },
+  {
+   "name": "Veuve Ambal Crémant de Bourgogne Grande Cuvée Rose Brut",
+   "href": "https://www.supervin.dk/veuve-ambal-crmant-de-bourgogne-grande-cuve-rose-brut",
+   "text": ""
+  },
+  {
+   "name": "Veuve Ambal Crémant de Bourgogne Pinot Noir Brut 2024",
+   "href": "https://www.supervin.dk/veuve-ambal-cremant-de-bourgogne-pinot-noir-brut-2024",
+   "text": ""
+  },
+  {
+   "name": "Domaine Claudine Gerard Bourgogne Hautes-Côtes de Beaune 2022",
+   "href": "https://www.supervin.dk/domaine-claudine-gerard-bourgogne-hautes-cotes-de-beaune-2022",
+   "text": ""
+  },
+  {
+   "name": "Veuve Ambal, ICE Crémant de Bourgogne",
+   "href": "https://www.supervin.dk/veuve-ambal-ice-crmant-de-bourgogne",
+   "text": ""
+  },
+  {
+   "name": "Veuve Ambal, ICE Rosé Crémant de Bourgogne",
+   "href": "https://www.supervin.dk/veuve-ambal-ice-ros-crmant-de-bourgogne",
+   "text": ""
+  },
+  {
+   "name": "Domaine Louis Lequin et Fils Santenay Vieilles Vignes 2017",
+   "href": "https://www.supervin.dk/domaine-louis-lequin-et-fils-santenay-vieilles-vignes-2017",
+   "text": ""
+  },
+  {
+   "name": "Domaine Les Champs Baudots Hautes-Côtes de Nuits 2025",
+   "href": "https://www.supervin.dk/domaine-les-champs-baudots-hautes-cotes-de-nuits-2025",
+   "text": ""
+  },
+  {
+   "name": "Stéphane Brocard Closerie des Alisiers Chablis Vieilles Vignes 2025",
+   "href": "https://www.supervin.dk/stephane-brocard-closerie-des-alisiers-chablis-vieilles-vignes-2025",
+   "text": ""
+  },
+  {
+   "name": "Prosper Maufoux Hautes-Côtes de Beaune Rouge 2024",
+   "href": "https://www.supervin.dk/prosper-maufoux-hautes-cotes-de-beaune-rouge-2024",
+   "text": ""
+  },
+  {
+   "name": "Veuve Ambal Crémant de Bourgogne Cuvée Excellence Brut",
+   "href": "https://www.supervin.dk/veuve-ambal-crmant-de-bourgogne-cuve-excellence-brut",
+   "text": ""
+  },
+  {
+   "name": "Domaine Pagnier Chablis 2025",
+   "href": "https://www.supervin.dk/domaine-pagnier-chablis-2025",
+   "text": ""
+  },
+  {
+   "name": "Charles Henri Bourguignon Auxey-Duresses La Canée 2020",
+   "href": "https://www.supervin.dk/henri-de-villamont-auxey-duresses-la-canee-2020",
+   "text": ""
+  },
+  {
+   "name": "Domaine Anita Moulin-à-Vent Trés Vieilles Vignes Les Caves 2024",
+   "href": "https://www.supervin.dk/domaine-anita-moulin-a-vent-tres-vieilles-vignes-les-caves-2024",
+   "text": "SPAR\n40 %\nBlack Friday\n\nDomaine Anita Moulin-à-Vent Trés Vieilles Vignes Les Caves 2024\n\n97 points. I never tasted a red wine that was more mineral than this! ... The gigantic concentration and mineral energy literally knocked me...\n97 Point\nJames Suckling\n96 Point\nVinonyme\n93 Point\nJyllands Posten\n1 fl. pr. stk.\n259,95 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n154,95 DKK\nLÆG I KURV"
+  },
+  {
+   "name": "Stéphane Brocard Closerie des Alisiers Pouilly-Fuisse Triologie de Terroirs 2025",
+   "href": "https://www.supervin.dk/stephane-brocard-closerie-des-alisiers-pouilly-fuisse-triologie-de-terroirs-2025",
+   "text": "SPAR\n48 %\nBlack Friday\n\nStéphane Brocard Closerie des Alisiers Pouilly-Fuisse Triologie de Terroirs 2025\n\nMineralitet og frugtrigdom fra øverste bourgognehylde! Så genialt smager det, når Stéphane Brocard laver sin Pouilly-Fuissé fra 70 år gamle...\n1 fl. pr. stk.\n309,95 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n159,95 DKK\nLÆG I KURV"
+  },
+  {
+   "name": "Domaine Anita Moulin-à-Vent Haut des Seigneaux 2025",
+   "href": "https://www.supervin.dk/domaine-anita-moulin-a-vent-haut-des-seigneaux-2025",
+   "text": "SPAR\n38 %\nBlack Friday\n\nDomaine Anita Moulin-à-Vent Haut des Seigneaux 2025\n\n94 point. Til tilbudsprisen er Haut des Seigneaux et rigtig godt køb. Man får Moulin-à-Vents mørkere og mere koncentrerede side Bjergtagende...\n94 Point\nFlaskehalsen\n93 Point\nVin.connaisseur\n★★★★★ – Imponerende kvalitet til prisen\nFlaskehalsen\n1 fl. pr. stk.\n259,95 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n159,95 DKK\nLÆG I KURV"
+  },
+  {
+   "name": "Domaine Anita Fleurie Poncie 2025",
+   "href": "https://www.supervin.dk/domaine-anita-fleurie-poncie-2025",
+   "text": "SPAR\n38 %\nBlack Friday\n\nDomaine Anita Fleurie Poncie 2025\n\n95 points. Aromatically complex ... beautifully ripe purple plum and blueberry fruit, sweet spice and mineral... Beaujolais-dronningen over...\n95 Point\nJames Suckling\n94 Point\nFlaskehalsen\n93 Point\nVin.connaisseur\n1 fl. pr. stk.\n259,95 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n159,95 DKK\nLÆG I KURV"
+  },
+  {
+   "name": "Prosper Maufoux Bourgogne Pinot Noir Réference 2024",
+   "href": "https://www.supervin.dk/prosper-maufoux-bourgogne-pinot-noir-reference-2024",
+   "text": "SPAR\n36 %\nBlack Friday\n\nProsper Maufoux Bourgogne Pinot Noir Réference 2024\n\nDen fadlagrede luksusudgave af vores med afstand mest populære Bourgogne Pinot Noir... Réference er tilbage på lager i den frugtlækre og...\n1 fl. pr. stk.\n249,95 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n159,95 DKK\nLÆG I KURV"
+  },
+  {
+   "name": "Henri de Villamont Bourgogne Hautes-Côtes de Beaune 2023",
+   "href": "https://www.supervin.dk/henri-de-villamont-bourgogne-hautes-cotes-de-beaune-2023",
+   "text": "SPAR\n38 %\nBlack Friday\n\nHenri de Villamont Bourgogne Hautes-Côtes de Beaune 2023\n\n“The Bourgogne 2023 vintage: surpassing all expectations!” – Vins de Bourgogne ”Superb” – Wine Enthusiast Vintage Chart (Côte de Beaune white...\n1 fl. pr. stk.\n259,95 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n159,95 DKK\nLÆG I KURV"
+  },
+  {
+   "name": "Domaine George Chablis Lieu-dit Talva Monopole 2025",
+   "href": "https://www.supervin.dk/domaine-george-chablis-lieu-dit-talva-monopole-2025",
+   "text": "SPAR\n36 %\nBlack Friday\n\nDomaine George Chablis Lieu-dit Talva Monopole 2025\n\n94 point. Stram, energisk og seriøs – virkelig flot Chablis med karakter og længde. Value: ★★★★★★ 6/6 Chablis-kuppet fra monopolmarken Talva...\n93 Point\nMad og Monopolet\n92 Point\nRolf Madsen, Vinexpressen\n1 fl. pr. stk.\n259,95 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n164,95 DKK\nLÆG I KURV"
+  },
+  {
+   "name": "Domaine Anita Morgon Château-Gaillard 2024",
+   "href": "https://www.supervin.dk/domaine-anita-morgon-chateau-gaillard-2024",
+   "text": "SPAR\n36 %\nBlack Friday\n\nDomaine Anita Morgon Château-Gaillard 2024\n\nTOP 100 WINES OF FRANCE Ny årgang af historiens bedst bedømte Cru Morgon fra stjerneterroiret Château-Gaillard! Med sin majestætiske single...\n95 Point\nVinonyme\n94 Point\nWinewherever, Rasmus Christensen\n93 Point\nGASTRO\n1 fl. pr. stk.\n259,95 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n164,95 DKK\nLÆG I KURV"
+  },
+  {
+   "name": "Domaine Anita Fleurie Poncie 2024",
+   "href": "https://www.supervin.dk/domaine-anita-fleurie-poncie-2024",
+   "text": "SPAR\n36 %\nBlack Friday\n\nDomaine Anita Fleurie Poncie 2024\n\n95 points. Great elegance and fine tannins keep this cool and precise all the way through the long, velvety finish Mon ikke 95 point fra...\n1 fl. pr. stk.\n259,95 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n164,95 DKK\nLÆG I KURV"
+  },
+  {
+   "name": "Domaine Anita Chénas Cuvée P'tit Co Les Brureaux 2023",
+   "href": "https://www.supervin.dk/domaine-anita-chenas-cuvee-p-tit-co-les-brureaux-2023",
+   "text": "SPAR\n36 %\nBlack Friday\n\nDomaine Anita Chénas Cuvée P'tit Co Les Brureaux 2023\n\n93 points. Notes of licorice and dry earth adding good complexity in the precise finish. Topkøb fra 100-point-stjernen Domaine Anita… Bag...\n93 Point\nJames Suckling\n92 Point\nMichael Godel\n92 Point\nDavid Lawrason\n1 fl. pr. stk.\n259,95 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n164,95 DKK\nLÆG I KURV"
+  },
+  {
+   "name": "Domaine Anita Morgon Château-Gaillard 2025",
+   "href": "https://www.supervin.dk/domaine-anita-morgon-chateau-gaillard-2025",
+   "text": "SPAR\n34 %\nBlack Friday\n\nDomaine Anita Morgon Château-Gaillard 2025\n\n95 points. Scorched earth and hot rocks underpin macerated dark cherries and plum fruit, baker’s chocolate and thyme. Ny superårgang af...\n95 Point\nJames Suckling\n93 Point\nVin.connaisseur\n93 Point\nFlaskehalsen\n1 fl. pr. stk.\n259,95 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n169,95 DKK\nLÆG I KURV"
+  },
+  {
+   "name": "Stéphane Brocard Closerie des Alisiers Monthélie 2023",
+   "href": "https://www.supervin.dk/brocard-closerie-des-alisiers-monthelie-2023",
+   "text": "SPAR\n50 %\nBlack Friday\n\nStéphane Brocard Closerie des Alisiers Monthélie 2023\n\n\"Monthélie is really the forgotten little sister of Volnay, sharing many of this appellations characteristics...\" – Robert Parker Elsker du...\n1 fl. pr. stk.\n339,95 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n169,95 DKK\nLÆG I KURV"
+  },
+  {
+   "name": "Stéphane Brocard Closerie des Alisiers Monthélie 2022",
+   "href": "https://www.supervin.dk/brocard-closerie-des-alisiers-monthelie-2022",
+   "text": "SPAR\n43 %\nBlack Friday\n\nStéphane Brocard Closerie des Alisiers Monthélie 2022\n\n\"Monthélie is really the forgotten little sister of Volnay, sharing many of this appellations characteristics...\" – Robert Parker Elsker du...\n1 fl. pr. stk.\n299,95 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n169,95 DKK\nLÆG I KURV"
+  },
+  {
+   "name": "Prosper Maufoux (Domaine) Hautes-Côtes de Beaune Blanc 2021",
+   "href": "https://www.supervin.dk/prosper-maufoux-domaine-hautes-cotes-de-beaune-blanc-2021",
+   "text": "SPAR\n39 %\nBlack Friday\n\nProsper Maufoux (Domaine) Hautes-Côtes de Beaune Blanc 2021\n\n93 point. Duften er lige en tak mere fadpræget ... smørhed, cremet, nøddet med vanilje, mælkechokolade og let karamel, men igen er det...\n93 Point\nHoulberg\n92 Point\nFlaskehalsen\n92 Point\nVinonyme\n1 fl. pr. stk.\n279,95 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n169,95 DKK\nLÆG I KURV"
+  },
+  {
+   "name": "Domaine Louis Lequin Santenay Les Charmes 2017",
+   "href": "https://www.supervin.dk/domaine-louis-lequin-santenay-les-charmes-2017",
+   "text": "SPAR\n45 %\nBlack Friday\n\nDomaine Louis Lequin Santenay Les Charmes 2017\n\n94 point. ... samlet får du en utrolig lækker Pinot Bourgogne “A more classic vintage for a Burgundy. Wines with a nice mineral balance,...\n94 Point\nHoulberg\n93 Point\nMad og Monopolet\n93 Point\nFlaskehalsen\n1 fl. pr. stk.\n309,95 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n169,95 DKK\nLÆG I KURV"
+  },
+  {
+   "name": "Domaine Anita Chénas Les Brureaux 2023",
+   "href": "https://www.supervin.dk/domaine-anita-chenas-premium-les-brureaux-2023",
+   "text": "SPAR\n43 %\nBlack Friday\n\nDomaine Anita Chénas Les Brureaux 2023\n\n95 points. A really concentrated and suave wine for this underrated and often underperforming Beaujolais Cru ... Very long, velvety finish...\n95 Point\nJames Suckling\n1 fl. pr. stk.\n309,95 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n174,95 DKK\nLÆG I KURV"
+  },
+  {
+   "name": "Domaine Anita Moulin-à-Vent Trés Vieilles Vignes Les Caves 2025",
+   "href": "https://www.supervin.dk/domaine-anita-moulin-a-vent-tres-vieilles-vignes-les-caves-2025",
+   "text": "SPAR\n30 %\nBlack Friday\n\nDomaine Anita Moulin-à-Vent Trés Vieilles Vignes Les Caves 2025\n\n95 points. Silky yet teeth-sticking tannins weave throughout, with a great tug of concentration to the blackberries and cassis, lavender, thyme and balsamic notes...\n95 Point\nJames Suckling\n1 fl. pr. stk.\n259,95 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n179,95 DKK\nLÆG I KURV"
+  },
+  {
+   "name": "Domaine Anita Chénas Les Brureaux 2025",
+   "href": "https://www.supervin.dk/domaine-anita-chenas-les-brureaux-2025",
+   "text": "SPAR\n41 %\nBlack Friday\n\nDomaine Anita Chénas Les Brureaux 2025\n\n95 points. Crafted from old vines of approximately 70 years of age, this is brambly and scrubby with impressive concentration Efter flere år...\n95 Point\nJames Suckling\n1 fl. pr. stk.\n309,95 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n179,95 DKK\nLÆG I KURV"
+  },
+  {
+   "name": "Cave de Vinzelles Pouilly-Vinzelles 1er Cru Les Quarts 2025",
+   "href": "https://www.supervin.dk/cave-de-vinzelles-pouilly-vinzelles-1er-cru-les-quarts-2025",
+   "text": "SPAR\n55 %\nBlack Friday\n\nCave de Vinzelles Pouilly-Vinzelles 1er Cru Les Quarts 2025\n\n95 point. TOP 5 HVIDVINE TIL PRISEN – 2026 [vurderet ved DKK 189,95] Skal du være first mover på Bourgognes nye hotspot og få 1er Cru til ren...\n1 fl. pr. stk.\n399,95 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n179,95 DKK\nLÆG I KURV"
+  },
+  {
+   "name": "Domaine Chavet Pouilly-Fuissé 2025",
+   "href": "https://www.supervin.dk/domaine-chavet-pouilly-fuisse-2025",
+   "text": "SPAR\n40 %\nBlack Friday\n\nDomaine Chavet Pouilly-Fuissé 2025\n\n94 point. Her får du høj kvalitetsbourgogne, uden det koster urimeligt meget. Pouilly-Fuissé storhitter som aldrig før og her får du et af de...\n1 fl. pr. stk.\n299,95 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n179,95 DKK\nLÆG I KURV"
+  },
+  {
+   "name": "Domaine Les Vignes Devant Rully Les Varots 2024",
+   "href": "https://www.supervin.dk/domaine-les-vignes-devant-rully-les-varots-rouge-2024",
+   "text": "SPAR\n35 %\nBlack Friday\n\nDomaine Les Vignes Devant Rully Les Varots 2024\n\nTag ikke fejl af prisen… Det her er rød Rully i rasende bærsaftig enkeltmarkskvalitet fra 30 år gamle Pinot Noir-stokke! Den østvendte...\n1 fl. pr. stk.\n279,95 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n179,95 DKK\nLÆG I KURV"
+  },
+  {
+   "name": "Domaine Louis Lequin et Fils Santenay Vieilles Vignes 2022",
+   "href": "https://www.supervin.dk/domaine-louis-lequin-et-fils-santenay-vieilles-vignes-2022",
+   "text": "SPAR\n48 %\nBlack Friday\n\nDomaine Louis Lequin et Fils Santenay Vieilles Vignes 2022\n\n96 point. Mageløs ... Den smager allerede fremragende nu, men den har også struktur og koncentration nok til 10-15 år i kælderen. Louis...\n96 Point\nFlaskehalsen\n94 Point\nHoulberg\n94 Point\nWinewherever, Rasmus Christensen\n1 fl. pr. stk.\n349,95 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n179,95 DKK\nLÆG I KURV"
+  },
+  {
+   "name": "Domaine Louis Lequin et Fils Santenay Vieilles Vignes 2016",
+   "href": "https://www.supervin.dk/domaine-louis-lequin-et-fils-santenay-vieilles-vignes-2016",
+   "text": "SPAR\n48 %\nBlack Friday\n\nDomaine Louis Lequin et Fils Santenay Vieilles Vignes 2016\n\n\"Outstanding Vintage\" - Robert Parker Vintage Chart (årgangsbedømmelse, Cote de Beaune Red 2016)  \"Outstanding Vintage - The best are better...\n1 fl. pr. stk.\n349,95 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n179,95 DKK\nLÆG I KURV"
+  },
+  {
+   "name": "Domaine Anita Fleurie Les Moriers 2024",
+   "href": "https://www.supervin.dk/domaine-anita-fleurie-les-moriers-2024",
+   "text": "SPAR\n28 %\nBlack Friday\n\nDomaine Anita Fleurie Les Moriers 2024\n\n97 points. A breathtaking expression of the powerful side of Fleurie, which combines the richness of Cote Rotie from the Rhone with a...\n1 fl. pr. stk.\n259,95 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n184,95 DKK\nLÆG I KURV"
+  },
+  {
+   "name": "Domaine Anita Morgon Château-Gaillard 2022",
+   "href": "https://www.supervin.dk/domaine-anita-morgon-chateau-gaillard-2022",
+   "text": "SPAR\n28 %\nBlack Friday\n\nDomaine Anita Morgon Château-Gaillard 2022\n\n96 points. ”Welcome to the dark heart of Morgon … All the power expected from this appellation is in the compact and beautifully crafted...\n96 Point\nJames Suckling\n94 Point\nHoulberg\n94 Point\nFlaskehalsen\n1 fl. pr. stk.\n259,95 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n184,95 DKK\nLÆG I KURV"
+  },
+  {
+   "name": "Domaine Anita Moulin-à-Vent Reine de Nuit-Aux Caves 2025",
+   "href": "https://www.supervin.dk/domaine-anita-moulin-a-vent-reine-de-nuit-aux-caves-2025",
+   "text": "SPAR\n38 %\nBlack Friday\n\nDomaine Anita Moulin-à-Vent Reine de Nuit-Aux Caves 2025\n\n97 points. The waves of blackberries and candied violets make for an utterly fascinating wine, with length, breadth and focus. Dense yet...\n97 Point\nJames Suckling\n96 Point\nFlaskehalsen\n94 Point\nVin.connaisseur\n1 fl. pr. stk.\n309,95 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n189,95 DKK\nLÆG I KURV"
+  },
+  {
+   "name": "Domaine Tremeaux Mercurey Vieilles Vignes 2024",
+   "href": "https://www.supervin.dk/domaine-tremeaux-mercurey-2024",
+   "text": "SPAR\n36 %\nBlack Friday\n\nDomaine Tremeaux Mercurey Vieilles Vignes 2024\n\n“Most people who know Burgundy agree that the very best examples of Mercurey represent the best rapport of quality and price in Burgundy...\n1 fl. pr. stk.\n299,95 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n189,95 DKK\nLÆG I KURV"
+  },
+  {
+   "name": "Château de Melin Hautes Côtes de Beaune Blanc 2024 BIO",
+   "href": "https://www.supervin.dk/chateau-de-melin-hautes-cotes-de-beaune-blanc-2024-bio",
+   "text": "SPAR\n36 %\nBlack Friday\n\nØkologisk\n\nChâteau de Melin Hautes Côtes de Beaune Blanc 2024 BIO\n\n\"The vineyard is located at the foot of the limestone cliff at an altitude of 400 meters, on the sunny slopes of a ribbon of valleys...\n1 fl. pr. stk.\n299,95 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n189,95 DKK\nLÆG I KURV"
+  },
+  {
+   "name": "Domaine Jean Monnier & Fils Bourgogne Pinot Noir Côte d'Or 2023",
+   "href": "https://www.supervin.dk/bourgogne-pinot-noir-cote-d-or-2023",
+   "text": "SPAR\n36 %\nBlack Friday\n\nDomaine Jean Monnier & Fils Bourgogne Pinot Noir Côte d'Or 2023\n\n96 point. Her får du noter af kirsebær, hindbær og skovjordbær, suppleret af et let krydret og jordet præg ... Den diskrete fadlagring giver...\n96 Point\nDorthe Kristine\n94 Point\nFlaskehalsen\n92 Point\nVinonyme\n1 fl. pr. stk.\n299,95 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n189,95 DKK\nLÆG I KURV"
+  },
+  {
+   "name": "",
+   "href": "https://www.supervin.dk/chateau-de-melin-hautes-cotes-de-beaune-rouge-2023-bio",
+   "text": "UNDER 6 fl. TILBAGE - BEDSTE PRIS V. 1 STK.\nSPAR\n36 %\nBlack Friday\n\nØkologisk\n\nChâteau de Melin Hautes Côtes de Beaune Rouge 2023 BIO\n\n\"The vines are located exclusively in the commune of Sampigny-lès-Maranges, on clay\u0002limestone soils with a high clay content. The clay Trias...\n1 fl. pr. stk.\n299,95 DKK\nBEDSTE PRIS\n1 fl. pr. stk.\n189,95 DKK\nLÆG I KURV"
+  },
+  {
+   "name": "Domaine Jean Monnier & Fils Bourgogne Côte d'Or Chardonnay 2022",
+   "href": "https://www.supervin.dk/bourgogne-chardonnay-cote-d-or-2022",
+   "text": "SPAR\n36 %\nBlack Friday\n\nDomaine Jean Monnier & Fils Bourgogne Côte d'Or Chardonnay 2022\n\n94 point. Den er frisk, blød og fuld af charme med noter af moden frugt, et strejf af vanilje og masser af fransk personlighed. Stilen er...\n94 Point\nDorthe Kristine\n92 Point\nVinonyme\n91 Point\nVin.connaisseur\n1 fl. pr. stk.\n299,95 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n189,95 DKK\nLÆG I KURV"
+  },
+  {
+   "name": "Domaine Les Vignes Devant Rully Les Varots Blanc 2023",
+   "href": "https://www.supervin.dk/domaine-les-vignes-devant-rully-les-varots-blanc-2023",
+   "text": "SPAR\n36 %\nBlack Friday\n\nDomaine Les Vignes Devant Rully Les Varots Blanc 2023\n\n“The vines are planted on the hillside at an altitude of 230 to 300 meters. The slope produces wines that rival the best of the nearby Côte de Beaune...\nGOLD MEDAL WINNER\nParis International Trophy\n1 fl. pr. stk.\n299,95 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n189,95 DKK\nLÆG I KURV"
+  },
+  {
+   "name": "Domaine Pagnier Chablis 1er Cru Mont de Milieu 2024",
+   "href": "https://www.supervin.dk/domaine-pagnier-chablis-1er-cru-mont-de-milieu-2024",
+   "text": "SPAR\n48 %\nBlack Friday\n\nDomaine Pagnier Chablis 1er Cru Mont de Milieu 2024\n\n93-94 points. It reveals notes of quince, mirabelle plum and small notes of lemon associated with touches of bright small white fruits, fresh...\n93-94 point\nVert de Vin Magazine\n1 fl. pr. stk.\n379,95 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n193,85 DKK\nLÆG I KURV"
+  },
+  {
+   "name": "Domaine Louis Lequin et Fils Santenay 1er Cru Le Passe-Temps 2022",
+   "href": "https://www.supervin.dk/domaine-louis-lequin-et-fils-santenay-1er-cru-le-passe-temps-2022",
+   "text": ""
+  },
+  {
+   "name": "Domaine Louis Lequin et Fils Santenay 1er Cru Clos Rousseau 2022",
+   "href": "https://www.supervin.dk/domaine-louis-lequin-et-fils-santenay-1er-cru-clos-rousseau-2022",
+   "text": ""
+  },
+  {
+   "name": "Bertrand de Monceny Pouilly-Fuissé 1er Cru 2025",
+   "href": "https://www.supervin.dk/bertrand-de-monceny-pouilly-fuisse-1er-cru-sur-la-roche-2025",
+   "text": ""
+  },
+  {
+   "name": "Domaine Anita Morgon Le Clachet 2025",
+   "href": "https://www.supervin.dk/domaine-anita-morgon-le-clachet-2025",
+   "text": ""
+  },
+  {
+   "name": "Domaine Anita Fleurie Les Moriers 2025",
+   "href": "https://www.supervin.dk/domaine-anita-fleurie-les-moriers-2025",
+   "text": ""
+  },
+  {
+   "name": "Château des Correaux Pouilly Fuissé 2025",
+   "href": "https://www.supervin.dk/chateau-des-correaux-pouilly-fuisse-2025",
+   "text": ""
+  },
+  {
+   "name": "Domaine Pascal Renaud Pouilly-Fuissé Vieilles Vignes 2024",
+   "href": "https://www.supervin.dk/domaine-pascal-renaud-pouilly-fuisse-vv-2024",
+   "text": ""
+  },
+  {
+   "name": "Domaine Anita Chénas Les Brureaux 2022",
+   "href": "https://www.supervin.dk/domaine-anita-chenas-premium-les-brureaux-2022",
+   "text": ""
+  },
+  {
+   "name": "Prosper Maufoux (Domaine) Hautes-Côtes de Beaune Blanc 2022",
+   "href": "https://www.supervin.dk/prosper-maufoux-hautes-cotes-de-beaune-blanc-chateau-de-saint-aubin-2022",
+   "text": ""
+  },
+  {
+   "name": "Henri de Villamont Auxey-Duresses Blanc 2022",
+   "href": "https://www.supervin.dk/henri-de-villamont-auxey-duresses-2022",
+   "text": ""
+  },
+  {
+   "name": "Henri de Villamont Rully Blanc 2022",
+   "href": "https://www.supervin.dk/henri-de-villamont-rully-blanc-2022",
+   "text": ""
+  },
+  {
+   "name": "Domaine Bouthenet-Clerc Maranges Le Clos Rouge 2022",
+   "href": "https://www.supervin.dk/domaine-bouthenet-clerc-maranges-le-clos-rouge",
+   "text": ""
+  },
+  {
+   "name": "Vignoble Saint Paul Rully Blanc 2022",
+   "href": "https://www.supervin.dk/stephane-brocard-rully-vignoble-st-paul",
+   "text": ""
+  },
+  {
+   "name": "Henri de Villamont Chorey-Les-Beaune 2021",
+   "href": "https://www.supervin.dk/henri-de-villamont-chorey-les-beaune-2021",
+   "text": ""
+  },
+  {
+   "name": "Henri de Villamont Savigny-Lès-Beaune Aux Fourneaux 2021",
+   "href": "https://www.supervin.dk/henri-de-villamont-savigny-les-beaune-aux-fourneaux-2021",
+   "text": ""
+  },
+  {
+   "name": "Henri de Villamont Monthelie Blanc 2020",
+   "href": "https://www.supervin.dk/henri-de-villamont-monthelie-2020",
+   "text": ""
+  },
+  {
+   "name": "Domaine Louis Lequin Santenay Clos Genet 2018",
+   "href": "https://www.supervin.dk/domaine-louis-lequin-santenay-clos-genet-2018",
+   "text": ""
+  },
+  {
+   "name": "Prosper Maufoux Rully Rouge 2023",
+   "href": "https://www.supervin.dk/prosper-maufoux-rully-rouge-2023",
+   "text": ""
+  },
+  {
+   "name": "Domaine Caillot Monthélie Rouge 2017",
+   "href": "https://www.supervin.dk/domaine-caillot-monthelie-rouge-2017",
+   "text": ""
+  },
+  {
+   "name": "Domaine Anita Moulin-à-Vent La Rochelle 2024",
+   "href": "https://www.supervin.dk/domaine-anita-moulin-a-vent-la-rochelle-2024",
+   "text": ""
+  },
+  {
+   "name": "Domaine Louis Lequin Santenay Clos Genet 2022",
+   "href": "https://www.supervin.dk/domaine-louis-lequin-santenay-clos-genet-2022",
+   "text": ""
+  },
+  {
+   "name": "Domaine Louis Lequin et Fils Santenay Les Charmes 2022",
+   "href": "https://www.supervin.dk/domaine-louis-lequin-et-fils-santenay-les-charmes-2022",
+   "text": ""
+  },
+  {
+   "name": "Henri de Villamont Pouilly-Fuisse Les Grumes d'Or 2024",
+   "href": "https://www.supervin.dk/henri-de-villamont-pouilly-fuisse-les-grumes-d-or-2024",
+   "text": ""
+  },
+  {
+   "name": "Prosper Maufoux Rully Blanc 2024",
+   "href": "https://www.supervin.dk/prosper-maufoux-rully-blanc-2024",
+   "text": ""
+  },
+  {
+   "name": "Prosper Maufoux Rully Blanc 2023",
+   "href": "https://www.supervin.dk/prosper-maufoux-rully-blanc-2023",
+   "text": ""
+  },
+  {
+   "name": "Prosper Maufoux Givry Rouge 2023",
+   "href": "https://www.supervin.dk/prosper-maufoux-givry-rouge-2023",
+   "text": ""
+  },
+  {
+   "name": "Prosper Maufoux (Domaine) Hautes-Côtes de Beaune Rouge 2022",
+   "href": "https://www.supervin.dk/prosper-maufoux-domaine-hautes-cotes-de-beaune-2022",
+   "text": ""
+  },
+  {
+   "name": "Domaine Pascal Renaud Pouilly-Fuissé 1'er Cru \"Aux Chailloux\" 2023",
+   "href": "https://www.supervin.dk/domaine-pascal-renaud-pouilly-fuisse-1-er-cru-aux-chailloux-2023",
+   "text": ""
+  },
+  {
+   "name": "Henri de Villamont Pernand-Vergelesses Blanc 2021",
+   "href": "https://www.supervin.dk/henri-de-villamont-pernand-vergelesses-blanc-2021",
+   "text": ""
+  },
+  {
+   "name": "Henri de Villamont Beaune Les Epenottes 2021",
+   "href": "https://www.supervin.dk/henri-de-villamont-beaune-les-epenottes-2021",
+   "text": ""
+  }
+ ],
+ "attempts": [
+  {
+   "variant": "filter",
+   "url": "https://www.supervin.dk/vin/frankrig/bourgogne?Products_dk%5Bconfigure%5D%5BhitsPerPage%5D=48&Products_dk%5Bconfigure%5D%5Bfilters%5D=&Products_dk%5Btoggle%5D%5Bon_discount%5D=true&Products_dk%5BrefinementList%5D%5Bcountry%5D%5B0%5D=Frankrig&Products_dk%5BrefinementList%5D%5Barea%5D%5B0%5D=Bourgogne&Products_dk%5BrefinementList%5D%5Bfield_grapes%5D%5B0%5D=Chardonnay&Products_dk%5BrefinementList%5D%5Bfield_grapes%5D%5B1%5D=Pinot%20Noir&Products_dk%5BrefinementList%5D%5Battribute_set%5D%5B0%5D=Vin",
+   "count": 0,
+   "total": null,
+   "key": null,
+   "diag": {
+    "url": "https://www.supervin.dk/vin/frankrig/bourgogne?Products_dk%5Bconfigure%5D%5BhitsPerPage%5D=48&Products_dk%5Bconfigure%5D%5Bfilters%5D=&Products_dk%5Btoggle%5D%5Bon_discount%5D=true&Products_dk%5BrefinementList%5D%5Bcountry%5D%5B0%5D=Frankrig&Products_dk%5BrefinementList%5D%5Barea%5D%5B0%5D=Bourgogne&Products_dk%5BrefinementList%5D%5Bfield_grapes%5D%5B0%5D=Chardonnay&Products_dk%5BrefinementList%5D%5Bfield_grapes%5D%5B1%5D=Pinot%20Noir&Products_dk%5BrefinementList%5D%5Battribute_set%5D%5B0%5D=Vin&Products_dk%5Bpage%5D=1",
+    "title": "Bourgogne vin – Køb elegante franske vine med vingaranti",
+    "has_ng_state": true,
+    "ng_keys": [
+     "grid-ssr-screen-width",
+     "headerRenderedAt",
+     "refinementList.field_area",
+     "refinementList.field_district",
+     "refinementList.field_producer",
+     "header-menu-top",
+     "headTagElements",
+     "searchStats.state",
+     "toggleRefinement.is_rated",
+     "searchPageResults.hits",
+     "toggleRefinement.on_discount",
+     "searchSortBy.state",
+     "refinementList.facet_types",
+     "refinementList.country",
+     "refinementList.area",
+     "refinementList.district",
+     "refinementList.producer",
+     "refinementList.field_grapes",
+     "refinementList.field_klassikere",
+     "refinementList.field_non_wine",
+     "refinementList.categories",
+     "refinementList.commerce_stock_bool",
+     "refinementList.wine_ratings.reviewer",
+     "refinementList.field_food",
+     "refinementList.culture",
+     "refinementList.field_non_alcoholic",
+     "refinementList.is_leftover",
+     "refinementList.tasting_notes",
+     "refinementList.sweetness_label",
+     "refinementList.wine_power_label",
+     "refinementList.wine_body_label",
+     "refinementList.season_code",
+     "refinementList.visma_sku",
+     "refinementList.tannin",
+     "refinementList.port_type",
+     "refinementList.sparkling_type",
+     "refinementList.organic_biodynamic",
+     "refinementList.closure",
+     "refinementList.packaging",
+     "refinementList.attribute_set",
+     "refinementList.has_vf_value",
+     "refinementList.content_label",
+     "refinementList.visma_id",
+     "currentRefinements.items",
+     "clearRefinements.facet_types,country,area,district,producer,field_grapes,default_price,points,field_food,culture,field_non_alcoholic,is_leftover,alcohol,field_vintage,sweetness_label,tannin,port_type,sparkling_type,organic_biodynamic,closure,packaging,content_label,ratings.Best Italian Wines Annuario,ratings.Decanter,ratings.Falstaff,ratings.Flaskehalsen,ratings.Guia Peñin,ratings.Houlberg,ratings.James Suckling,ratings.Jeb Dunnuck,ratings.Mad og Monopolet,ratings.Robert Parker,ratings.Verema,ratings.Vinous,ratings.Wine Enthusiast,ratings.Wine Spectator,ratings.Winewherever, Rasmus Christensen",
+     "ssr-algolia-counts",
+     "ngais({\"requests\":[{\"indexName\":\"Products_dk\",\"params\":\"attributesToHighlight=%5B%5D&facetFilters=%5B%5B%22area%3ABourgogne%22%5D%2C%5B%22attribute_set%3AVin%22%5D%2C%5B%22country%3AFrankrig%22%5D%5D&facets=%5B%22alcohol%22%2C%22area%22%2C%22attribute_set%22%2C%22categories%22%2C%22closure%22%2C%22commerce_stock_bool%22%2C%22content_label%22%2C%22country%22%2C%22culture%22%2C%22default_price%22%2C%22discount_expiration_date%22%2C%22district%22%2C%22facet_types%22%2C%22field_food%22%2C%22field_grapes%22%2C%22field_klassikere%22%2C%22field_non_alcoholic%22%2C%22field_non_wine%22%2C%22field_vintage%22%2C%22has_vf_value%22%2C%22is_leftover%22%2C%22is_rated%22%2C%22on_discount%22%2C%22organic_biodynamic%22%2C%22packaging%22%2C%22points%22%2C%22port_type%22%2C%22producer%22%2C%22published_date%22%2C%22season_code%22%2C%22sparkling_type%22%2C%22sweetness_label%22%2C%22tannin%22%2C%22tasting_notes%22%2C%22visma_id%22%2C%22visma_sku%22%2C%22wine_body_label%22%2C%22wine_power_label%22%2C%22wine_ratings.reviewer%22%5D&filters=&highlightPostTag=__%2Fais-highlight__&highlightPreTag=__ais-highlight__&hitsPerPage=48&maxValuesPerFacet=300&page=0&query=&tagFilters=\"},{\"indexName\":\"Products_dk\",\"params\":\"analytics=false&attributesToHighlight=%5B%5D&clickAnalytics=false&facetFilters=%5B%5B%22attribute_set%3AVin%22%5D%2C%5B%22country%3AFrankrig%22%5D%5D&facets=area&filters=&highlightPostTag=__%2Fais-highlight__&highlightPreTag=__ais-highlight__&hitsPerPage=0&maxValuesPerFacet=300&page=0&query=\"},{\"indexName\":\"Products_dk\",\"params\":\"analytics=false&attributesToHighlight=%5B%5D&clickAnalytics=false&facetFilters=%5B%5B%22area%3ABourgogne%22%5D%2C%5B%22country%3AFrankrig%22%5D%5D&facets=attribute_set&filters=&highlightPostTag=__%2Fais-highlight__&highlightPreTag=__ais-highlight__&hitsPerPage=0&maxValuesPerFacet=300&page=0&query=\"},{\"indexName\":\"Products_dk\",\"params\":\"analytics=false&attributesToHighlight=%5B%5D&clickAnalytics=false&facetFilters=%5B%5B%22area%3ABourgogne%22%5D%2C%5B%22attribute_set%3AVin%22%5D%5D&facets=country&filters=&highlightPostTag=__%2Fais-highlight__&highlightPreTag=__ais-highlight__&hitsPerPage=0&maxValuesPerFacet=300&page=0&query=\"}]})",
+     "ssr-algolia-search-requests",
+     "__nghData__",
+     "__nghDeferData__"
+    ],
+    "hit_keys": [
+     "ngais({\"requests\":[{\"indexName\":\"Products_dk\",\"params\":\"attributesToHighlight=%5B%5D&facetFilters=%5B%5B%22area%3ABourgogne%22%5D%2C%5B%22attribute_set%3AVin%22%5D%2C%5B%22country%3AFrankrig%22%5D%5D&facets=%5B%22alcohol%22%2C%22area%22%2C%22attribute_set%22%2C%22categories%22%2C%22closure%22%2C%22commerce_stock_bool%22%2C%22content_label%22%2C%22country%22%2C%22culture%22%2C%22default_price%22%2C%22discount_expiration_date%22%2C%22district%22%2C%22facet_types%22%2C%22field_food%22%2C%22field_grapes%22%2C%22field_klassikere%22%2C%22field_non_alcoholic%22%2C%22field_non_wine%22%2C%22field_vintage%22%2C%22has_vf_value%22%2C%22is_leftover%22%2C%22is_rated%22%2C%22on_discount%22%2C%22organic_biodynamic%22%2C%22packaging%22%2C%22points%22%2C%22port_type%22%2C%22producer%22%2C%22published_date%22%2C%22season_code%22%2C%22sparkling_type%22%2C%22sweetness_label%22%2C%22tannin%22%2C%22tasting_notes%22%2C%22visma_id%22%2C%22visma_sku%22%2C%22wine_body_label%22%2C%22wine_power_label%22%2C%22wine_ratings.reviewer%22%5D&filters=&highlightPostTag=__%2Fais-highlight__&highlightPreTag=__ais-highlight__&hitsPerPage=48&maxValuesPerFacet=300&page=0&query=&tagFilters=\"},{\"indexName\":\"Products_dk\",\"params\":\"analytics=false&attributesToHighlight=%5B%5D&clickAnalytics=false&facetFilters=%5B%5B%22attribute_set%3AVin%22%5D%2C%5B%22country%3AFrankrig%22%5D%5D&facets=area&filters=&highlightPostTag=__%2Fais-highlight__&highlightPreTag=__ais-highlight__&hitsPerPage=0&maxValuesPerFacet=300&page=0&query=\"},{\"indexName\":\"Products_dk\",\"params\":\"analytics=false&attributesToHighlight=%5B%5D&clickAnalytics=false&facetFilters=%5B%5B%22area%3ABourgogne%22%5D%2C%5B%22country%3AFrankrig%22%5D%5D&facets=attribute_set&filters=&highlightPostTag=__%2Fais-highlight__&highlightPreTag=__ais-highlight__&hitsPerPage=0&maxValuesPerFacet=300&page=0&query=\"},{\"indexName\":\"Products_dk\",\"params\":\"analytics=false&attributesToHighlight=%5B%5D&clickAnalytics=false&facetFilters=%5B%5B%22area%3ABourgogne%22%5D%2C%5B%22attribute_set%3AVin%22%5D%5D&facets=country&filters=&highlightPostTag=__%2Fais-highlight__&highlightPreTag=__ais-highlight__&hitsPerPage=0&maxValuesPerFacet=300&page=0&query=\"}]})"
+    ],
+    "cards": 48,
+    "main": "Vin fra\nBourgogne\n\nBourgogne-området i Frankrig er et af de mere kendte vinområder i verden. Det er det, fordi Bourgogne-vin og -rødvin i flere årtier har været præget af en høj kvalitet og af at være yderst velsmagende. Hvis du handler hos Supervin, kan du også få Bourgogne-vin, uden at du skal betale særlig meget. Vi er således eksperter i at finde rigtig god vin og indkøbe til billige penge, eksempelvis ved at opkøbe restlagre. Dermed holder vi vores omkostninger til indkøb nede, og du kan derfor finde kvalitetsrødvin fra Bourgogne til rigtig skarpe priser. Det er forkælelse for både pengepung og smagsløg. Bourgogne hvidvin Skal man have fat i en rigtig klassiker, er en hvidvin fra Bourgogne et godt valg. Der er tale om en gammel provins i midten af Frankrig, hvor man finder nogle af verdens mest udsøgte vinmarker. De fleste vine fra området er lavet af druen Chardonnay, der giver vinen en alsidig og rig smag. Vil man have fingrene i de bedste af disse vine, skal man kigge efter Grand Cru, som udgør omkring 2% af høsten. De fleste Chardonnay-hvidvine fra området kan nydes som unge, mens netop Grand Cru-vinene med fordel kan lagres i 5-6 år. Hos Supervin.dk er vi glade og stolte over at kunne tilbyde et bredt og udsøgt udvalg af klassikere fra Bourgogne, både røde og hvide vine. Vi har samlet vine fra producenter som Prosper Maufoux, Stéphane Brocard, Henri de Villamont, Jean Gagnerot, Domaine Louis Lequin, Domaine Anita, Lamblin &amp; Fils, Domaine Michel Rebourgeon, Veuve Ambal, Domaine Caillot, Domaine Gauffroy, Domaine Gabriel Chevalier, Domaine Diconne, Bertrand de Monceny, Domaine Gabriel et Paul Jouard, Domaine Vincent &amp; Francois Jouard, Domaine Chavy-Chouet, Domaine Maldant-Pauvelot, Domaine Geantet Pansiot, Domaine de Chaude Ecuelle, Jean-Marie Bouzereau, Baron Dauvergne, Domaine Claudine Gerard, Domaine Louis Fleurot, JC Guyaux.\n\nLÆS MERE ↓\nFILTRER EFTER:\nType\nLand(1 )\nOmråde(1 )\nDistrikt\nProducent\nDrue(2 )\nPris\nAnmeldelser\nPasser til\nVis flere filtre\nVALGTE FILTRE:\nLand: Frankrig Område: Bourgogne Drue: Chardonnay Drue: Pinot Noir \nRyd filtrering\n253 PRODUKTER FUNDET - Bedste pris vises altid først\nTilbud (253)\nAnbefalet\nPris stigende\nPris faldende\nSorter efter:\nSPAR\n56 %\nBlack Friday\n\nMaison de Rien Bourgogne Chardonnay 2024\n\n92 point. Hvide ferskner, umoden honningmelon, citroner og fin kalket mineralitet. ”Powerful, elegant and fresh.” – Maison de Rien Presenting...\n92 Point\nWinewherever, Rasmus Christensen\n92 Point\nMad og Monopolet\n92 Point\nFlaskehalsen\n1 fl. pr. stk.\n159,95 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n69,95 DKK\nLÆG I KURV\nSPAR\n58 %\nBlack Friday\n\nJean Gagnerot Bourgogne Chardonnay 2024\n\n93 point. Virkelig flot vin til prisen... Jean Gagnerot sætter en helt ny standard… Vi giver dig Supervins Unikke Garanti på en af DK’s...\n93 Point\nMad og Monopolet\n92 Point\nWinewherever, Rasmus Christensen\n90 Point\nHoulberg\n1 fl. pr. stk.\n179,95 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n74,95 DKK\nLÆG I KURV\nSPAR\n57 %\nBlack Friday\n\nBertrand de Monceny",
+    "nbHits": null
+   }
+  },
+  {
+   "variant": "kun_tilbud",
+   "url": "https://www.supervin.dk/vin/frankrig/bourgogne?Products_dk%5Btoggle%5D%5Bon_discount%5D=true",
+   "count": 0,
+   "total": null,
+   "key": null,
+   "diag": {
+    "url": "https://www.supervin.dk/vin/frankrig/bourgogne?Products_dk%5Btoggle%5D%5Bon_discount%5D=true&Products_dk%5Bpage%5D=1",
+    "title": "Bourgogne vin – Køb elegante franske vine med vingaranti",
+    "has_ng_state": true,
+    "ng_keys": [
+     "grid-ssr-screen-width",
+     "headerRenderedAt",
+     "refinementList.field_area",
+     "refinementList.field_district",
+     "refinementList.field_producer",
+     "header-menu-top",
+     "headTagElements",
+     "searchStats.state",
+     "toggleRefinement.is_rated",
+     "searchPageResults.hits",
+     "toggleRefinement.on_discount",
+     "searchSortBy.state",
+     "refinementList.facet_types",
+     "refinementList.country",
+     "refinementList.area",
+     "refinementList.district",
+     "refinementList.producer",
+     "refinementList.field_grapes",
+     "refinementList.field_klassikere",
+     "refinementList.field_non_wine",
+     "refinementList.categories",
+     "refinementList.commerce_stock_bool",
+     "refinementList.wine_ratings.reviewer",
+     "refinementList.field_food",
+     "refinementList.culture",
+     "refinementList.field_non_alcoholic",
+     "refinementList.is_leftover",
+     "refinementList.tasting_notes",
+     "refinementList.sweetness_label",
+     "refinementList.wine_power_label",
+     "refinementList.wine_body_label",
+     "refinementList.season_code",
+     "refinementList.visma_sku",
+     "refinementList.tannin",
+     "refinementList.port_type",
+     "refinementList.sparkling_type",
+     "refinementList.organic_biodynamic",
+     "refinementList.closure",
+     "refinementList.packaging",
+     "refinementList.attribute_set",
+     "refinementList.has_vf_value",
+     "refinementList.content_label",
+     "refinementList.visma_id",
+     "currentRefinements.items",
+     "clearRefinements.facet_types,country,area,district,producer,field_grapes,default_price,points,field_food,culture,field_non_alcoholic,is_leftover,alcohol,field_vintage,sweetness_label,tannin,port_type,sparkling_type,organic_biodynamic,closure,packaging,content_label,ratings.Best Italian Wines Annuario,ratings.Decanter,ratings.Falstaff,ratings.Flaskehalsen,ratings.Guia Peñin,ratings.Houlberg,ratings.James Suckling,ratings.Jeb Dunnuck,ratings.Mad og Monopolet,ratings.Robert Parker,ratings.Verema,ratings.Vinous,ratings.Wine Enthusiast,ratings.Wine Spectator,ratings.Winewherever, Rasmus Christensen",
+     "ssr-algolia-counts",
+     "ngais({\"requests\":[{\"indexName\":\"Products_dk\",\"params\":\"attributesToHighlight=%5B%5D&facetFilters=%5B%5B%22area%3ABourgogne%22%5D%2C%5B%22attribute_set%3AVin%22%5D%2C%5B%22country%3AFrankrig%22%5D%5D&facets=%5B%22alcohol%22%2C%22area%22%2C%22attribute_set%22%2C%22categories%22%2C%22closure%22%2C%22commerce_stock_bool%22%2C%22content_label%22%2C%22country%22%2C%22culture%22%2C%22default_price%22%2C%22discount_expiration_date%22%2C%22district%22%2C%22facet_types%22%2C%22field_food%22%2C%22field_grapes%22%2C%22field_klassikere%22%2C%22field_non_alcoholic%22%2C%22field_non_wine%22%2C%22field_vintage%22%2C%22has_vf_value%22%2C%22is_leftover%22%2C%22is_rated%22%2C%22on_discount%22%2C%22organic_biodynamic%22%2C%22packaging%22%2C%22points%22%2C%22port_type%22%2C%22producer%22%2C%22published_date%22%2C%22season_code%22%2C%22sparkling_type%22%2C%22sweetness_label%22%2C%22tannin%22%2C%22tasting_notes%22%2C%22visma_id%22%2C%22visma_sku%22%2C%22wine_body_label%22%2C%22wine_power_label%22%2C%22wine_ratings.reviewer%22%5D&filters=&highlightPostTag=__%2Fais-highlight__&highlightPreTag=__ais-highlight__&hitsPerPage=48&maxValuesPerFacet=300&page=0&query=&tagFilters=\"},{\"indexName\":\"Products_dk\",\"params\":\"analytics=false&attributesToHighlight=%5B%5D&clickAnalytics=false&facetFilters=%5B%5B%22attribute_set%3AVin%22%5D%2C%5B%22country%3AFrankrig%22%5D%5D&facets=area&filters=&highlightPostTag=__%2Fais-highlight__&highlightPreTag=__ais-highlight__&hitsPerPage=0&maxValuesPerFacet=300&page=0&query=\"},{\"indexName\":\"Products_dk\",\"params\":\"analytics=false&attributesToHighlight=%5B%5D&clickAnalytics=false&facetFilters=%5B%5B%22area%3ABourgogne%22%5D%2C%5B%22country%3AFrankrig%22%5D%5D&facets=attribute_set&filters=&highlightPostTag=__%2Fais-highlight__&highlightPreTag=__ais-highlight__&hitsPerPage=0&maxValuesPerFacet=300&page=0&query=\"},{\"indexName\":\"Products_dk\",\"params\":\"analytics=false&attributesToHighlight=%5B%5D&clickAnalytics=false&facetFilters=%5B%5B%22area%3ABourgogne%22%5D%2C%5B%22attribute_set%3AVin%22%5D%5D&facets=country&filters=&highlightPostTag=__%2Fais-highlight__&highlightPreTag=__ais-highlight__&hitsPerPage=0&maxValuesPerFacet=300&page=0&query=\"}]})",
+     "ssr-algolia-search-requests",
+     "__nghData__",
+     "__nghDeferData__"
+    ],
+    "hit_keys": [
+     "ngais({\"requests\":[{\"indexName\":\"Products_dk\",\"params\":\"attributesToHighlight=%5B%5D&facetFilters=%5B%5B%22area%3ABourgogne%22%5D%2C%5B%22attribute_set%3AVin%22%5D%2C%5B%22country%3AFrankrig%22%5D%5D&facets=%5B%22alcohol%22%2C%22area%22%2C%22attribute_set%22%2C%22categories%22%2C%22closure%22%2C%22commerce_stock_bool%22%2C%22content_label%22%2C%22country%22%2C%22culture%22%2C%22default_price%22%2C%22discount_expiration_date%22%2C%22district%22%2C%22facet_types%22%2C%22field_food%22%2C%22field_grapes%22%2C%22field_klassikere%22%2C%22field_non_alcoholic%22%2C%22field_non_wine%22%2C%22field_vintage%22%2C%22has_vf_value%22%2C%22is_leftover%22%2C%22is_rated%22%2C%22on_discount%22%2C%22organic_biodynamic%22%2C%22packaging%22%2C%22points%22%2C%22port_type%22%2C%22producer%22%2C%22published_date%22%2C%22season_code%22%2C%22sparkling_type%22%2C%22sweetness_label%22%2C%22tannin%22%2C%22tasting_notes%22%2C%22visma_id%22%2C%22visma_sku%22%2C%22wine_body_label%22%2C%22wine_power_label%22%2C%22wine_ratings.reviewer%22%5D&filters=&highlightPostTag=__%2Fais-highlight__&highlightPreTag=__ais-highlight__&hitsPerPage=48&maxValuesPerFacet=300&page=0&query=&tagFilters=\"},{\"indexName\":\"Products_dk\",\"params\":\"analytics=false&attributesToHighlight=%5B%5D&clickAnalytics=false&facetFilters=%5B%5B%22attribute_set%3AVin%22%5D%2C%5B%22country%3AFrankrig%22%5D%5D&facets=area&filters=&highlightPostTag=__%2Fais-highlight__&highlightPreTag=__ais-highlight__&hitsPerPage=0&maxValuesPerFacet=300&page=0&query=\"},{\"indexName\":\"Products_dk\",\"params\":\"analytics=false&attributesToHighlight=%5B%5D&clickAnalytics=false&facetFilters=%5B%5B%22area%3ABourgogne%22%5D%2C%5B%22country%3AFrankrig%22%5D%5D&facets=attribute_set&filters=&highlightPostTag=__%2Fais-highlight__&highlightPreTag=__ais-highlight__&hitsPerPage=0&maxValuesPerFacet=300&page=0&query=\"},{\"indexName\":\"Products_dk\",\"params\":\"analytics=false&attributesToHighlight=%5B%5D&clickAnalytics=false&facetFilters=%5B%5B%22area%3ABourgogne%22%5D%2C%5B%22attribute_set%3AVin%22%5D%5D&facets=country&filters=&highlightPostTag=__%2Fais-highlight__&highlightPreTag=__ais-highlight__&hitsPerPage=0&maxValuesPerFacet=300&page=0&query=\"}]})"
+    ],
+    "cards": 48,
+    "main": "Vin fra\nBourgogne\n\nBourgogne-området i Frankrig er et af de mere kendte vinområder i verden. Det er det, fordi Bourgogne-vin og -rødvin i flere årtier har været præget af en høj kvalitet og af at være yderst velsmagende. Hvis du handler hos Supervin, kan du også få Bourgogne-vin, uden at du skal betale særlig meget. Vi er således eksperter i at finde rigtig god vin og indkøbe til billige penge, eksempelvis ved at opkøbe restlagre. Dermed holder vi vores omkostninger til indkøb nede, og du kan derfor finde kvalitetsrødvin fra Bourgogne til rigtig skarpe priser. Det er forkælelse for både pengepung og smagsløg. Bourgogne hvidvin Skal man have fat i en rigtig klassiker, er en hvidvin fra Bourgogne et godt valg. Der er tale om en gammel provins i midten af Frankrig, hvor man finder nogle af verdens mest udsøgte vinmarker. De fleste vine fra området er lavet af druen Chardonnay, der giver vinen en alsidig og rig smag. Vil man have fingrene i de bedste af disse vine, skal man kigge efter Grand Cru, som udgør omkring 2% af høsten. De fleste Chardonnay-hvidvine fra området kan nydes som unge, mens netop Grand Cru-vinene med fordel kan lagres i 5-6 år. Hos Supervin.dk er vi glade og stolte over at kunne tilbyde et bredt og udsøgt udvalg af klassikere fra Bourgogne, både røde og hvide vine. Vi har samlet vine fra producenter som Prosper Maufoux, Stéphane Brocard, Henri de Villamont, Jean Gagnerot, Domaine Louis Lequin, Domaine Anita, Lamblin &amp; Fils, Domaine Michel Rebourgeon, Veuve Ambal, Domaine Caillot, Domaine Gauffroy, Domaine Gabriel Chevalier, Domaine Diconne, Bertrand de Monceny, Domaine Gabriel et Paul Jouard, Domaine Vincent &amp; Francois Jouard, Domaine Chavy-Chouet, Domaine Maldant-Pauvelot, Domaine Geantet Pansiot, Domaine de Chaude Ecuelle, Jean-Marie Bouzereau, Baron Dauvergne, Domaine Claudine Gerard, Domaine Louis Fleurot, JC Guyaux.\n\nLÆS MERE ↓\nFILTRER EFTER:\nType\nLand(1 )\nOmråde(1 )\nDistrikt\nProducent\nDrue\nPris\nAnmeldelser\nPasser til\nVis flere filtre\nVALGTE FILTRE:\nLand: Frankrig Område: Bourgogne \nRyd filtrering\n278 PRODUKTER FUNDET - Bedste pris vises altid først\nTilbud (278)\nAnbefalet\nPris stigende\nPris faldende\nSorter efter:\nSPAR\n56 %\nBlack Friday\n\nMaison de Rien Bourgogne Chardonnay 2024\n\n92 point. Hvide ferskner, umoden honningmelon, citroner og fin kalket mineralitet. ”Powerful, elegant and fresh.” – Maison de Rien Presenting...\n92 Point\nWinewherever, Rasmus Christensen\n92 Point\nMad og Monopolet\n92 Point\nFlaskehalsen\n1 fl. pr. stk.\n159,95 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n69,95 DKK\nLÆG I KURV\nSPAR\n52 %\nBlack Friday\n\nStéphane Brocard Closerie des Alisiers Saint Bris 2024\n\n92 point. Mineralsk og stringent på den fede måde. “Saint-Bris-le-Vineux is the only district in Bourgogne where the Sauvignon grape is...\n92 Point\nWinewherever, Rasmus Christensen\n90 Point\nVin.connaisseur\n90 Point\nHoulberg\n1 fl. pr. stk.\n149,95 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n71,25 DKK\nLÆG I KURV\nSPAR\n58 %\nBlack Friday\n\nJean Gagnerot Bourgogne Chardonnay 2024\n\n93",
+    "nbHits": null
+   }
+  },
+  {
+   "variant": "alle",
+   "url": "https://www.supervin.dk/vin/frankrig/bourgogne",
+   "count": 0,
+   "total": null,
+   "key": null,
+   "diag": {
+    "url": "https://www.supervin.dk/vin/frankrig/bourgogne?Products_dk%5Bpage%5D=1",
+    "title": "Bourgogne vin – Køb elegante franske vine med vingaranti",
+    "has_ng_state": true,
+    "ng_keys": [
+     "grid-ssr-screen-width",
+     "headerRenderedAt",
+     "refinementList.field_area",
+     "refinementList.field_district",
+     "refinementList.field_producer",
+     "header-menu-top",
+     "headTagElements",
+     "searchStats.state",
+     "toggleRefinement.is_rated",
+     "searchPageResults.hits",
+     "toggleRefinement.on_discount",
+     "searchSortBy.state",
+     "refinementList.facet_types",
+     "refinementList.country",
+     "refinementList.area",
+     "refinementList.district",
+     "refinementList.producer",
+     "refinementList.field_grapes",
+     "refinementList.field_klassikere",
+     "refinementList.field_non_wine",
+     "refinementList.categories",
+     "refinementList.commerce_stock_bool",
+     "refinementList.wine_ratings.reviewer",
+     "refinementList.field_food",
+     "refinementList.culture",
+     "refinementList.field_non_alcoholic",
+     "refinementList.is_leftover",
+     "refinementList.tasting_notes",
+     "refinementList.sweetness_label",
+     "refinementList.wine_power_label",
+     "refinementList.wine_body_label",
+     "refinementList.season_code",
+     "refinementList.visma_sku",
+     "refinementList.tannin",
+     "refinementList.port_type",
+     "refinementList.sparkling_type",
+     "refinementList.organic_biodynamic",
+     "refinementList.closure",
+     "refinementList.packaging",
+     "refinementList.attribute_set",
+     "refinementList.has_vf_value",
+     "refinementList.content_label",
+     "refinementList.visma_id",
+     "currentRefinements.items",
+     "clearRefinements.facet_types,country,area,district,producer,field_grapes,default_price,points,field_food,culture,field_non_alcoholic,is_leftover,alcohol,field_vintage,sweetness_label,tannin,port_type,sparkling_type,organic_biodynamic,closure,packaging,content_label,ratings.Best Italian Wines Annuario,ratings.Decanter,ratings.Falstaff,ratings.Flaskehalsen,ratings.Guia Peñin,ratings.Houlberg,ratings.James Suckling,ratings.Jeb Dunnuck,ratings.Mad og Monopolet,ratings.Robert Parker,ratings.Verema,ratings.Vinous,ratings.Wine Enthusiast,ratings.Wine Spectator,ratings.Winewherever, Rasmus Christensen",
+     "ssr-algolia-counts",
+     "ngais({\"requests\":[{\"indexName\":\"Products_dk\",\"params\":\"attributesToHighlight=%5B%5D&facetFilters=%5B%5B%22area%3ABourgogne%22%5D%2C%5B%22attribute_set%3AVin%22%5D%2C%5B%22country%3AFrankrig%22%5D%5D&facets=%5B%22alcohol%22%2C%22area%22%2C%22attribute_set%22%2C%22categories%22%2C%22closure%22%2C%22commerce_stock_bool%22%2C%22content_label%22%2C%22country%22%2C%22culture%22%2C%22default_price%22%2C%22discount_expiration_date%22%2C%22district%22%2C%22facet_types%22%2C%22field_food%22%2C%22field_grapes%22%2C%22field_klassikere%22%2C%22field_non_alcoholic%22%2C%22field_non_wine%22%2C%22field_vintage%22%2C%22has_vf_value%22%2C%22is_leftover%22%2C%22is_rated%22%2C%22on_discount%22%2C%22organic_biodynamic%22%2C%22packaging%22%2C%22points%22%2C%22port_type%22%2C%22producer%22%2C%22published_date%22%2C%22season_code%22%2C%22sparkling_type%22%2C%22sweetness_label%22%2C%22tannin%22%2C%22tasting_notes%22%2C%22visma_id%22%2C%22visma_sku%22%2C%22wine_body_label%22%2C%22wine_power_label%22%2C%22wine_ratings.reviewer%22%5D&filters=&highlightPostTag=__%2Fais-highlight__&highlightPreTag=__ais-highlight__&hitsPerPage=48&maxValuesPerFacet=300&page=0&query=&tagFilters=\"},{\"indexName\":\"Products_dk\",\"params\":\"analytics=false&attributesToHighlight=%5B%5D&clickAnalytics=false&facetFilters=%5B%5B%22attribute_set%3AVin%22%5D%2C%5B%22country%3AFrankrig%22%5D%5D&facets=area&filters=&highlightPostTag=__%2Fais-highlight__&highlightPreTag=__ais-highlight__&hitsPerPage=0&maxValuesPerFacet=300&page=0&query=\"},{\"indexName\":\"Products_dk\",\"params\":\"analytics=false&attributesToHighlight=%5B%5D&clickAnalytics=false&facetFilters=%5B%5B%22area%3ABourgogne%22%5D%2C%5B%22country%3AFrankrig%22%5D%5D&facets=attribute_set&filters=&highlightPostTag=__%2Fais-highlight__&highlightPreTag=__ais-highlight__&hitsPerPage=0&maxValuesPerFacet=300&page=0&query=\"},{\"indexName\":\"Products_dk\",\"params\":\"analytics=false&attributesToHighlight=%5B%5D&clickAnalytics=false&facetFilters=%5B%5B%22area%3ABourgogne%22%5D%2C%5B%22attribute_set%3AVin%22%5D%5D&facets=country&filters=&highlightPostTag=__%2Fais-highlight__&highlightPreTag=__ais-highlight__&hitsPerPage=0&maxValuesPerFacet=300&page=0&query=\"}]})",
+     "ssr-algolia-search-requests",
+     "__nghData__",
+     "__nghDeferData__"
+    ],
+    "hit_keys": [
+     "ngais({\"requests\":[{\"indexName\":\"Products_dk\",\"params\":\"attributesToHighlight=%5B%5D&facetFilters=%5B%5B%22area%3ABourgogne%22%5D%2C%5B%22attribute_set%3AVin%22%5D%2C%5B%22country%3AFrankrig%22%5D%5D&facets=%5B%22alcohol%22%2C%22area%22%2C%22attribute_set%22%2C%22categories%22%2C%22closure%22%2C%22commerce_stock_bool%22%2C%22content_label%22%2C%22country%22%2C%22culture%22%2C%22default_price%22%2C%22discount_expiration_date%22%2C%22district%22%2C%22facet_types%22%2C%22field_food%22%2C%22field_grapes%22%2C%22field_klassikere%22%2C%22field_non_alcoholic%22%2C%22field_non_wine%22%2C%22field_vintage%22%2C%22has_vf_value%22%2C%22is_leftover%22%2C%22is_rated%22%2C%22on_discount%22%2C%22organic_biodynamic%22%2C%22packaging%22%2C%22points%22%2C%22port_type%22%2C%22producer%22%2C%22published_date%22%2C%22season_code%22%2C%22sparkling_type%22%2C%22sweetness_label%22%2C%22tannin%22%2C%22tasting_notes%22%2C%22visma_id%22%2C%22visma_sku%22%2C%22wine_body_label%22%2C%22wine_power_label%22%2C%22wine_ratings.reviewer%22%5D&filters=&highlightPostTag=__%2Fais-highlight__&highlightPreTag=__ais-highlight__&hitsPerPage=48&maxValuesPerFacet=300&page=0&query=&tagFilters=\"},{\"indexName\":\"Products_dk\",\"params\":\"analytics=false&attributesToHighlight=%5B%5D&clickAnalytics=false&facetFilters=%5B%5B%22attribute_set%3AVin%22%5D%2C%5B%22country%3AFrankrig%22%5D%5D&facets=area&filters=&highlightPostTag=__%2Fais-highlight__&highlightPreTag=__ais-highlight__&hitsPerPage=0&maxValuesPerFacet=300&page=0&query=\"},{\"indexName\":\"Products_dk\",\"params\":\"analytics=false&attributesToHighlight=%5B%5D&clickAnalytics=false&facetFilters=%5B%5B%22area%3ABourgogne%22%5D%2C%5B%22country%3AFrankrig%22%5D%5D&facets=attribute_set&filters=&highlightPostTag=__%2Fais-highlight__&highlightPreTag=__ais-highlight__&hitsPerPage=0&maxValuesPerFacet=300&page=0&query=\"},{\"indexName\":\"Products_dk\",\"params\":\"analytics=false&attributesToHighlight=%5B%5D&clickAnalytics=false&facetFilters=%5B%5B%22area%3ABourgogne%22%5D%2C%5B%22attribute_set%3AVin%22%5D%5D&facets=country&filters=&highlightPostTag=__%2Fais-highlight__&highlightPreTag=__ais-highlight__&hitsPerPage=0&maxValuesPerFacet=300&page=0&query=\"}]})"
+    ],
+    "cards": 48,
+    "main": "Vin fra\nBourgogne\n\nBourgogne-området i Frankrig er et af de mere kendte vinområder i verden. Det er det, fordi Bourgogne-vin og -rødvin i flere årtier har været præget af en høj kvalitet og af at være yderst velsmagende. Hvis du handler hos Supervin, kan du også få Bourgogne-vin, uden at du skal betale særlig meget. Vi er således eksperter i at finde rigtig god vin og indkøbe til billige penge, eksempelvis ved at opkøbe restlagre. Dermed holder vi vores omkostninger til indkøb nede, og du kan derfor finde kvalitetsrødvin fra Bourgogne til rigtig skarpe priser. Det er forkælelse for både pengepung og smagsløg. Bourgogne hvidvin Skal man have fat i en rigtig klassiker, er en hvidvin fra Bourgogne et godt valg. Der er tale om en gammel provins i midten af Frankrig, hvor man finder nogle af verdens mest udsøgte vinmarker. De fleste vine fra området er lavet af druen Chardonnay, der giver vinen en alsidig og rig smag. Vil man have fingrene i de bedste af disse vine, skal man kigge efter Grand Cru, som udgør omkring 2% af høsten. De fleste Chardonnay-hvidvine fra området kan nydes som unge, mens netop Grand Cru-vinene med fordel kan lagres i 5-6 år. Hos Supervin.dk er vi glade og stolte over at kunne tilbyde et bredt og udsøgt udvalg af klassikere fra Bourgogne, både røde og hvide vine. Vi har samlet vine fra producenter som Prosper Maufoux, Stéphane Brocard, Henri de Villamont, Jean Gagnerot, Domaine Louis Lequin, Domaine Anita, Lamblin &amp; Fils, Domaine Michel Rebourgeon, Veuve Ambal, Domaine Caillot, Domaine Gauffroy, Domaine Gabriel Chevalier, Domaine Diconne, Bertrand de Monceny, Domaine Gabriel et Paul Jouard, Domaine Vincent &amp; Francois Jouard, Domaine Chavy-Chouet, Domaine Maldant-Pauvelot, Domaine Geantet Pansiot, Domaine de Chaude Ecuelle, Jean-Marie Bouzereau, Baron Dauvergne, Domaine Claudine Gerard, Domaine Louis Fleurot, JC Guyaux.\n\nLÆS MERE ↓\nFILTRER EFTER:\nType\nLand(1 )\nOmråde(1 )\nDistrikt\nProducent\nDrue\nPris\nAnmeldelser\nPasser til\nVis flere filtre\nVALGTE FILTRE:\nLand: Frankrig Område: Bourgogne \nRyd filtrering\n1054 PRODUKTER FUNDET - Bedste pris vises altid først\nTilbud (278)\nAnbefalet\nPris stigende\nPris faldende\nSorter efter:\nSPAR\n56 %\nBlack Friday\n\nMaison de Rien Bourgogne Chardonnay 2024\n\n92 point. Hvide ferskner, umoden honningmelon, citroner og fin kalket mineralitet. ”Powerful, elegant and fresh.” – Maison de Rien Presenting...\n92 Point\nWinewherever, Rasmus Christensen\n92 Point\nMad og Monopolet\n92 Point\nFlaskehalsen\n1 fl. pr. stk.\n159,95 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n69,95 DKK\nLÆG I KURV\nSPAR\n52 %\nBlack Friday\n\nStéphane Brocard Closerie des Alisiers Saint Bris 2024\n\n92 point. Mineralsk og stringent på den fede måde. “Saint-Bris-le-Vineux is the only district in Bourgogne where the Sauvignon grape is...\n92 Point\nWinewherever, Rasmus Christensen\n90 Point\nVin.connaisseur\n90 Point\nHoulberg\n1 fl. pr. stk.\n149,95 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n71,25 DKK\nLÆG I KURV\nSPAR\n58 %\nBlack Friday\n\nJean Gagnerot Bourgogne Chardonnay 2024\n\n9",
+    "nbHits": null
+   }
+  }
+ ]
 }
