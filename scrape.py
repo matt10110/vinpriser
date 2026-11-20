@@ -36,6 +36,11 @@ UHRSKOV = (
     "?p={p}&product_list_limit=36&product_list_order=price&product_list_dir=asc"
 )
 UHRSKOV_OUTLET = "https://www.uhrskov-vine.dk/outlet?p={p}&product_list_limit=36"
+UHRSKOV_LIST_QS = "?p={p}&product_list_limit=36&product_list_order=price&product_list_dir=asc"
+UHRSKOV_WHITE_GUESSES = (
+    "https://www.uhrskov-vine.dk/produkter/vin/hvidvin/frankrig-hvidvin/bourgogne-hvidvin",
+    "https://www.uhrskov-vine.dk/produkter/vin/hvidvin/frankrig-hvidvin/bourgogne",
+)
 HOMEPAGES = {
     "supervin": "https://www.supervin.dk/",
     "jyskvin": "https://www.jyskvin.dk/",
@@ -343,6 +348,30 @@ def scrape_magento_listing(page, url_tpl, max_pages=15):
     return {"url": url_tpl, "total_reported": total, "count": len(items), "items": items}
 
 
+def scrape_uhrskov_white(page):
+    """Finder kategorien for hvid Bourgogne via sidens egne menulinks (fra den røde kategori),
+    med et par gæt som reserve, og henter den som den røde liste."""
+    goto(page, UHRSKOV.format(p=1))
+    hrefs = page.evaluate("() => [...document.querySelectorAll('a[href]')].map(a => a.href)")
+    found = []
+    for h in hrefs:
+        base = h.split("?")[0].split("#")[0].rstrip("/")
+        low = base.lower()
+        if "uhrskov-vine.dk/produkter/" in low and "hvid" in low and "bourgogne" in low and base not in found:
+            found.append(base)
+    tried = []
+    for base in sorted(found, key=len) + [g for g in UHRSKOV_WHITE_GUESSES if g not in found]:
+        goto(page, base + UHRSKOV_LIST_QS.format(p=1))
+        page.wait_for_timeout(1500)
+        n = len(page.evaluate(JS_UHRSKOV_ITEMS))
+        tried.append({"url": base, "from_menu": base in found, "items_p1": n})
+        if n:
+            data = scrape_magento_listing(page, base + UHRSKOV_LIST_QS)
+            data["discovery"] = tried
+            return data
+    return {"url": None, "total_reported": None, "count": 0, "items": [], "discovery": tried}
+
+
 def scrape_homepage(page, url):
     goto(page, url)
     page.wait_for_timeout(1500)
@@ -357,6 +386,7 @@ def main():
         "supervin": lambda pg: scrape_supervin(pg),
         "jyskvin": lambda pg: scrape_jyskvin(pg),
         "uhrskov": lambda pg: scrape_magento_listing(pg, UHRSKOV),
+        "uhrskov_hvid": lambda pg: scrape_uhrskov_white(pg),
         "uhrskov_outlet": lambda pg: scrape_magento_listing(pg, UHRSKOV_OUTLET, max_pages=5),
     }
     for name, url in HOMEPAGES.items():
