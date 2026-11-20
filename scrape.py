@@ -50,18 +50,48 @@ JS_SUPERVIN_CARDS = """() => [...document.querySelectorAll('article[app-product-
 
 # Hver side har sine produkter i sidens egen server-renderede data (ng-state),
 # inkl. alle tre prisniveauer (1 fl., "normal" 6-pris, kampagnepris) og udløbsdato.
+# Robust over for omdøbte nøgler: finder enhver ng-state-værdi, der indeholder en "hits"-liste.
 JS_SUPERVIN_HITS = """() => {
   try {
     const st = JSON.parse(document.getElementById('ng-state').textContent);
-    const res = JSON.parse(st['searchPageResults.hits'] || '{"hits":[]}');
-    const stats = JSON.parse(st['searchStats.state'] || '{}');
-    const keep = ['field_product', 'field_producer', 'field_vintage', 'district', 'facet_types',
-      'field_grapes', 'default_price', 'price_table', 'wine_ratings', 'ratings', 'organic',
+    const parse = v => { try { return typeof v === 'string' ? JSON.parse(v) : v; } catch (e) { return null; } };
+    let res = parse(st['searchPageResults.hits']), resKey = 'searchPageResults.hits';
+    if (!res || !Array.isArray(res.hits)) {
+      res = null;
+      for (const k of Object.keys(st)) {
+        const v = parse(st[k]);
+        if (v && Array.isArray(v.hits) && v.hits.length && v.hits[0].price_table) { res = v; resKey = k; break; }
+      }
+    }
+    if (!res) return null;
+    let nb = res.nbHits ?? null;
+    const stats = parse(st['searchStats.state']);
+    if (stats && stats.nbHits != null) nb = stats.nbHits;
+    const keep = ['field_product', 'field_producer', 'field_vintage', 'area', 'district', 'facet_types',
+      'field_grapes', 'default_price', 'price_table', 'wine_ratings', 'ratings', 'organic', 'tags',
       'discount_expiration_date', 'commerce_stock_bool', 'is_leftover', 'content_label', 'node_path'];
-    return {nbHits: stats.nbHits ?? null, hits: res.hits.map(h => {
+    return {nbHits: nb, key: resKey, hits: res.hits.map(h => {
       const o = {}; keep.forEach(k => { if (k in h) o[k] = h[k]; }); return o; })};
   } catch (e) { return null; }
 }"""
+
+# Hvis intet virker: gem nok til, at fejlen kan diagnosticeres udefra.
+JS_SUPERVIN_DIAG = """() => {
+  const ng = document.getElementById('ng-state');
+  let keys = null; const hitKeys = [];
+  try {
+    const st = JSON.parse(ng.textContent); keys = Object.keys(st);
+    for (const k of keys) { const v = st[k]; if (typeof v === 'string' && v.includes('"hits"')) hitKeys.push(k); }
+  } catch (e) {}
+  return {url: location.href, title: document.title, has_ng_state: !!ng,
+          ng_keys: keys ? keys.filter(k => !/^menu$|^query-/.test(k)).slice(0, 120) : null, hit_keys: hitKeys,
+          cards: document.querySelectorAll('article[app-product-widget]').length,
+          main: (document.querySelector('main') || document.body).innerText.slice(0, 3000)};
+}"""
+
+SUPERVIN_DISCOUNT_ONLY = ("https://www.supervin.dk/vin/frankrig/bourgogne"
+                          "?Products_dk%5Btoggle%5D%5Bon_discount%5D=true")
+SUPERVIN_PLAIN = "https://www.supervin.dk/vin/frankrig/bourgogne"
 JS_MAIN_TEXT = "() => (document.querySelector('main') || document.body).innerText"
 
 JS_UHRSKOV_ITEMS = """() => [...document.querySelectorAll('.product-item')].map(i => ({
@@ -114,29 +144,71 @@ def goto(page, url):
         pass  # nogle sider bliver aldrig helt "idle"; det er OK
 
 
-def scrape_supervin(page, url=SUPERVIN, max_pages=12):
+def _supervin_paginate(page, url, max_pages):
     """Bladrer med sidens egen URL-parameter (Products_dk[page]=N, 48 pr. side).
-    Hver side er server-renderet med produktdata (inkl. alle tre prisniveauer) i ng-state,
-    så vi undgår infinite scroll, som ikke virker pålideligt headless."""
-    hits, cards, total = [], [], None
+    Hver side er server-renderet med produktdata (inkl. alle tre prisniveauer) i ng-state."""
+    hits, cards, total, key, diag = [], [], None, None, None
+    sep = "&" if "?" in url else "?"
     for p in range(1, max_pages + 1):
-        goto(page, f"{url}&Products_dk%5Bpage%5D={p}")
+        goto(page, f"{url}{sep}Products_dk%5Bpage%5D={p}")
         page.wait_for_timeout(1500)
         data = page.evaluate(JS_SUPERVIN_HITS)
-        if data is None:
+        if not data or not data["hits"]:
+            if p == 1:
+                diag = page.evaluate(JS_SUPERVIN_DIAG)
+                diag["nbHits"] = data["nbHits"] if data else None
             break
-        if total is None:
-            total = data["nbHits"]
-        if not data["hits"]:
-            break
+        total = data["nbHits"] if total is None else total
+        key = data["key"]
         for h in data["hits"]:
             h["page"] = p
         hits.extend(data["hits"])
         cards.extend(page.evaluate(JS_SUPERVIN_CARDS))
         if total is not None and len(hits) >= total:
             break
-    return {"url": url, "total_reported": total, "count": len(hits),
-            "hits": hits, "cards": cards}
+    return hits, cards, total, key, diag
+
+
+def _supervin_dom_fallback(page, url, rounds=80):
+    """Sidste udvej: indlæs siden, afvis cookies (kun nødvendige), og rul med musehjulet."""
+    goto(page, url)
+    page.wait_for_timeout(2000)
+    for sel in ("#CybotCookiebotDialogBodyButtonDecline",
+                "button:has-text('Afvis')", "button:has-text('Kun nødvendige')"):
+        try:
+            if page.locator(sel).first.is_visible(timeout=1000):
+                page.locator(sel).first.click()
+                page.wait_for_timeout(800)
+                break
+        except Exception:
+            pass
+    prev, stable = -1, 0
+    for _ in range(rounds):
+        page.mouse.wheel(0, 2500)
+        page.wait_for_timeout(700)
+        n = page.locator("article[app-product-widget]").count()
+        stable = stable + 1 if n == prev else 0
+        if stable >= 8:
+            break
+        prev = n
+    return page.evaluate(JS_SUPERVIN_CARDS)
+
+
+def scrape_supervin(page, url=SUPERVIN, max_pages=25):
+    """Prøver det fulde filter, så kun tilbudsfilteret, så hele Bourgogne-kategorien.
+    Gemmer diagnose for hver variant, der ikke gav resultater."""
+    attempts = []
+    for variant, u in (("filter", url), ("kun_tilbud", SUPERVIN_DISCOUNT_ONLY), ("alle", SUPERVIN_PLAIN)):
+        hits, cards, total, key, diag = _supervin_paginate(page, u, max_pages)
+        attempts.append({"variant": variant, "url": u, "count": len(hits), "total": total,
+                         "key": key, "diag": diag})
+        if hits:
+            return {"url": u, "variant": variant, "total_reported": total, "count": len(hits),
+                    "truncated": bool(total and len(hits) < total),
+                    "hits": hits, "cards": cards, "attempts": attempts}
+    cards = _supervin_dom_fallback(page, SUPERVIN_DISCOUNT_ONLY)
+    return {"url": SUPERVIN_DISCOUNT_ONLY, "variant": "dom_fallback", "total_reported": None,
+            "count": len(cards), "hits": [], "cards": cards, "attempts": attempts}
 
 
 def scrape_jyskvin(page, url=JYSKVIN):
