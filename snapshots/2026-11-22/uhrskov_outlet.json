@@ -1,5 +1,5 @@
 {
- "url": "https://www.uhrskov-vine.dk/outlet?p={p}&product_list_limit=36",
+ "url": "https://www.uhrskov-vine.dk/outlet?p={p}",
  "total_reported": 26,
  "count": 26,
  "items": [
@@ -126,12 +126,12 @@
   {
    "text": "Domaine Chavy-Chouet\n\nMeursault Les Vireuils 2024 Domaine Chavy-Chouet\n\n1.100,00 DKK ved 1 stk.\n\n649,00 DKK\nved 6 stk.\nSpar i alt 2706,00\nUdsolgt\nUdsolgt",
    "href": "https://www.uhrskov-vine.dk/meursault-les-vireuls-2024-domaine-chavy-chouet-2",
-   "page": 1
+   "page": 2
   },
   {
    "text": "Domaine Chavy-Chouet\n\nMeursault Clos des Corvées de Citeau 2024 Monopole, Domaine Chavy-Chouet\n\n1.100,00 DKK ved 1 stk.\n\n649,00 DKK\nved 6 stk.\nSpar i alt 2706,00\nUdsolgt\nUdsolgt",
    "href": "https://www.uhrskov-vine.dk/meursault-clos-de-corvees-de-citeau-2024-monopole-2",
-   "page": 1
+   "page": 2
   }
  ]
 }
