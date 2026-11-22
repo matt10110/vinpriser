@@ -1,9 +1,9 @@
 {
  "url": "https://www.supervin.dk/vin/frankrig/bourgogne?Products_dk%5Bconfigure%5D%5BhitsPerPage%5D=48&Products_dk%5Bconfigure%5D%5Bfilters%5D=&Products_dk%5Btoggle%5D%5Bon_discount%5D=true&Products_dk%5BrefinementList%5D%5Bcountry%5D%5B0%5D=Frankrig&Products_dk%5BrefinementList%5D%5Barea%5D%5B0%5D=Bourgogne&Products_dk%5BrefinementList%5D%5Bfield_grapes%5D%5B0%5D=Chardonnay&Products_dk%5BrefinementList%5D%5Bfield_grapes%5D%5B1%5D=Pinot%20Noir&Products_dk%5BrefinementList%5D%5Battribute_set%5D%5B0%5D=Vin",
  "variant": "netvaerk",
- "total_reported": 247,
- "count": 247,
- "truncated": false,
+ "total_reported": 249,
+ "count": 248,
+ "truncated": true,
  "hits": [
   {
    "objectID": "164806",
@@ -1187,95 +1187,6 @@
    "node_path": "veuve-ambal-cremant-de-bourgogne-blanc-de-blancs-brut"
   },
   {
-   "objectID": "33103",
-   "field_product": "Henri de Villamont Bourgogne Pinot Noir Préstige 2021",
-   "field_producer": "/producent/henri-de-villamont{(-_-)}Henri de Villamont",
-   "field_vintage": 2021,
-   "area": "Bourgogne",
-   "district": "Øvrige",
-   "facet_types": [
-    "Rødvin"
-   ],
-   "field_grapes": [
-    "Pinot Noir"
-   ],
-   "default_price": 106.89,
-   "price_table": {
-    "def": 6,
-    "unit": "fl.",
-    "pricings": [
-     {
-      "ex": 247.96,
-      "inc": 309.95,
-      "min": 1,
-      "max": 5,
-      "discount": []
-     },
-     {
-      "ex": 219.96,
-      "inc": 274.95,
-      "min": 6,
-      "max": -1,
-      "discount": {
-       "price": 106.89,
-       "to": "2026-11-30T23:00:00+00:00"
-      }
-     }
-    ]
-   },
-   "wine_ratings": [
-    {
-     "reviewer": "Winewherever, Rasmus Christensen",
-     "max_rating": "",
-     "rating_label": "",
-     "rating": 94,
-     "is_previous_vintage": false
-    },
-    {
-     "reviewer": "Flaskehalsen",
-     "max_rating": "",
-     "rating_label": "",
-     "rating": 92,
-     "is_previous_vintage": false
-    },
-    {
-     "reviewer": "Vin.connaisseur",
-     "max_rating": "",
-     "rating_label": "Value: ★★★★★★ 6/6",
-     "rating": 91,
-     "is_previous_vintage": false
-    },
-    {
-     "reviewer": "Vinonyme",
-     "max_rating": "",
-     "rating_label": "",
-     "rating": 91,
-     "is_previous_vintage": false
-    }
-   ],
-   "ratings": {
-    "Winewherever, Rasmus Christensen": 94,
-    "Flaskehalsen": 92,
-    "Vin.connaisseur": 91,
-    "Vinonyme": 91
-   },
-   "organic": 0,
-   "tags": [
-    {
-     "icon": "/assets/country_icons/fr_round.svg",
-     "altText": "Frankrig",
-     "text": "",
-     "color": "",
-     "type": "country"
-    }
-   ],
-   "discount_expiration_date": 1796079600,
-   "commerce_stock_bool": 1,
-   "is_leftover": false,
-   "content_label": "75 cl",
-   "node_path": "henri-de-villamont-bourgogne-pinot-noir-2021"
-  },
-  {
    "objectID": "166321",
    "field_product": "Domaine Les Vignes Devant Bourgogne Chardonnay Clos de Chenôves 2021",
    "field_producer": "/producent/domaine-les-vignes-devant{(-_-)}Domaine Les Vignes Devant",
@@ -2016,24 +1927,17 @@
    ],
    "default_price": 134.95,
    "price_table": {
-    "def": 6,
+    "def": 1,
     "unit": "fl.",
     "pricings": [
      {
       "ex": 167.96,
       "inc": 209.95,
       "min": 1,
-      "max": 5,
-      "discount": []
-     },
-     {
-      "ex": 123.96,
-      "inc": 154.95,
-      "min": 6,
       "max": -1,
       "discount": {
        "price": 134.95,
-       "to": "2027-03-31T22:00:00+00:00"
+       "to": "2080-01-01T00:00:00+00:00"
       }
      }
     ]
@@ -2065,9 +1969,9 @@
      "type": "country"
     }
    ],
-   "discount_expiration_date": 1806530400,
+   "discount_expiration_date": 3471292800,
    "commerce_stock_bool": 1,
-   "is_leftover": false,
+   "is_leftover": true,
    "content_label": "75 cl",
    "node_path": "veuve-ambal-ice-ros-crmant-de-bourgogne"
   },
@@ -3296,6 +3200,61 @@
    "is_leftover": false,
    "content_label": "75 cl",
    "node_path": "domaine-louis-lequin-et-fils-santenay-vieilles-vignes-2022"
+  },
+  {
+   "objectID": "166792",
+   "field_product": "Charles Henri Bourguignon Savigny-lès-Beaune 2020",
+   "field_producer": "/producent/charles-henri-bourguignon{(-_-)}Charles Henri Bourguignon",
+   "field_vintage": 2020,
+   "area": "Bourgogne",
+   "district": "Savigny-lès-Beaune",
+   "facet_types": [
+    "Rødvin"
+   ],
+   "field_grapes": [
+    "Pinot Noir"
+   ],
+   "default_price": 179.95,
+   "price_table": {
+    "def": 6,
+    "unit": "fl.",
+    "pricings": [
+     {
+      "ex": 263.96,
+      "inc": 329.95,
+      "min": 1,
+      "max": 5,
+      "discount": []
+     },
+     {
+      "ex": 199.96,
+      "inc": 249.95,
+      "min": 6,
+      "max": -1,
+      "discount": {
+       "price": 179.95,
+       "to": "2027-01-06T23:00:00+00:00"
+      }
+     }
+    ]
+   },
+   "wine_ratings": [],
+   "ratings": [],
+   "organic": 0,
+   "tags": [
+    {
+     "icon": "/assets/country_icons/fr_round.svg",
+     "altText": "Frankrig",
+     "text": "",
+     "color": "",
+     "type": "country"
+    }
+   ],
+   "discount_expiration_date": 1799276400,
+   "commerce_stock_bool": 1,
+   "is_leftover": false,
+   "content_label": "75 cl",
+   "node_path": "henri-de-villamont-savigny-les-beaune-2020"
   },
   {
    "objectID": "166816",
@@ -9393,6 +9352,85 @@
    "node_path": "michel-rebourgeon-beaune-1er-cru-les-chouacheux-2023"
   },
   {
+   "objectID": "118298",
+   "field_product": "Prosper Maufoux Nuits-Saint-Georges 2023",
+   "field_producer": "/producent/prosper-maufoux{(-_-)}Prosper Maufoux",
+   "field_vintage": 2023,
+   "area": "Bourgogne",
+   "district": "Nuits-Saint-Georges",
+   "facet_types": [
+    "Rødvin"
+   ],
+   "field_grapes": [
+    "Pinot Noir"
+   ],
+   "default_price": 404.95,
+   "price_table": {
+    "def": 6,
+    "unit": "fl.",
+    "pricings": [
+     {
+      "ex": 487.96,
+      "inc": 609.95,
+      "min": 1,
+      "max": 5,
+      "discount": []
+     },
+     {
+      "ex": 403.96,
+      "inc": 504.95,
+      "min": 6,
+      "max": -1,
+      "discount": {
+       "price": 404.95,
+       "to": "2027-01-06T23:00:00+00:00"
+      }
+     }
+    ]
+   },
+   "wine_ratings": [
+    {
+     "reviewer": "Wine Enthusiast",
+     "max_rating": "",
+     "rating_label": "",
+     "rating": 96,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "Vivino",
+     "max_rating": "",
+     "rating_label": "4,2 stjerner",
+     "rating": null,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "Jancis Robinson",
+     "max_rating": "",
+     "rating_label": "",
+     "rating": null,
+     "is_previous_vintage": false
+    }
+   ],
+   "ratings": {
+    "Wine Enthusiast": 96
+   },
+   "organic": 0,
+   "tags": [
+    {
+     "icon": "/assets/country_icons/fr_round.svg",
+     "altText": "Frankrig",
+     "text": "",
+     "color": "",
+     "type": "country"
+    }
+   ],
+   "discount_expiration_date": 1799276400,
+   "commerce_stock_bool": 1,
+   "is_leftover": false,
+   "content_label": "75 cl",
+   "node_path": "prosper-maufoux-nuits-saint-georges-2023"
+  },
+  {
    "objectID": "109335",
    "field_product": "Michel Rebourgeon Beaune Les Epenottes 2022",
    "field_producer": "/producent/domaine-michel-rebourgeon{(-_-)}Domaine Michel Rebourgeon",
@@ -13495,7 +13533,7 @@
     {
      "reviewer": "Vivino",
      "max_rating": "",
-     "rating_label": "⭐ 4,2",
+     "rating_label": "⭐4,4",
      "rating": null,
      "is_previous_vintage": false
     }
@@ -17835,11 +17873,6 @@
    "text": ""
   },
   {
-   "name": "Henri de Villamont Bourgogne Pinot Noir Préstige 2021",
-   "href": "https://www.supervin.dk/henri-de-villamont-bourgogne-pinot-noir-2021",
-   "text": ""
-  },
-  {
    "name": "Domaine Les Vignes Devant Bourgogne Chardonnay Clos de Chenôves 2021",
    "href": "https://www.supervin.dk/domaine-les-vignes-devant-bourgogne-chardonnay-clos-des-chenoves-2021",
    "text": ""
@@ -17890,7 +17923,7 @@
    "text": ""
   },
   {
-   "name": "Veuve Ambal, ICE Rosé Crémant de Bourgogne",
+   "name": "",
    "href": "https://www.supervin.dk/veuve-ambal-ice-ros-crmant-de-bourgogne",
    "text": ""
   },
@@ -17985,6 +18018,11 @@
    "text": ""
   },
   {
+   "name": "Charles Henri Bourguignon Savigny-lès-Beaune 2020",
+   "href": "https://www.supervin.dk/henri-de-villamont-savigny-les-beaune-2020",
+   "text": ""
+  },
+  {
    "name": "Domaine Louis Lequin et Fils Santenay Vieilles Vignes 2016",
    "href": "https://www.supervin.dk/domaine-louis-lequin-et-fils-santenay-vieilles-vignes-2016",
    "text": ""
@@ -18007,6 +18045,11 @@
   {
    "name": "Domaine Les Vignes Devant Rully Les Varots Blanc 2023",
    "href": "https://www.supervin.dk/domaine-les-vignes-devant-rully-les-varots-blanc-2023",
+   "text": ""
+  },
+  {
+   "name": "Domaine Pagnier Chablis 1er Cru Mont de Milieu 2024",
+   "href": "https://www.supervin.dk/domaine-pagnier-chablis-1er-cru-mont-de-milieu-2024",
    "text": ""
   },
   {
@@ -18412,6 +18455,11 @@
   {
    "name": "Michel Rebourgeon Beaune 1er Cru Les Chouacheux 2023",
    "href": "https://www.supervin.dk/michel-rebourgeon-beaune-1er-cru-les-chouacheux-2023",
+   "text": ""
+  },
+  {
+   "name": "Prosper Maufoux Nuits-Saint-Georges 2023",
+   "href": "https://www.supervin.dk/prosper-maufoux-nuits-saint-georges-2023",
    "text": ""
   },
   {
@@ -18887,37 +18935,37 @@
   {
    "name": "Henri de Villamont Corton Charlemagne Grand Cru 2019",
    "href": "https://www.supervin.dk/henri-de-villamont-corton-charlemagne-grand-cru-2019",
-   "text": "SPAR\n11 %\nBlack Friday\n\nHenri de Villamont Corton Charlemagne Grand Cru 2019\n\nFlydende guld fra hvid bourgognes måske mest legendariske Grand Cru-mark… Corton-Charlemagne Grand Cru har navn efter kejserne Curtis...\n92 Point\nJasper Morris MW, Inside Burgundy\n⭐ 4,4\nVivino\n1 fl. pr. stk.\n1.469,00 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n1.304,95 DKK\nLÆG I KURV"
+   "text": ""
   },
   {
    "name": "Domaine Geantet Pansiot Gevrey Chambertin 1er Cru Le Poissenot 2024",
    "href": "https://www.supervin.dk/domaine-geantet-pansiot-gevrey-chambertin-1er-cru-le-poissenot-2024",
-   "text": "SPAR\n44 %\nBlack Friday\n\nDomaine Geantet Pansiot Gevrey Chambertin 1er Cru Le Poissenot 2024\n\n95 points. This presents terrific depth and richness on the palate… ”Le Poissenots lies next to Estournelles St.Jacques, high on the hillside...\n1 fl. pr. stk.\n2.499,95 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n1.399,95 DKK\nLÆG I KURV"
+   "text": ""
   },
   {
    "name": "Henri de Villamont Mazis-Chambertin Grand Cru 2014",
    "href": "https://www.supervin.dk/henri-de-villamont-mazis-chambertin-grand-cru-2014",
-   "text": "SPAR\n26 %\nBlack Friday\n\nHenri de Villamont Mazis-Chambertin Grand Cru 2014\n\nMonumental... En forrygende rød bourgogne fra et af klodens fineste terroirs for Pinot Noir, den legendariske Grand Cru Mazis-Chambertin. Med...\n94 Point\nWine Enthusiast\n⭐ 4,4\nVivino\n1 fl. pr. stk.\n1.909,95 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n1.404,95 DKK\nLÆG I KURV"
+   "text": ""
   },
   {
    "name": "Domaine Caillot Puligny-Montrachet 1er Cru Folatières 2018",
    "href": "https://www.supervin.dk/domaine-caillot-puligny-montrachet-1er-cru-folatieres-2018",
-   "text": "SPAR\n40 %\nBlack Friday\n\nDomaine Caillot Puligny-Montrachet 1er Cru Folatières 2018\n\nPuligny-Montrachet has at least three vineyards capable of producing wines close to the quality of a Grand Cru. In order of quality they include Les Folatieres, ...\n4 symbols Excellent Producer\nRobert Parker\n1 fl. pr. stk.\n2.509,95 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n1.499,95 DKK\nLÆG I KURV"
+   "text": ""
   },
   {
    "name": "Domaine Michel Rebourgeon Pommard 1er Cru Les Charmots 2022 Magnum",
    "href": "https://www.supervin.dk/michel-rebourgeon-pommard-1er-cru-les-charmots",
-   "text": "SPAR\n21 %\nBlack Friday\n\nDomaine Michel Rebourgeon Pommard 1er Cru Les Charmots 2022 Magnum\n\nI can say with confidence that 2022 is the best vintage for Burgundy in a very long time “The work in Charmots is all done by hand, as there...\n1 fl. pr. stk.\n1.909,00 DKK\nBEDSTE PRIS\n1 fl. pr. stk.\n1.504,95 DKK\nLÆG I KURV"
+   "text": ""
   },
   {
    "name": "Domaine Louis Lequin et Fils Corton-Charlemagne Grand Cru 2022",
    "href": "https://www.supervin.dk/domaine-louis-lequin-et-fils-corton-charlemagne-grand-cru-2022",
-   "text": "SPAR\n6 %\nBlack Friday\n\nDomaine Louis Lequin et Fils Corton-Charlemagne Grand Cru 2022\n\n96 points. An unnerving intensity of orchard fruit and grandiose creamy oak blissfully gilded in a saline, mineral casing. Broad and saporous...\n96 Point\nDecanter\n94 Point\nLa Revue du Vin de France\n⭐ 4,4\nVivino\n1 fl. pr. stk.\n1.709,95 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n1.599,95 DKK\nLÆG I KURV"
+   "text": ""
   },
   {
    "name": "Henri de Villamont Grands Echezeaux Grand Cru 2016",
    "href": "https://www.supervin.dk/henri-de-villamont-grands-echezeaux-grand-cru-2016",
-   "text": "SPAR\n15 %\nBlack Friday\n\nHenri de Villamont Grands Echezeaux Grand Cru 2016\n\nNyd den store Bourgogne til fuglevildt, rødt kød, sarte vildtretter, svampe, indmad og cremede oste. Servér ved 15-17°C Henri de Villamont...\n1 fl. pr. stk.\n1.909,00 DKK\nBEDSTE PRIS\n6 fl. pr. stk.\n1.604,00 DKK\nLÆG I KURV"
+   "text": ""
   },
   {
    "name": "Domaine Roblot-Marchand Echezeaux Grand Cru 2022",
@@ -19014,15 +19062,15 @@
   {
    "variant": "netvaerk",
    "url": "https://www.supervin.dk/vin/frankrig/bourgogne?Products_dk%5Bconfigure%5D%5BhitsPerPage%5D=48&Products_dk%5Bconfigure%5D%5Bfilters%5D=&Products_dk%5Btoggle%5D%5Bon_discount%5D=true&Products_dk%5BrefinementList%5D%5Bcountry%5D%5B0%5D=Frankrig&Products_dk%5BrefinementList%5D%5Barea%5D%5B0%5D=Bourgogne&Products_dk%5BrefinementList%5D%5Bfield_grapes%5D%5B0%5D=Chardonnay&Products_dk%5BrefinementList%5D%5Bfield_grapes%5D%5B1%5D=Pinot%20Noir&Products_dk%5BrefinementList%5D%5Battribute_set%5D%5B0%5D=Vin",
-   "count": 247,
-   "total": 247,
+   "count": 248,
+   "total": 249,
    "responses": 6,
    "params": "attributesToHighlight=%5B%5D&clickAnalytics=true&facetFilters=%5B%5B%22area%3ABourgogne%22%5D%2C%5B%22attribute_set%3AVin%22%5D%2C%5B%22country%3AFrankrig%22%5D%2C%5B%22field_grapes%3AChardonnay%22%2C%22field_grapes%3APinot+Noir%22%5D%2C%5B%22on_discount%3A1%22%5D%5D&facets=%5B%22alcohol%22%2C%22area%22%2C%22attribute_set%22%2C%22categories%22%2C%22closure%22%2C%22commerce_stock_bool%22%2C%22content_label%22%2C%22country%22%2C%22culture%22%2C%22default_price%22%2C%22discount_expiration_date%22%2C%22district%22%2C%22facet_types%22%2C%22field_food%22%2C%22field_grapes%22%2C%22field_klassikere%22",
    "groups": [
     {
      "params": "attributesToHighlight=%5B%5D&clickAnalytics=true&facetFilters=%5B%5B%22area%3ABourgogne%22%5D%2C%5B%22attribute_set%3AVin%22%5D%2C%5B%22country%3AFrankrig%22%5D%2C%5B%22field_grapes%3AChardonnay%22%2C%22field_grapes%3APinot+Noir%22%5D%2C%5B%22on_discount%3A1%22%5D%5D&facets=%5B%22alcohol%22%2C%22are",
-     "nbHits": 247,
-     "count": 247
+     "nbHits": 249,
+     "count": 248
     }
    ]
   }

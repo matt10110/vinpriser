@@ -1,20 +1,32 @@
 {
  "date": "2026-11-22",
- "started": "2026-11-22T06:15:02",
+ "started": "2026-11-22T16:44:02",
  "results": {
-  "supervin": 247,
+  "supervin": 248,
   "jyskvin": 15098,
   "uhrskov": 429,
   "uhrskov_hvid": 305,
   "uhrskov_outlet": 26,
+  "laudrup": 101,
   "forside_supervin": 6000,
   "forside_jyskvin": 6000,
-  "forside_uhrskov": 6000
+  "forside_uhrskov": 6000,
+  "forside_laudrup": 626
  },
  "errors": {},
  "browser": {
   "executable": "/usr/bin/chromium",
   "sandbox": true
  },
- "finished": "2026-11-22T06:17:27"
+ "robots": {
+  "https://laudrup.dk/collections/tilbud?page=1": true,
+  "https://laudrup.dk/collections/tilbud?page=2": true,
+  "https://laudrup.dk/collections/tilbud?page=3": true,
+  "https://www.supervin.dk/vin/frankrig/bourgogne?Products_dk%5Bconfigure%5D%5BhitsPerPage%5D=48&Products_dk%5Bconfigure%5D%5Bfilters%5D=&Products_dk%5Btoggle%5D%5Bon_discount%5D=true&Products_dk%5BrefinementList%5D%5Bcountry%5D%5B0%5D=Frankrig&Products_dk%5BrefinementList%5D%5Barea%5D%5B0%5D=Bourgogne&Products_dk%5BrefinementList%5D%5Bfield_grapes%5D%5B0%5D=Chardonnay&Products_dk%5BrefinementList%5D%5Bfield_grapes%5D%5B1%5D=Pinot%20Noir&Products_dk%5BrefinementList%5D%5Battribute_set%5D%5B0%5D=Vin": true,
+  "https://www.supervin.dk/vin/frankrig/bourgogne": true,
+  "https://www.jyskvin.dk/bourgogne-vine?products_per_page=90&sorts=p.price-ASC&filter_type%5B%5D=447&filter_type%5B%5D=551&filter_drue%5B%5D=35&filter_drue%5B%5D=34": true,
+  "https://www.uhrskov-vine.dk/produkter/vin/roedvin/frankrig-roedvin/bourgogne-roedvin?p=1&product_list_limit=36&product_list_order=price&product_list_dir=asc": false,
+  "https://www.uhrskov-vine.dk/outlet?p=1&product_list_limit=36": false
+ },
+ "finished": "2026-11-22T16:47:27"
 }
