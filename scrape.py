@@ -31,12 +31,12 @@ JYSKVIN = (
     "https://www.jyskvin.dk/bourgogne-vine?products_per_page=90&sorts=p.price-ASC"
     "&filter_type%5B%5D=447&filter_type%5B%5D=551&filter_drue%5B%5D=35&filter_drue%5B%5D=34"
 )
-UHRSKOV = (
-    "https://www.uhrskov-vine.dk/produkter/vin/roedvin/frankrig-roedvin/bourgogne-roedvin"
-    "?p={p}&product_list_limit=36&product_list_order=price&product_list_dir=asc"
-)
-UHRSKOV_OUTLET = "https://www.uhrskov-vine.dk/outlet?p={p}&product_list_limit=36"
-UHRSKOV_LIST_QS = "?p={p}&product_list_limit=36&product_list_order=price&product_list_dir=asc"
+# Uhrskovs robots.txt spærrer ?product_list_* (sortering/antal pr. side), men ikke ?p=.
+# Vi bruger derfor kun sidenummeret: standardsortering og standardantal pr. side.
+UHRSKOV_LIST_QS = "?p={p}"
+UHRSKOV = ("https://www.uhrskov-vine.dk/produkter/vin/roedvin/frankrig-roedvin/bourgogne-roedvin"
+           + UHRSKOV_LIST_QS)
+UHRSKOV_OUTLET = "https://www.uhrskov-vine.dk/outlet" + UHRSKOV_LIST_QS
 UHRSKOV_WHITE_GUESSES = (
     "https://www.uhrskov-vine.dk/produkter/vin/hvidvin/frankrig-hvidvin/bourgogne-hvidvin",
     "https://www.uhrskov-vine.dk/produkter/vin/hvidvin/frankrig-hvidvin/bourgogne",
@@ -145,7 +145,14 @@ def launch(pw):
     raise last
 
 
+class RobotsDisallowed(Exception):
+    pass
+
+
 def goto(page, url):
+    # Alle sidevisninger går herigennem: adresser, som butikkens robots.txt spærrer, hentes ikke.
+    if not robots_allowed(page, url):
+        raise RobotsDisallowed(f"spærret i robots.txt: {url}")
     page.goto(url, wait_until="domcontentloaded", timeout=60_000)
     try:
         page.wait_for_load_state("networkidle", timeout=20_000)
@@ -436,7 +443,7 @@ def scrape_shopify_listing(page, url_tpl, max_pages=10):
             "robots_skipped": skipped}
 
 
-def scrape_magento_listing(page, url_tpl, max_pages=15):
+def scrape_magento_listing(page, url_tpl, max_pages=60):
     """Bladrer gennem en Magento-liste, til en side er tom eller gentager forrige side."""
     items, first_hrefs = [], set()
     total = None
