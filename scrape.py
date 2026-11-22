@@ -41,10 +41,14 @@ UHRSKOV_WHITE_GUESSES = (
     "https://www.uhrskov-vine.dk/produkter/vin/hvidvin/frankrig-hvidvin/bourgogne-hvidvin",
     "https://www.uhrskov-vine.dk/produkter/vin/hvidvin/frankrig-hvidvin/bourgogne",
 )
+# Laudrup: den filtrerede Bourgogne-adresse (filter.p.m.custom.omrade=...) er spærret i
+# Laudrups robots.txt, så vi henter hele tilbudslisten (ca. 100 vine) og filtrerer selv.
+LAUDRUP = "https://laudrup.dk/collections/tilbud?page={p}"
 HOMEPAGES = {
     "supervin": "https://www.supervin.dk/",
     "jyskvin": "https://www.jyskvin.dk/",
     "uhrskov": "https://www.uhrskov-vine.dk/",
+    "laudrup": "https://laudrup.dk/",
 }
 
 JS_SUPERVIN_CARDS = """() => [...document.querySelectorAll('article[app-product-widget]')].map(a => ({
@@ -326,6 +330,112 @@ def scrape_jyskvin(page, url=JYSKVIN):
             "countdowns": page.evaluate(JS_COUNTDOWNS)}
 
 
+# ---------- robots.txt ----------
+# Python's urllib.robotparser forstår ikke wildcards (*, $), som fx Shopify bruger,
+# så reglerne matches her efter samme princip som Google: længste matchende regel vinder,
+# og ved lige lange regler vinder Allow.
+_ROBOTS = {}
+ROBOTS_LOG = {}
+
+
+def _robots_rules(txt):
+    groups, agents, rules, in_rules = [], [], [], False
+    for line in txt.splitlines():
+        line = line.split("#", 1)[0].strip()
+        if ":" not in line:
+            continue
+        key, val = (s.strip() for s in line.split(":", 1))
+        key = key.lower()
+        if key == "user-agent":
+            if in_rules:
+                groups.append((agents, rules))
+                agents, rules, in_rules = [], [], False
+            agents.append(val.lower())
+        elif key in ("allow", "disallow"):
+            in_rules = True
+            rules.append((key == "allow", val))
+    if agents:
+        groups.append((agents, rules))
+    return [r for a, rs in groups if "*" in a for r in rs]
+
+
+def _robots_match(rules, path):
+    best = None
+    for allow, pat in rules:
+        if not pat:
+            continue
+        rx = "^" + re.escape(pat).replace(r"\*", ".*")
+        if rx.endswith(r"\$"):
+            rx = rx[:-2] + "$"
+        if re.match(rx, path):
+            cand = (len(pat), allow)
+            if best is None or cand[0] > best[0] or (cand[0] == best[0] and allow):
+                best = cand
+    return True if best is None else best[1]
+
+
+def robots_allowed(page, url):
+    from urllib.parse import urlsplit
+    u = urlsplit(url)
+    origin = f"{u.scheme}://{u.netloc}"
+    if origin not in _ROBOTS:
+        try:
+            r = page.request.get(origin + "/robots.txt", timeout=20000)
+            _ROBOTS[origin] = _robots_rules(r.text()) if r.ok else []
+        except Exception:
+            _ROBOTS[origin] = []
+    path = (u.path or "/") + (("?" + u.query) if u.query else "")
+    ok = _robots_match(_ROBOTS[origin], path)
+    ROBOTS_LOG[url] = ok
+    return ok
+
+
+# ---------- Shopify (Laudrup) ----------
+# Finder hvert produktkort som den største boks omkring et produktlink, der ikke også
+# indeholder links til andre produkter. Uafhængigt af temaets klassenavne.
+JS_SHOPIFY_CARDS = """() => {
+  const key = h => h.split('?')[0].split('#')[0];
+  const out = new Map();
+  for (const a of document.querySelectorAll('a[href*="/products/"]')) {
+    const href = key(a.href);
+    if (out.has(href)) continue;
+    let el = a;
+    while (el.parentElement && el.parentElement !== document.body) {
+      const hrefs = new Set([...el.parentElement.querySelectorAll('a[href*="/products/"]')].map(x => key(x.href)));
+      if (hrefs.size > 1) break;
+      el = el.parentElement;
+    }
+    out.set(href, {href, text: el.innerText});
+  }
+  return [...out.values()];
+}"""
+
+
+def scrape_shopify_listing(page, url_tpl, max_pages=10):
+    """Bladrer ?page=1,2,... til en side ikke giver nye produkter. Respekterer robots.txt."""
+    items, seen, skipped = [], set(), []
+    total = None
+    for p in range(1, max_pages + 1):
+        url = url_tpl.format(p=p)
+        if not robots_allowed(page, url):
+            skipped.append(url)
+            break
+        goto(page, url)
+        page.wait_for_timeout(1500)
+        if total is None:
+            m = re.search(r"(\d+)\s+produkter", page.evaluate(JS_MAIN_TEXT), re.I)
+            total = int(m.group(1)) if m else None
+        new = [c for c in page.evaluate(JS_SHOPIFY_CARDS) if c["href"] not in seen]
+        if not new:
+            break
+        for c in new:
+            c["page"] = p
+            seen.add(c["href"])
+        items.extend(new)
+    return {"url": url_tpl, "total_reported": total, "count": len(items), "items": items,
+            "robots_skipped": skipped}
+
+
 def scrape_magento_listing(page, url_tpl, max_pages=15):
     """Bladrer gennem en Magento-liste, til en side er tom eller gentager forrige side."""
     items, first_hrefs = [], set()
@@ -388,6 +498,7 @@ def main():
         "uhrskov": lambda pg: scrape_magento_listing(pg, UHRSKOV),
         "uhrskov_hvid": lambda pg: scrape_uhrskov_white(pg),
         "uhrskov_outlet": lambda pg: scrape_magento_listing(pg, UHRSKOV_OUTLET, max_pages=5),
+        "laudrup": lambda pg: scrape_shopify_listing(pg, LAUDRUP),
     }
     for name, url in HOMEPAGES.items():
         jobs[f"forside_{name}"] = (lambda u: (lambda pg: scrape_homepage(pg, u)))(url)
@@ -409,8 +520,18 @@ def main():
                 traceback.print_exc()
             finally:
                 page.close()
+        # Kun registrering for de øvrige butikker (håndhæves for Laudrup): står deres
+        # adresser åbne i robots.txt for almindelige robotter?
+        page = ctx.new_page()
+        for u in (SUPERVIN, SUPERVIN_PLAIN, JYSKVIN, UHRSKOV.format(p=1), UHRSKOV_OUTLET.format(p=1)):
+            try:
+                robots_allowed(page, u)
+            except Exception:
+                pass
+        page.close()
         browser.close()
 
+    meta["robots"] = ROBOTS_LOG
     meta["finished"] = datetime.datetime.now().isoformat(timespec="seconds")
     (OUT / "meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=1))
     log(f"Færdig: {meta['results']} fejl: {list(meta['errors'])}")
