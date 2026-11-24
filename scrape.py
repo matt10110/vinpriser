@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
-"""Dagligt snapshot af Bourgogne-tilbud hos Supervin, Jysk Vin og Uhrskov.
+"""Dagligt snapshot af tilbud hos Supervin, Jysk Vin, Uhrskov og Laudrup.
 
-Indlæser de offentlige kategorisider i en headless Chromium (som en almindelig
-browser), gemmer produkternes tekst og priser som JSON i snapshots/<dato>/
-og skriver en meta.json med antal og eventuelle fejl. Én kørsel = ca. 20 sidevisninger.
+Indlæser de offentlige lister i en headless Chromium (som en almindelig browser),
+gemmer produkternes tekst og priser som JSON i snapshots/<dato>/ og skriver en
+meta.json med antal og eventuelle fejl. Adresser, som butikkens robots.txt spærrer,
+hentes ikke. watch.py læser bagefter snapshottet og finder nye reelle kup.
+Én kørsel = ca. 90 sidevisninger fordelt på fire butikker.
 """
 import datetime
 import json
@@ -15,6 +17,7 @@ import traceback
 from playwright.sync_api import sync_playwright
 
 ROOT = pathlib.Path(__file__).resolve().parent
+sys.path.insert(0, str(ROOT))
 TODAY = datetime.date.today().isoformat()
 OUT = ROOT / "snapshots" / TODAY
 
@@ -41,6 +44,19 @@ UHRSKOV_WHITE_GUESSES = (
     "https://www.uhrskov-vine.dk/produkter/vin/hvidvin/frankrig-hvidvin/bourgogne-hvidvin",
     "https://www.uhrskov-vine.dk/produkter/vin/hvidvin/frankrig-hvidvin/bourgogne",
 )
+# ---------- tilbudsvagt (alle overvågede grupper) ----------
+SUPERVIN_WATCH = "https://www.supervin.dk/vin?Products_dk%5Btoggle%5D%5Bon_discount%5D=true"
+JYSK_VINTILBUD = "https://www.jyskvin.dk/vintilbud?products_per_page=90&sorts=p.price-ASC"
+JYSK_GROUPS = {   # gruppe-hint -> Jysk Vins drue-id'er i filteret
+    "jysk_bourgogne": [34, 35, 894],        # Pinot Noir, Chardonnay, Aligoté (kun Bourgogne beholdes)
+    "jysk_riesling": [27],                  # Riesling (kun tysk beholdes)
+    "nebbiolo": [90],
+    "etna": [240, 678, 680],                # Nerello Mascalese/Cappuccio, Carricante
+    "jura": [1091, 1092, 912],              # Poulsard, Trousseau, Bastardo
+    "galicien_bierzo": [397, 696, 868, 1164],  # Mencía, Godello, Sousón, Caiño
+}
+UHRSKOV_NEBBIOLO = "https://www.uhrskov-vine.dk/produkter/vin/druetype/nebbiolo" + UHRSKOV_LIST_QS
+UHRSKOV_TYSK_HVID = "https://www.uhrskov-vine.dk/produkter/vin/hvidvin/tyskland-hvidvin" + UHRSKOV_LIST_QS
 # Laudrup: den filtrerede Bourgogne-adresse (filter.p.m.custom.omrade=...) er spærret i
 # Laudrups robots.txt, så vi henter hele tilbudslisten (ca. 100 vine) og filtrerer selv.
 LAUDRUP = "https://laudrup.dk/collections/tilbud?page={p}"
@@ -77,7 +93,7 @@ JS_SUPERVIN_HITS = """() => {
     const stats = parse(st['searchStats.state']);
     if (stats && stats.nbHits != null) nb = stats.nbHits;
     const keep = ['field_product', 'field_producer', 'field_vintage', 'area', 'district', 'facet_types',
-      'field_grapes', 'default_price', 'price_table', 'wine_ratings', 'ratings', 'organic', 'tags',
+      'field_grapes', 'country', 'default_price', 'price_table', 'wine_ratings', 'ratings', 'organic', 'tags',
       'discount_expiration_date', 'commerce_stock_bool', 'is_leftover', 'content_label', 'node_path'];
     return {nbHits: nb, key: resKey, hits: res.hits.map(h => {
       const o = {}; keep.forEach(k => { if (k in h) o[k] = h[k]; }); return o; })};
@@ -208,7 +224,7 @@ def _scroll_step(page):
     page.wait_for_timeout(1400)
 
 
-SUPERVIN_KEEP = ("objectID", "field_product", "field_producer", "field_vintage", "area", "district",
+SUPERVIN_KEEP = ("objectID", "field_product", "field_producer", "field_vintage", "country", "area", "district",
                  "facet_types", "field_grapes", "default_price", "price_table", "wine_ratings", "ratings",
                  "organic", "tags", "discount_expiration_date", "commerce_stock_bool", "is_leftover",
                  "content_label", "node_path")
@@ -302,13 +318,13 @@ def _supervin_dom_fallback(page, url, rounds=80):
     return page.evaluate(JS_SUPERVIN_CARDS)
 
 
-def scrape_supervin(page, url=SUPERVIN, max_pages=25):
+def scrape_supervin(page, url=SUPERVIN, max_pages=25, max_rounds=120):
     """1) Læs sidens egne produktsvar, mens vi ruller (virker uanset server-rendering).
     2) Ellers: server-renderede sider via URL-parameter (fuldt filter, kun tilbud, alle).
     3) Ellers: kortenes tekst. Gemmer diagnose for hver variant, der ikke gav resultater."""
     attempts = []
     try:
-        hits, cards, info = _supervin_network(page, url)
+        hits, cards, info = _supervin_network(page, url, max_rounds=max_rounds)
         attempts.append({"variant": "netvaerk", "url": url, "count": len(hits), "total": info["nbHits"],
                          "responses": info["responses"], "params": info["params"], "groups": info["groups"]})
         if hits:
@@ -330,11 +346,58 @@ def scrape_supervin(page, url=SUPERVIN, max_pages=25):
             "count": len(cards), "hits": [], "cards": cards, "attempts": attempts}
 
 
+def scrape_supervin_watch(page):
+    """Alle Supervins vine på tilbud (ca. 1.800), men gemmer kun dem i de overvågede grupper."""
+    from watch import classify_supervin
+    data = scrape_supervin(page, SUPERVIN_WATCH, max_rounds=250)
+    kept = []
+    for h in data.get("hits") or []:
+        g = classify_supervin(h)
+        if g:
+            kept.append(dict(h, group=g))
+    data["count_all"] = len(data.get("hits") or [])
+    data["hits"], data["count"] = kept, len(kept)
+    if kept:
+        data["cards"] = []   # kortteksten bruges kun, hvis produktdata mangler
+    return data
+
+
 def scrape_jyskvin(page, url=JYSKVIN):
     goto(page, url)
     page.wait_for_timeout(1500)
     return {"url": url, "text": page.evaluate(JS_MAIN_TEXT),
             "countdowns": page.evaluate(JS_COUNTDOWNS)}
+
+
+JS_JYSK_CARDS = """() => [...document.querySelectorAll('a.entity-teaser--product')].map(a => {
+  const box = a.closest('div[class*="col-"]') || a;
+  const cd = box.querySelector('[data-countdown]');
+  return {href: a.href.split('?')[0], text: a.innerText, countdown: cd ? cd.getAttribute('data-countdown') : null};
+})"""
+
+
+def scrape_jysk_watch(page):
+    """Jysk Vins tilbudsside (/vintilbud), én filtreret liste pr. gruppe (druefiltre), alle sider."""
+    items, seen, per_group = [], set(), {}
+    for hint, grapes in JYSK_GROUPS.items():
+        url_tpl = JYSK_VINTILBUD + "".join(f"&filter_drue%5B%5D={g}" for g in grapes) + "&page={p}"
+        n_group, pages = 0, None
+        for p in range(0, 10):          # Jysk Vin tæller sider fra 0
+            goto(page, url_tpl.format(p=p))
+            page.wait_for_timeout(1200)
+            if pages is None:
+                m = re.search(r"Side \d+ af (\d+)", page.evaluate(JS_MAIN_TEXT))
+                pages = int(m.group(1)) if m else 1
+            new = [c for c in page.evaluate(JS_JYSK_CARDS) if c["href"] not in seen]
+            for c in new:
+                c["hint"] = hint
+                seen.add(c["href"])
+            items.extend(new)
+            n_group += len(new)
+            if not new or p + 1 >= pages:
+                break
+        per_group[hint] = n_group
+    return {"url": JYSK_VINTILBUD, "count": len(items), "per_group": per_group, "items": items}
 
 
 # ---------- robots.txt ----------
@@ -500,11 +563,14 @@ def main():
     meta = {"date": TODAY, "started": datetime.datetime.now().isoformat(timespec="seconds"),
             "results": {}, "errors": {}}
     jobs = {
-        "supervin": lambda pg: scrape_supervin(pg),
-        "jyskvin": lambda pg: scrape_jyskvin(pg),
+        "supervin": lambda pg: scrape_supervin_watch(pg),
+        "jyskvin": lambda pg: scrape_jyskvin(pg),   # Bourgogne-siden som tekst (bruges af Black Friday-tjekket)
+        "jyskvin_tilbud": lambda pg: scrape_jysk_watch(pg),
         "uhrskov": lambda pg: scrape_magento_listing(pg, UHRSKOV),
         "uhrskov_hvid": lambda pg: scrape_uhrskov_white(pg),
         "uhrskov_outlet": lambda pg: scrape_magento_listing(pg, UHRSKOV_OUTLET, max_pages=5),
+        "uhrskov_nebbiolo": lambda pg: scrape_magento_listing(pg, UHRSKOV_NEBBIOLO),
+        "uhrskov_tysk_hvid": lambda pg: scrape_magento_listing(pg, UHRSKOV_TYSK_HVID),
         "laudrup": lambda pg: scrape_shopify_listing(pg, LAUDRUP),
     }
     for name, url in HOMEPAGES.items():
@@ -530,7 +596,7 @@ def main():
         # Kun registrering for de øvrige butikker (håndhæves for Laudrup): står deres
         # adresser åbne i robots.txt for almindelige robotter?
         page = ctx.new_page()
-        for u in (SUPERVIN, SUPERVIN_PLAIN, JYSKVIN, UHRSKOV.format(p=1), UHRSKOV_OUTLET.format(p=1)):
+        for u in (SUPERVIN_WATCH, JYSK_VINTILBUD, UHRSKOV.format(p=1), UHRSKOV_OUTLET.format(p=1)):
             try:
                 robots_allowed(page, u)
             except Exception:
