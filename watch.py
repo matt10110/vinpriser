@@ -63,7 +63,10 @@ ETNA_WORDS = ["etna", "nerello", "carricante"]
 JURA_WORDS = ["jura", "arbois", "l'etoile", "chateau-chalon", "savagnin", "poulsard", "ploussard", "trousseau"]
 GAL_WORDS = ["bierzo", "ribeira sacra", "valdeorras", "galicia", "galicien", "rias baixas", "monterrei",
              "ribeiro", "mencia", "godello", "souson", "caino", "merenzao", "brancellao"]
-NOT_WINE = ["gavekort", "cremant", "gin ", "whisky", "rom ", "glas ", "kasse med", "smagekasse"]
+NOT_WINE = ["gavekort", "cremant", "gin ", "whisky", "rom ", "glas ", "kasse med", "smagekasse", "vinpakke",
+            "-tema", "luksus-"]
+# Jysk Vins kort viser "PRODUCENT, LAND"; druefiltret alene giver også fx australsk Mencía
+JYSK_COUNTRY = {"nebbiolo": "italien", "etna": "italien", "jura": "frankrig", "galicien_bierzo": "spanien"}
 
 
 def _has(t, words):
@@ -99,6 +102,9 @@ def classify_text(text, hint=None):
     if "frankrig" in t and _has(t, JURA_WORDS):
         return "jura"
     if ("bourgogne" in t or "burgund" in t) and _has(t, ["pinot noir", "chardonnay", "aligote"]):
+        return "bourgogne"
+    # fx Uhrskovs outlet, hvor teksten kun har producent og appellation (Meursault, Volnay ...)
+    if _has(t, BURG_WORDS) and not _has(t, ["gamay", "beaujolais", "passetoutgrain"]):
         return "bourgogne"
     return None
 
@@ -162,7 +168,7 @@ def items_jysk(d):
     for c in d.get("items") or []:
         t = re.sub(r"\s+", " ", c.get("text") or "")
         g = classify_text(t, c.get("hint"))
-        if not g:
+        if not g or (c.get("hint") in JYSK_COUNTRY and JYSK_COUNTRY[c["hint"]] not in norm(t)):
             continue
         prices = {int(q): P(p) for p, q in re.findall(NUM + r" DKK v/(\d+) stk", t)}
         m = re.search(NUM + r" DKK v/1 stk\. " + NUM + r" DKK (?!v/)", t)
