@@ -515,26 +515,27 @@
 "before": 455.0,
 "exp": "2026-11-29",
 "first": "2026-11-24",
-"since": "2026-11-24"
+"since": "2026-11-24",
+"gone": "2026-11-25"
 },
 "jyskvin|https://www.jyskvin.dk/beaune-1er-cru-les-tuvilains-2023-1609236": {
 "shop": "jyskvin",
 "src": "jyskvin_tilbud.json",
-"name": "Beaune 1er Cru 'Les Tuvilains' 2023 DOMAINE DENIS CARRÉ, FRANKRIG 400,00 DKK v/3 stk. 455,00 DKK v/1 stk.",
+"name": "Beaune 1er Cru 'Les Tuvilains' 2023 DOMAINE DENIS CARRÉ, FRANKRIG 285,00 DKK v/1 stk. 455,00 DKK Tilbud Denne pris udløber om: 4 dage 17 tim",
 "group": "bourgogne",
 "url": "https://www.jyskvin.dk/beaune-1er-cru-les-tuvilains-2023-1609236",
-"ps": 400.0,
+"ps": 285.0,
 "p6": null,
 "p12": null,
-"before": null,
-"exp": null,
+"before": 455.0,
+"exp": "2026-11-29",
 "first": "2026-11-24",
-"since": "2026-11-24"
+"since": "2026-11-25"
 },
 "jyskvin|https://www.jyskvin.dk/bourgogne-aligote-2024-1635136": {
 "shop": "jyskvin",
 "src": "jyskvin_tilbud.json",
-"name": "Bourgogne Aligoté 2024 DOMAINE GRIVOT-GOISOT, FRANKRIG 99,95 DKK v/6 stk. 190,00 DKK v/1 stk. Tilbud Denne pris udløber om: 5 dage 15 timer ",
+"name": "Bourgogne Aligoté 2024 DOMAINE GRIVOT-GOISOT, FRANKRIG 99,95 DKK v/6 stk. 190,00 DKK v/1 stk. Udsolgt Denne pris udløber om: 4 dage 17 timer",
 "group": "bourgogne",
 "url": "https://www.jyskvin.dk/bourgogne-aligote-2024-1635136",
 "ps": 190.0,
@@ -562,7 +563,7 @@
 "jyskvin|https://www.jyskvin.dk/bourgogne-chardonnay-2023-1587536": {
 "shop": "jyskvin",
 "src": "jyskvin_tilbud.json",
-"name": "Houlbergs Vinblog Bourgogne Chardonnay 2023 DOMAINE SORINE, FRANKRIG 175,00 DKK v/3 stk. 285,00 DKK v/1 stk. Tilbud Denne pris udløber om: 5",
+"name": "Houlbergs Vinblog Bourgogne Chardonnay 2023 DOMAINE SORINE, FRANKRIG 175,00 DKK v/3 stk. 285,00 DKK v/1 stk. Tilbud Denne pris udløber om: 4",
 "group": "bourgogne",
 "url": "https://www.jyskvin.dk/bourgogne-chardonnay-2023-1587536",
 "ps": 175.0,
@@ -632,16 +633,16 @@
 "jyskvin|https://www.jyskvin.dk/bourgogne-rouge-les-lormes-2023-1608936": {
 "shop": "jyskvin",
 "src": "jyskvin_tilbud.json",
-"name": "92 point Vin.connaisseur 92 point Rasmus Christensen - Winewherever Bourgogne Rouge 'Les Lormes' 2023 DOMAINE DENIS CARRÉ, FRANKRIG 235,00 D",
+"name": "92 point Vin.connaisseur 92 point Rasmus Christensen - Winewherever Bourgogne Rouge 'Les Lormes' 2023 DOMAINE DENIS CARRÉ, FRANKRIG 159,00 D",
 "group": "bourgogne",
 "url": "https://www.jyskvin.dk/bourgogne-rouge-les-lormes-2023-1608936",
-"ps": 235.0,
-"p6": null,
+"ps": 265.0,
+"p6": 159.0,
 "p12": null,
 "before": null,
-"exp": null,
+"exp": "2026-11-29",
 "first": "2026-11-24",
-"since": "2026-11-24"
+"since": "2026-11-25"
 },
 "jyskvin|https://www.jyskvin.dk/camino-de-los-arrieros-2022-3187636": {
 "shop": "jyskvin",
@@ -655,7 +656,8 @@
 "before": null,
 "exp": null,
 "first": "2026-11-24",
-"since": "2026-11-24"
+"since": "2026-11-24",
+"gone": "2026-11-25"
 },
 "jyskvin|https://www.jyskvin.dk/camino-de-los-arrieros-2023-3204536": {
 "shop": "jyskvin",
@@ -669,7 +671,8 @@
 "before": null,
 "exp": null,
 "first": "2026-11-24",
-"since": "2026-11-24"
+"since": "2026-11-24",
+"gone": "2026-11-25"
 },
 "jyskvin|https://www.jyskvin.dk/casares-2023-3130136": {
 "shop": "jyskvin",
@@ -730,7 +733,7 @@
 "jyskvin|https://www.jyskvin.dk/chablis-magnum-2023-1599344": {
 "shop": "jyskvin",
 "src": "jyskvin_tilbud.json",
-"name": "Din Vin Guide Houlbergs Vinblog Chablis, Magnum 2023 DOMAINE JOËLLE VRIGNAUD, FRANKRIG 499,00 DKK v/3 stk. 555,00 DKK v/1 stk.",
+"name": "Din Vin Guide Houlbergs Vinblog Chablis, Magnum 2023 DOMAINE JOËLLE VRIGNAUD, FRANKRIG 499,00 DKK v/3 stk. 555,00 DKK v/1 stk. Udsolgt",
 "group": "bourgogne",
 "url": "https://www.jyskvin.dk/chablis-magnum-2023-1599344",
 "ps": 499.0,
@@ -1108,7 +1111,7 @@
 "jyskvin|https://www.jyskvin.dk/kinki-2023-3181736": {
 "shop": "jyskvin",
 "src": "jyskvin_tilbud.json",
-"name": "96 point Vinous 96 point Jeb Dunnuck Kinki 2023 VERONICA ORTEGA, SPANIEN 230,00 DKK v/1 stk. 330,00 DKK Tilbud Denne pris udløber om: 5 dage",
+"name": "96 point Vinous 96 point Jeb Dunnuck Kinki 2023 VERONICA ORTEGA, SPANIEN 230,00 DKK v/1 stk. 330,00 DKK Tilbud Denne pris udløber om: 4 dage",
 "group": "galicien_bierzo",
 "url": "https://www.jyskvin.dk/kinki-2023-3181736",
 "ps": 230.0,
@@ -1243,7 +1246,8 @@
 "before": 1778.0,
 "exp": null,
 "first": "2026-11-24",
-"since": "2026-11-24"
+"since": "2026-11-24",
+"gone": "2026-11-25"
 },
 "jyskvin|https://www.jyskvin.dk/macon-fuisse-les-pelees-2024-1620036": {
 "shop": "jyskvin",
@@ -1383,7 +1387,8 @@
 "before": null,
 "exp": null,
 "first": "2026-11-24",
-"since": "2026-11-24"
+"since": "2026-11-24",
+"gone": "2026-11-25"
 },
 "jyskvin|https://www.jyskvin.dk/morey-saint-denis-1er-cru-aux-charmes-2021-1520936": {
 "shop": "jyskvin",
@@ -1425,7 +1430,8 @@
 "before": null,
 "exp": null,
 "first": "2026-11-24",
-"since": "2026-11-24"
+"since": "2026-11-24",
+"gone": "2026-11-25"
 },
 "jyskvin|https://www.jyskvin.dk/niederhauser-felsensteyer-riesling-trocken-2024-4278536": {
 "shop": "jyskvin",
@@ -1878,7 +1884,7 @@
 "jyskvin|https://www.jyskvin.dk/riesling-auslese-deidesheimer-herrgottsacker-1-2-fl-2015-4274524": {
 "shop": "jyskvin",
 "src": "jyskvin_tilbud.json",
-"name": "Riesling Auslese, Deidesheimer Herrgo… SPINDLER LINDENHOF, TYSKLAND 179,95 DKK v/3 stk. 205,00 DKK v/1 stk.",
+"name": "Riesling Auslese, Deidesheimer Herrgo… SPINDLER LINDENHOF, TYSKLAND 179,95 DKK v/3 stk. 205,00 DKK v/1 stk. Udsolgt",
 "group": "riesling_de",
 "url": "https://www.jyskvin.dk/riesling-auslese-deidesheimer-herrgottsacker-1-2-fl-2015-4274524",
 "ps": 179.95,
@@ -2340,16 +2346,16 @@
 "jyskvin|https://www.jyskvin.dk/robert-weil-riesling-trocken-2025-4279936": {
 "shop": "jyskvin",
 "src": "jyskvin_tilbud.json",
-"name": "Vinexpressen GODT KØB Din Vin Guide Robert Weil, Riesling Trocken 2025 WEINGUT ROBERT WEIL, TYSKLAND 99,95 DKK v/6 stk. 139,95 DKK v/1 stk.",
+"name": "Vinexpressen GODT KØB Din Vin Guide Robert Weil, Riesling Trocken 2025 WEINGUT ROBERT WEIL, TYSKLAND 89,95 DKK v/6 stk. 139,95 DKK v/1 stk. ",
 "group": "riesling_de",
 "url": "https://www.jyskvin.dk/robert-weil-riesling-trocken-2025-4279936",
 "ps": 139.95,
-"p6": 99.95,
+"p6": 89.95,
 "p12": null,
 "before": null,
-"exp": null,
+"exp": "2026-11-29",
 "first": "2026-11-24",
-"since": "2026-11-24"
+"since": "2026-11-25"
 },
 "jyskvin|https://www.jyskvin.dk/roc-2023-3196536": {
 "shop": "jyskvin",
@@ -2606,7 +2612,7 @@
 "jyskvin|https://www.jyskvin.dk/terrassen-riesling-trocken-2023-4274136": {
 "shop": "jyskvin",
 "src": "jyskvin_tilbud.json",
-"name": "Terrassen, Riesling Trocken 2023 WEINGUT FRIES, TYSKLAND 159,00 DKK v/6 stk. 250,00 DKK v/1 stk. Tilbud Denne pris udløber om: 5 dage 15 tim",
+"name": "Terrassen, Riesling Trocken 2023 WEINGUT FRIES, TYSKLAND 159,00 DKK v/6 stk. 250,00 DKK v/1 stk. Tilbud Denne pris udløber om: 4 dage 17 tim",
 "group": "riesling_de",
 "url": "https://www.jyskvin.dk/terrassen-riesling-trocken-2023-4274136",
 "ps": 250.0,
@@ -2634,14 +2640,14 @@
 "jyskvin|https://www.jyskvin.dk/tormenta-2022-3177636": {
 "shop": "jyskvin",
 "src": "jyskvin_tilbud.json",
-"name": "96 point René Langdahl 95 point Robert Parker’s Wine Advocate Tormenta 2022 VERONICA ORTEGA, SPANIEN 275,00 DKK v/1 stk. 389,00 DKK Tilbud D",
+"name": "96 point René Langdahl 95 point Robert Parker’s Wine Advocate Tormenta 2022 VERONICA ORTEGA, SPANIEN 275,00 DKK v/1 stk. 389,00 DKK Udsolgt",
 "group": "galicien_bierzo",
 "url": "https://www.jyskvin.dk/tormenta-2022-3177636",
 "ps": 275.0,
 "p6": null,
 "p12": null,
 "before": 389.0,
-"exp": "2026-11-29",
+"exp": null,
 "first": "2026-11-24",
 "since": "2026-11-24"
 },
@@ -2909,7 +2915,8 @@
 "before": null,
 "exp": null,
 "first": "2026-11-24",
-"since": "2026-11-24"
+"since": "2026-11-24",
+"gone": "2026-11-25"
 },
 "jyskvin|https://www.jyskvin.dk/yavallo-2021-3187536": {
 "shop": "jyskvin",
@@ -2923,7 +2930,8 @@
 "before": null,
 "exp": null,
 "first": "2026-11-24",
-"since": "2026-11-24"
+"since": "2026-11-24",
+"gone": "2026-11-25"
 },
 "jyskvin|https://www.jyskvin.dk/yavallo-2022-3204736": {
 "shop": "jyskvin",
@@ -2937,7 +2945,8 @@
 "before": null,
 "exp": null,
 "first": "2026-11-24",
-"since": "2026-11-24"
+"since": "2026-11-24",
+"gone": "2026-11-25"
 },
 "laudrup|https://laudrup.dk/products/aj-vaona-bourgogne-blanc": {
 "shop": "laudrup",
@@ -3008,6 +3017,34 @@
 "exp": null,
 "first": "2026-11-24",
 "since": "2026-11-24"
+},
+"laudrup|https://laudrup.dk/products/bader-laroche-rheinhessen": {
+"shop": "laudrup",
+"src": "laudrup.json",
+"name": "SPAR 61% SPAR 61% Tyskland | Rheinhessen | Riesling 2021 Bäder LaRoche Rheinhessen 159,00 kr. 399,00 kr. 4,2 Vivino",
+"group": "riesling_de",
+"url": "https://laudrup.dk/products/bader-laroche-rheinhessen",
+"ps": 159.0,
+"p6": null,
+"p12": null,
+"before": 399.0,
+"exp": null,
+"first": "2026-11-25",
+"since": "2026-11-25"
+},
+"laudrup|https://laudrup.dk/products/bader-laroche-rheinhessen-1": {
+"shop": "laudrup",
+"src": "laudrup.json",
+"name": "SPAR 61% SPAR 61% Tyskland | Rheinhessen | Riesling 2022 Bäder LaRoche Rheinhessen 159,00 kr. 399,00 kr.",
+"group": "riesling_de",
+"url": "https://laudrup.dk/products/bader-laroche-rheinhessen-1",
+"ps": 159.0,
+"p6": null,
+"p12": null,
+"before": 399.0,
+"exp": null,
+"first": "2026-11-25",
+"since": "2026-11-25"
 },
 "laudrup|https://laudrup.dk/products/barale-barolo-oko": {
 "shop": "laudrup",
@@ -3274,6 +3311,34 @@
 "exp": null,
 "first": "2026-11-24",
 "since": "2026-11-24"
+},
+"laudrup|https://laudrup.dk/products/rebholz-weisser-burgunder-oko-bio": {
+"shop": "laudrup",
+"src": "laudrup.json",
+"name": "UDSOLGT SIDSTE CHANCE UDSOLGT SIDSTE CHANCE Tyskland | Pfalz | Pinot-blanc/Weißburgunder 2021 Rebholz Weisser Burgunder 139,00 kr. 265,00 kr",
+"group": "bourgogne",
+"url": "https://laudrup.dk/products/rebholz-weisser-burgunder-oko-bio",
+"ps": 139.0,
+"p6": null,
+"p12": null,
+"before": 265.0,
+"exp": null,
+"first": "2026-11-25",
+"since": "2026-11-25"
+},
+"laudrup|https://laudrup.dk/products/rebholz-weisser-burgunder-oko-bio-1": {
+"shop": "laudrup",
+"src": "laudrup.json",
+"name": "SPAR 48% SIDSTE CHANCE SPAR 48% SIDSTE CHANCE Tyskland | Pfalz | Pinot-blanc/Weißburgunder 2023 Rebholz Weisser Burgunder 139,00 kr. 265,00 ",
+"group": "bourgogne",
+"url": "https://laudrup.dk/products/rebholz-weisser-burgunder-oko-bio-1",
+"ps": 139.0,
+"p6": null,
+"p12": null,
+"before": 265.0,
+"exp": null,
+"first": "2026-11-25",
+"since": "2026-11-25"
 },
 "laudrup|https://laudrup.dk/products/van-volxem-scharzhofberger-gg-riesling-vdp": {
 "shop": "laudrup",
@@ -3553,7 +3618,8 @@
 "before": 189.95,
 "exp": "2027-03-31",
 "first": "2026-11-24",
-"since": "2026-11-24"
+"since": "2026-11-24",
+"gone": "2026-11-25"
 },
 "supervin|bertrand-de-monceny-meursault-vieilles-vignes-2023": {
 "shop": "supervin",
@@ -3581,7 +3647,8 @@
 "before": 509.95,
 "exp": null,
 "first": "2026-11-24",
-"since": "2026-11-24"
+"since": "2026-11-24",
+"gone": "2026-11-25"
 },
 "supervin|bourgogne-chardonnay-cote-d-or-2022": {
 "shop": "supervin",
@@ -4024,12 +4091,12 @@
 "group": "bourgogne",
 "url": "https://www.supervin.dk/chateau-des-correaux-pouilly-fuisse-2025",
 "ps": 329.95,
-"p6": 199.95,
+"p6": 168.78,
 "p12": null,
 "before": 329.95,
-"exp": "2027-01-06",
+"exp": "2026-11-30",
 "first": "2026-11-24",
-"since": "2026-11-24"
+"since": "2026-11-25"
 },
 "supervin|closerie-des-alisiers-stephane-brocard-meursault-vieilles-vignes-2023": {
 "shop": "supervin",
@@ -4289,13 +4356,13 @@
 "name": "Domaine Bouthenet-Clerc Maranges Le Clos Rouge 2022",
 "group": "bourgogne",
 "url": "https://www.supervin.dk/domaine-bouthenet-clerc-maranges-le-clos-rouge",
-"ps": 359.95,
-"p6": 199.95,
+"ps": 199.95,
+"p6": null,
 "p12": null,
 "before": 359.95,
-"exp": "2027-01-06",
+"exp": null,
 "first": "2026-11-24",
-"since": "2026-11-24"
+"since": "2026-11-25"
 },
 "supervin|domaine-caillot-monthelie-rouge-2017": {
 "shop": "supervin",
@@ -4850,12 +4917,12 @@
 "group": "bourgogne",
 "url": "https://www.supervin.dk/domaine-les-vignes-devant-bourgogne-chardonnay-clos-des-chenoves-2021",
 "ps": 199.95,
-"p6": 109.95,
+"p6": 97.45,
 "p12": null,
 "before": 199.95,
 "exp": "2026-11-30",
 "first": "2026-11-24",
-"since": "2026-11-24"
+"since": "2026-11-25"
 },
 "supervin|domaine-les-vignes-devant-rully-les-varots-blanc-2023": {
 "shop": "supervin",
@@ -4864,12 +4931,12 @@
 "group": "bourgogne",
 "url": "https://www.supervin.dk/domaine-les-vignes-devant-rully-les-varots-blanc-2023",
 "ps": 299.95,
-"p6": 189.95,
+"p6": 157.85,
 "p12": null,
 "before": 299.95,
-"exp": "2027-01-06",
+"exp": "2026-11-30",
 "first": "2026-11-24",
-"since": "2026-11-24"
+"since": "2026-11-25"
 },
 "supervin|domaine-les-vignes-devant-rully-les-varots-rouge-2024": {
 "shop": "supervin",
@@ -4878,12 +4945,12 @@
 "group": "bourgogne",
 "url": "https://www.supervin.dk/domaine-les-vignes-devant-rully-les-varots-rouge-2024",
 "ps": 279.95,
-"p6": 179.95,
+"p6": 156.13,
 "p12": null,
 "before": 279.95,
-"exp": "2027-01-06",
+"exp": "2026-11-30",
 "first": "2026-11-24",
-"since": "2026-11-24"
+"since": "2026-11-25"
 },
 "supervin|domaine-louis-fleurot-nuits-saint-georges-vieilles-vignes-2023": {
 "shop": "supervin",
@@ -5158,12 +5225,12 @@
 "group": "bourgogne",
 "url": "https://www.supervin.dk/domaine-louis-lequin-santenay-les-charmes-2020",
 "ps": 339.95,
-"p6": 254.95,
+"p6": 186.74,
 "p12": null,
 "before": 339.95,
-"exp": "2027-01-06",
+"exp": "2026-11-30",
 "first": "2026-11-24",
-"since": "2026-11-24"
+"since": "2026-11-25"
 },
 "supervin|domaine-maldant-pauvelot-aloxe-corton-1-cru-valozieres-2016": {
 "shop": "supervin",
@@ -6040,12 +6107,12 @@
 "group": "bourgogne",
 "url": "https://www.supervin.dk/henri-de-villamont-savigny-les-beaune-2020",
 "ps": 329.95,
-"p6": 179.95,
+"p6": 143.78,
 "p12": null,
 "before": 329.95,
-"exp": "2027-01-06",
+"exp": "2026-11-30",
 "first": "2026-11-24",
-"since": "2026-11-24"
+"since": "2026-11-25"
 },
 "supervin|henri-de-villamont-savigny-les-beaune-aux-fourneaux-2021": {
 "shop": "supervin",
@@ -6054,12 +6121,12 @@
 "group": "bourgogne",
 "url": "https://www.supervin.dk/henri-de-villamont-savigny-les-beaune-aux-fourneaux-2021",
 "ps": 319.95,
-"p6": 199.95,
+"p6": 163.73,
 "p12": null,
 "before": 319.95,
-"exp": "2027-01-06",
+"exp": "2026-11-30",
 "first": "2026-11-24",
-"since": "2026-11-24"
+"since": "2026-11-25"
 },
 "supervin|henri-de-villamont-volnay-2017": {
 "shop": "supervin",
@@ -7089,13 +7156,13 @@
 "name": "Parusso Barolo DOCG 2016 Mosconi",
 "group": "nebbiolo",
 "url": "https://www.supervin.dk/parusso-barolo-docg-2016-mosconi",
-"ps": 809.95,
-"p6": 499.95,
+"ps": 499.95,
+"p6": null,
 "p12": null,
 "before": 809.95,
-"exp": "2027-01-06",
+"exp": null,
 "first": "2026-11-24",
-"since": "2026-11-24"
+"since": "2026-11-25"
 },
 "supervin|parusso-barolo-docg-bussia-2018-i-traekasse": {
 "shop": "supervin",
@@ -10207,7 +10274,7 @@
 },
 "uhrskov|https://www.uhrskov-vine.dk/bourg-blanc-2023-les-femelottes-domaine-chavy-chouet": {
 "shop": "uhrskov",
-"src": "uhrskov_hvid.json",
+"src": "uhrskov_outlet.json",
 "name": "Domaine Chavy-Chouet Bourgogne BLANC 2023 Les Femelottes Domaine Chavy-Chouet ",
 "group": "bourgogne",
 "url": "https://www.uhrskov-vine.dk/bourg-blanc-2023-les-femelottes-domaine-chavy-chouet",
@@ -10235,7 +10302,7 @@
 },
 "uhrskov|https://www.uhrskov-vine.dk/bourg-blanc-2025-les-femelottes-domaine-chavy-chouet": {
 "shop": "uhrskov",
-"src": "uhrskov_hvid.json",
+"src": "uhrskov_outlet.json",
 "name": "Domaine Chavy-Chouet Bourgogne BLANC 2025 Les Femelottes Domaine Chavy-Chouet ",
 "group": "bourgogne",
 "url": "https://www.uhrskov-vine.dk/bourg-blanc-2025-les-femelottes-domaine-chavy-chouet",
@@ -10753,7 +10820,7 @@
 },
 "uhrskov|https://www.uhrskov-vine.dk/bourgogne-blanc-2024-domaine-sylvain-bzikot": {
 "shop": "uhrskov",
-"src": "uhrskov_hvid.json",
+"src": "uhrskov_outlet.json",
 "name": "Sylvain Bzikot Bourgogne Blanc 2024 Domaine Sylvain Bzikot ",
 "group": "bourgogne",
 "url": "https://www.uhrskov-vine.dk/bourgogne-blanc-2024-domaine-sylvain-bzikot",
@@ -12251,7 +12318,7 @@
 },
 "uhrskov|https://www.uhrskov-vine.dk/chablis-vallee-de-valvan-2022-jean-collet": {
 "shop": "uhrskov",
-"src": "uhrskov_hvid.json",
+"src": "uhrskov_outlet.json",
 "name": "Domaine Jean Collet Chablis Vallée de Valvan 2022, Domaine Jean Collet ",
 "group": "bourgogne",
 "url": "https://www.uhrskov-vine.dk/chablis-vallee-de-valvan-2022-jean-collet",
@@ -17781,7 +17848,7 @@
 },
 "uhrskov|https://www.uhrskov-vine.dk/meursault-1er-cru-les-genevrieres-2025-chavy-chouet": {
 "shop": "uhrskov",
-"src": "uhrskov_hvid.json",
+"src": "uhrskov_outlet.json",
 "name": "Domaine Chavy-Chouet Meursault 1er Cru Les Genevrieres 2025, Domaine Chavy-Chouet ",
 "group": "bourgogne",
 "url": "https://www.uhrskov-vine.dk/meursault-1er-cru-les-genevrieres-2025-chavy-chouet",
@@ -17795,7 +17862,7 @@
 },
 "uhrskov|https://www.uhrskov-vine.dk/meursault-1er-cru-les-narvaux-2025-chavy-chouet": {
 "shop": "uhrskov",
-"src": "uhrskov_hvid.json",
+"src": "uhrskov_outlet.json",
 "name": "Domaine Chavy-Chouet Meursault 1er Cru Les Charmes 2025 Domaine Chavy-Chouet ",
 "group": "bourgogne",
 "url": "https://www.uhrskov-vine.dk/meursault-1er-cru-les-narvaux-2025-chavy-chouet",
@@ -18047,7 +18114,7 @@
 },
 "uhrskov|https://www.uhrskov-vine.dk/meursault-clos-de-corvees-de-citeau-2024-monopole-2": {
 "shop": "uhrskov",
-"src": "uhrskov_hvid.json",
+"src": "uhrskov_outlet.json",
 "name": "Domaine Chavy-Chouet Meursault Clos des Corvées de Citeau 2024 Monopole, Domaine Chavy-Chouet ",
 "group": "bourgogne",
 "url": "https://www.uhrskov-vine.dk/meursault-clos-de-corvees-de-citeau-2024-monopole-2",
@@ -18061,7 +18128,7 @@
 },
 "uhrskov|https://www.uhrskov-vine.dk/meursault-clos-de-corvees-de-citeau-2025-monopole": {
 "shop": "uhrskov",
-"src": "uhrskov_hvid.json",
+"src": "uhrskov_outlet.json",
 "name": "Domaine Chavy-Chouet Meursault Clos des Corvées de Citeau 2025 Monopole, Domaine Chavy-Chouet ",
 "group": "bourgogne",
 "url": "https://www.uhrskov-vine.dk/meursault-clos-de-corvees-de-citeau-2025-monopole",
@@ -18159,7 +18226,7 @@
 },
 "uhrskov|https://www.uhrskov-vine.dk/meursault-les-narvaux-2024-chavy-chouet-2": {
 "shop": "uhrskov",
-"src": "uhrskov_hvid.json",
+"src": "uhrskov_outlet.json",
 "name": "Domaine Chavy-Chouet Meursault Les Narvaux 2024 Domaine Chavy-Chouet ",
 "group": "bourgogne",
 "url": "https://www.uhrskov-vine.dk/meursault-les-narvaux-2024-chavy-chouet-2",
@@ -18201,7 +18268,7 @@
 },
 "uhrskov|https://www.uhrskov-vine.dk/meursault-les-vireuls-2024-domaine-chavy-chouet-2": {
 "shop": "uhrskov",
-"src": "uhrskov_hvid.json",
+"src": "uhrskov_outlet.json",
 "name": "Domaine Chavy-Chouet Meursault Les Vireuils 2024 Domaine Chavy-Chouet ",
 "group": "bourgogne",
 "url": "https://www.uhrskov-vine.dk/meursault-les-vireuls-2024-domaine-chavy-chouet-2",
@@ -19965,7 +20032,7 @@
 },
 "uhrskov|https://www.uhrskov-vine.dk/puligny-montrachet-1er-cru-2024-les-champ-gain": {
 "shop": "uhrskov",
-"src": "uhrskov_hvid.json",
+"src": "uhrskov_outlet.json",
 "name": "Domaine Chavy-Chouet Puligny-Montrachet 1er Cru 2024 Les Champ-Gain, Domaine Chavy-Chouet ",
 "group": "bourgogne",
 "url": "https://www.uhrskov-vine.dk/puligny-montrachet-1er-cru-2024-les-champ-gain",
@@ -19979,7 +20046,7 @@
 },
 "uhrskov|https://www.uhrskov-vine.dk/puligny-montrachet-1er-cru-2024-les-folatieres-chavy-chouet": {
 "shop": "uhrskov",
-"src": "uhrskov_hvid.json",
+"src": "uhrskov_outlet.json",
 "name": "Domaine Chavy-Chouet Puligny-Montrachet 1er Cru 2024 Les Folatieres, Domaine Chavy-Chouet ",
 "group": "bourgogne",
 "url": "https://www.uhrskov-vine.dk/puligny-montrachet-1er-cru-2024-les-folatieres-chavy-chouet",
@@ -20007,7 +20074,7 @@
 },
 "uhrskov|https://www.uhrskov-vine.dk/puligny-montrachet-1er-cru-2025-les-champ-gain-2": {
 "shop": "uhrskov",
-"src": "uhrskov_hvid.json",
+"src": "uhrskov_outlet.json",
 "name": "Domaine Chavy-Chouet Puligny-Montrachet 1er Cru 2025 Les Champ Gains, Domaine Chavy-Chouet ",
 "group": "bourgogne",
 "url": "https://www.uhrskov-vine.dk/puligny-montrachet-1er-cru-2025-les-champ-gain-2",

@@ -1,0 +1,77 @@
+{
+ "date": "2026-11-25",
+ "regler": {
+  "grupper": {
+   "bourgogne": {
+    "navn": "Bourgogne",
+    "loft": 350
+   },
+   "riesling_de": {
+    "navn": "Tysk Riesling",
+    "loft": 250
+   },
+   "nebbiolo": {
+    "navn": "Piemonte/Nebbiolo",
+    "loft": 250
+   },
+   "etna": {
+    "navn": "Etna",
+    "loft": 250
+   },
+   "jura": {
+    "navn": "Jura",
+    "loft": 250
+   },
+   "galicien_bierzo": {
+    "navn": "Bierzo/Galicien",
+    "loft": 250
+   }
+  },
+  "fald_1_3_fl": 0.15,
+  "fald_6_fl": 0.2,
+  "historik_dage": 14
+ },
+ "kilder": {
+  "supervin.json": {
+   "ok": true,
+   "vine": 357,
+   "overvaaget_siden": "2026-11-24"
+  },
+  "jyskvin_tilbud.json": {
+   "ok": true,
+   "vine": 201,
+   "overvaaget_siden": "2026-11-24"
+  },
+  "uhrskov.json": {
+   "ok": true,
+   "vine": 429,
+   "overvaaget_siden": "2026-11-24"
+  },
+  "uhrskov_hvid.json": {
+   "ok": true,
+   "vine": 290,
+   "overvaaget_siden": "2026-11-24"
+  },
+  "uhrskov_outlet.json": {
+   "ok": true,
+   "vine": 13,
+   "overvaaget_siden": "2026-11-24"
+  },
+  "uhrskov_nebbiolo.json": {
+   "ok": true,
+   "vine": 213,
+   "overvaaget_siden": "2026-11-24"
+  },
+  "uhrskov_tysk_hvid.json": {
+   "ok": true,
+   "vine": 106,
+   "overvaaget_siden": "2026-11-24"
+  },
+  "laudrup.json": {
+   "ok": true,
+   "vine": 31,
+   "overvaaget_siden": "2026-11-24"
+  }
+ },
+ "candidates": []
+}
