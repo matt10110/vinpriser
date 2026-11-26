@@ -521,7 +521,7 @@
 "jyskvin|https://www.jyskvin.dk/beaune-1er-cru-les-tuvilains-2023-1609236": {
 "shop": "jyskvin",
 "src": "jyskvin_tilbud.json",
-"name": "Beaune 1er Cru 'Les Tuvilains' 2023 DOMAINE DENIS CARRÉ, FRANKRIG 285,00 DKK v/1 stk. 455,00 DKK Tilbud Denne pris udløber om: 4 dage 17 tim",
+"name": "Beaune 1er Cru 'Les Tuvilains' 2023 DOMAINE DENIS CARRÉ, FRANKRIG 285,00 DKK v/1 stk. 455,00 DKK Tilbud Denne pris udløber om: 3 dage 02 tim",
 "group": "bourgogne",
 "url": "https://www.jyskvin.dk/beaune-1er-cru-les-tuvilains-2023-1609236",
 "ps": 285.0,
@@ -535,14 +535,14 @@
 "jyskvin|https://www.jyskvin.dk/bourgogne-aligote-2024-1635136": {
 "shop": "jyskvin",
 "src": "jyskvin_tilbud.json",
-"name": "Bourgogne Aligoté 2024 DOMAINE GRIVOT-GOISOT, FRANKRIG 99,95 DKK v/6 stk. 190,00 DKK v/1 stk. Udsolgt Denne pris udløber om: 4 dage 17 timer",
+"name": "Bourgogne Aligoté 2024 DOMAINE GRIVOT-GOISOT, FRANKRIG 99,95 DKK v/6 stk. 190,00 DKK v/1 stk. Udsolgt",
 "group": "bourgogne",
 "url": "https://www.jyskvin.dk/bourgogne-aligote-2024-1635136",
 "ps": 190.0,
 "p6": 99.95,
 "p12": null,
 "before": null,
-"exp": "2026-11-29",
+"exp": null,
 "first": "2026-11-24",
 "since": "2026-11-24"
 },
@@ -563,7 +563,7 @@
 "jyskvin|https://www.jyskvin.dk/bourgogne-chardonnay-2023-1587536": {
 "shop": "jyskvin",
 "src": "jyskvin_tilbud.json",
-"name": "Houlbergs Vinblog Bourgogne Chardonnay 2023 DOMAINE SORINE, FRANKRIG 175,00 DKK v/3 stk. 285,00 DKK v/1 stk. Tilbud Denne pris udløber om: 4",
+"name": "Houlbergs Vinblog Bourgogne Chardonnay 2023 DOMAINE SORINE, FRANKRIG 175,00 DKK v/3 stk. 285,00 DKK v/1 stk. Tilbud Denne pris udløber om: 3",
 "group": "bourgogne",
 "url": "https://www.jyskvin.dk/bourgogne-chardonnay-2023-1587536",
 "ps": 175.0,
@@ -1111,7 +1111,7 @@
 "jyskvin|https://www.jyskvin.dk/kinki-2023-3181736": {
 "shop": "jyskvin",
 "src": "jyskvin_tilbud.json",
-"name": "96 point Vinous 96 point Jeb Dunnuck Kinki 2023 VERONICA ORTEGA, SPANIEN 230,00 DKK v/1 stk. 330,00 DKK Tilbud Denne pris udløber om: 4 dage",
+"name": "96 point Vinous 96 point Jeb Dunnuck Kinki 2023 VERONICA ORTEGA, SPANIEN 230,00 DKK v/1 stk. 330,00 DKK Tilbud Denne pris udløber om: 3 dage",
 "group": "galicien_bierzo",
 "url": "https://www.jyskvin.dk/kinki-2023-3181736",
 "ps": 230.0,
@@ -1506,16 +1506,16 @@
 "jyskvin|https://www.jyskvin.dk/niederhauser-hermannshohle-riesling-trocken-2025-4282936": {
 "shop": "jyskvin",
 "src": "jyskvin_tilbud.json",
-"name": "96 point Stuart Pigott 93 point Din Vin Guide Niederhäuser Hermannshöhle Riesl… WEINGUT JAKOB SCHNEIDER, TYSKLAND 189,00 DKK v/3 stk. 210,00",
+"name": "96 point Stuart Pigott 93 point Din Vin Guide Niederhäuser Hermannshöhle Riesl… WEINGUT JAKOB SCHNEIDER, TYSKLAND 125,00 DKK v/6 stk. 210,00",
 "group": "riesling_de",
 "url": "https://www.jyskvin.dk/niederhauser-hermannshohle-riesling-trocken-2025-4282936",
-"ps": 189.0,
-"p6": null,
+"ps": 210.0,
+"p6": 125.0,
 "p12": null,
 "before": null,
-"exp": null,
+"exp": "2026-11-29",
 "first": "2026-11-24",
-"since": "2026-11-24"
+"since": "2026-11-26"
 },
 "jyskvin|https://www.jyskvin.dk/niederhauser-hermannshohle-riesling-trocken-magnus-2024-4274736": {
 "shop": "jyskvin",
@@ -2612,7 +2612,7 @@
 "jyskvin|https://www.jyskvin.dk/terrassen-riesling-trocken-2023-4274136": {
 "shop": "jyskvin",
 "src": "jyskvin_tilbud.json",
-"name": "Terrassen, Riesling Trocken 2023 WEINGUT FRIES, TYSKLAND 159,00 DKK v/6 stk. 250,00 DKK v/1 stk. Tilbud Denne pris udløber om: 4 dage 17 tim",
+"name": "Terrassen, Riesling Trocken 2023 WEINGUT FRIES, TYSKLAND 159,00 DKK v/6 stk. 250,00 DKK v/1 stk. Tilbud Denne pris udløber om: 3 dage 02 tim",
 "group": "riesling_de",
 "url": "https://www.jyskvin.dk/terrassen-riesling-trocken-2023-4274136",
 "ps": 250.0,
@@ -3356,6 +3356,20 @@
 "first": "2026-11-25",
 "since": "2026-11-25"
 },
+"laudrup|https://laudrup.dk/products/van-volxem-bockstein-riesling-spatlese-1": {
+"shop": "laudrup",
+"src": "laudrup.json",
+"name": "Tyskland | Mosel | Riesling 2023 Van Volxem Bockstein Riesling Spätlese Fra 356,00 kr. Spar 20% ved køb af 6 stk 96 point Robert Parker",
+"group": "riesling_de",
+"url": "https://laudrup.dk/products/van-volxem-bockstein-riesling-spatlese-1",
+"ps": null,
+"p6": 356.0,
+"p12": null,
+"before": 445.0,
+"exp": null,
+"first": "2026-11-26",
+"since": "2026-11-26"
+},
 "laudrup|https://laudrup.dk/products/van-volxem-scharzhofberger-gg-riesling-vdp": {
 "shop": "laudrup",
 "src": "laudrup.json",
@@ -3671,13 +3685,13 @@
 "name": "Domaine Jean Monnier & Fils Bourgogne Côte d'Or Chardonnay 2022",
 "group": "bourgogne",
 "url": "https://www.supervin.dk/bourgogne-chardonnay-cote-d-or-2022",
-"ps": 299.95,
-"p6": 199.95,
+"ps": 189.95,
+"p6": null,
 "p12": null,
 "before": 299.95,
-"exp": "2027-01-06",
+"exp": null,
 "first": "2026-11-24",
-"since": "2026-11-24"
+"since": "2026-11-26"
 },
 "supervin|bourgogne-pinot-noir-cote-d-or-2023": {
 "shop": "supervin",
@@ -3938,12 +3952,12 @@
 "group": "nebbiolo",
 "url": "https://www.supervin.dk/broccardo-barolo-san-giovanni-riserva-2017",
 "ps": 489.95,
-"p6": 349.95,
+"p6": 296.38,
 "p12": null,
 "before": 489.95,
-"exp": "2027-01-06",
+"exp": "2026-11-30",
 "first": "2026-11-24",
-"since": "2026-11-24"
+"since": "2026-11-26"
 },
 "supervin|casali-1-barolo-og-5-barbera": {
 "shop": "supervin",
@@ -4064,12 +4078,12 @@
 "group": "bourgogne",
 "url": "https://www.supervin.dk/cave-de-vinzelles-pouilly-vinzelles-1er-cru-les-quarts-2025",
 "ps": 399.95,
-"p6": 179.95,
+"p6": 153.73,
 "p12": null,
 "before": 399.95,
-"exp": "2027-01-06",
+"exp": "2026-11-30",
 "first": "2026-11-24",
-"since": "2026-11-24"
+"since": "2026-11-26"
 },
 "supervin|chateau-de-melin-hautes-cotes-de-beaune-blanc-2024-bio": {
 "shop": "supervin",
@@ -4429,12 +4443,12 @@
 "group": "bourgogne",
 "url": "https://www.supervin.dk/domaine-chavy-chouet-bourgogne-rouge-la-taupe-2022",
 "ps": 459.95,
-"p6": 249.95,
+"p6": 182.95,
 "p12": null,
 "before": 459.95,
-"exp": "2027-01-06",
+"exp": "2026-11-30",
 "first": "2026-11-24",
-"since": "2026-11-24"
+"since": "2026-11-26"
 },
 "supervin|domaine-chavy-chouet-meursault-les-grands-charrons-2023": {
 "shop": "supervin",
@@ -4471,12 +4485,12 @@
 "group": "bourgogne",
 "url": "https://www.supervin.dk/domaine-chavy-chouet-puligny-montrachet-les-enseigneres-2023",
 "ps": 1130,
-"p6": 699.95,
+"p6": 538.78,
 "p12": null,
 "before": 1130,
-"exp": "2027-01-06",
+"exp": "2026-11-30",
 "first": "2026-11-24",
-"since": "2026-11-24"
+"since": "2026-11-26"
 },
 "supervin|domaine-claudine-gerard-bourgogne-hautes-cotes-de-beaune-2022": {
 "shop": "supervin",
@@ -4569,12 +4583,12 @@
 "group": "bourgogne",
 "url": "https://www.supervin.dk/domaine-geantet-pansiot-bourgogne-pinot-fin-2023",
 "ps": 509.95,
-"p6": 284.95,
+"p6": 226.88,
 "p12": null,
 "before": 509.95,
-"exp": "2027-01-06",
+"exp": "2026-11-30",
 "first": "2026-11-24",
-"since": "2026-11-24"
+"since": "2026-11-26"
 },
 "supervin|domaine-geantet-pansiot-chambolle-musigny-1-er-cru-2024": {
 "shop": "supervin",
@@ -5605,12 +5619,12 @@
 "group": "bourgogne",
 "url": "https://www.supervin.dk/domaine-tremeaux-mercurey-2024",
 "ps": 299.95,
-"p6": 189.95,
+"p6": 166.66,
 "p12": null,
 "before": 299.95,
-"exp": "2027-01-06",
+"exp": "2026-11-30",
 "first": "2026-11-24",
-"since": "2026-11-24"
+"since": "2026-11-26"
 },
 "supervin|drei-kronen-kellerei-riesling-medium-sweet-mosel-2025": {
 "shop": "supervin",
@@ -6151,13 +6165,13 @@
 "name": "Henri de Villamont Volnay 2017",
 "group": "bourgogne",
 "url": "https://www.supervin.dk/henri-de-villamont-volnay-2017",
-"ps": 709.95,
-"p6": 297.11,
+"ps": 404.95,
+"p6": null,
 "p12": null,
 "before": 709.95,
-"exp": "2026-11-30",
+"exp": null,
 "first": "2026-11-24",
-"since": "2026-11-24"
+"since": "2026-11-26"
 },
 "supervin|henri-de-villamont-vosne-romanee-2023": {
 "shop": "supervin",
@@ -6663,6 +6677,20 @@
 "first": "2026-11-24",
 "since": "2026-11-24"
 },
+"supervin|martin-codax-marieta-ribeiro-2022": {
+"shop": "supervin",
+"src": "supervin.json",
+"name": "Martin Codax Marieta Ribeiro 2022",
+"group": "galicien_bierzo",
+"url": "https://www.supervin.dk/martin-codax-marieta-ribeiro-2022",
+"ps": 94.95,
+"p6": null,
+"p12": null,
+"before": 159.95,
+"exp": null,
+"first": "2026-11-26",
+"since": "2026-11-26"
+},
 "supervin|martin-codax-pizarras-de-otero-bierzo-2025": {
 "shop": "supervin",
 "src": "supervin.json",
@@ -7062,12 +7090,12 @@
 "group": "bourgogne",
 "url": "https://www.supervin.dk/michel-rebourgeon-pommard-les-perrieres-2022",
 "ps": 909.95,
-"p6": 574.95,
+"p6": 447.98,
 "p12": null,
 "before": 909.95,
-"exp": "2027-01-06",
+"exp": "2026-11-30",
 "first": "2026-11-24",
-"since": "2026-11-24"
+"since": "2026-11-26"
 },
 "supervin|michel-rebourgeon-pommard-les-perrieres-2023": {
 "shop": "supervin",
@@ -7179,7 +7207,8 @@
 "before": 809.95,
 "exp": null,
 "first": "2026-11-24",
-"since": "2026-11-25"
+"since": "2026-11-25",
+"gone": "2026-11-26"
 },
 "supervin|parusso-barolo-docg-bussia-2018-i-traekasse": {
 "shop": "supervin",
@@ -7502,6 +7531,20 @@
 "exp": "2027-01-06",
 "first": "2026-11-24",
 "since": "2026-11-24"
+},
+"supervin|prosper-maufoux-macon-ige-grand-terroir-2024": {
+"shop": "supervin",
+"src": "supervin.json",
+"name": "Prosper Maufoux Mâcon IGE Grand Terroir 2024",
+"group": "bourgogne",
+"url": "https://www.supervin.dk/prosper-maufoux-macon-ige-grand-terroir-2024",
+"ps": 229.95,
+"p6": 129.95,
+"p12": null,
+"before": 229.95,
+"exp": "2026-11-30",
+"first": "2026-11-26",
+"since": "2026-11-26"
 },
 "supervin|prosper-maufoux-macon-rouge-2024": {
 "shop": "supervin",
@@ -8070,12 +8113,12 @@
 "group": "bourgogne",
 "url": "https://www.supervin.dk/stephane-brocard-rully-vignoble-st-paul",
 "ps": 309.95,
-"p6": 199.95,
+"p6": 163.88,
 "p12": null,
 "before": 309.95,
-"exp": "2027-01-06",
+"exp": "2026-11-30",
 "first": "2026-11-24",
-"since": "2026-11-24"
+"since": "2026-11-26"
 },
 "supervin|tenute-neirano-barbaresco-docg-2022": {
 "shop": "supervin",
@@ -9532,6 +9575,20 @@
 "exp": null,
 "first": "2026-11-24",
 "since": "2026-11-24"
+},
+"uhrskov|https://www.uhrskov-vine.dk/barolo-2022-bartolo-mascarello-docg": {
+"shop": "uhrskov",
+"src": "uhrskov_nebbiolo.json",
+"name": "Bartolo Mascarello Barolo 2022 Bartolo Mascarello DOCG ",
+"group": "nebbiolo",
+"url": "https://www.uhrskov-vine.dk/barolo-2022-bartolo-mascarello-docg",
+"ps": 1799.0,
+"p6": null,
+"p12": null,
+"before": null,
+"exp": null,
+"first": "2026-11-26",
+"since": "2026-11-26"
 },
 "uhrskov|https://www.uhrskov-vine.dk/barolo-aleste-2020-luciano-sandrone": {
 "shop": "uhrskov",
@@ -12186,12 +12243,12 @@
 "group": "bourgogne",
 "url": "https://www.uhrskov-vine.dk/chablis-grand-cru-les-clos-2022-louis-michel",
 "ps": 795.0,
-"p6": 695.0,
+"p6": null,
 "p12": null,
 "before": null,
 "exp": null,
 "first": "2026-11-24",
-"since": "2026-11-24"
+"since": "2026-11-26"
 },
 "uhrskov|https://www.uhrskov-vine.dk/chablis-grand-cru-les-clos-2023-christian-moreau": {
 "shop": "uhrskov",
@@ -16253,6 +16310,20 @@
 "first": "2026-11-24",
 "since": "2026-11-24"
 },
+"uhrskov|https://www.uhrskov-vine.dk/langhe-nebbi-2024-bartolo-mascarello-barolo": {
+"shop": "uhrskov",
+"src": "uhrskov_nebbiolo.json",
+"name": "Bartolo Mascarello Langhe Nebbiolo 2024 Bartolo Mascarello, Barolo ",
+"group": "nebbiolo",
+"url": "https://www.uhrskov-vine.dk/langhe-nebbi-2024-bartolo-mascarello-barolo",
+"ps": 599.0,
+"p6": null,
+"p12": null,
+"before": null,
+"exp": null,
+"first": "2026-11-26",
+"since": "2026-11-26"
+},
 "uhrskov|https://www.uhrskov-vine.dk/langhe-nebbiolo-2019-bartolo-mascarello-barolo": {
 "shop": "uhrskov",
 "src": "uhrskov_nebbiolo.json",
@@ -16476,6 +16547,20 @@
 "exp": null,
 "first": "2026-11-24",
 "since": "2026-11-24"
+},
+"uhrskov|https://www.uhrskov-vine.dk/le-radici-2022-barolo-docg-revello": {
+"shop": "uhrskov",
+"src": "uhrskov_nebbiolo.json",
+"name": "Revello Le Radici 2022 Barolo DOCG, Revello ",
+"group": "nebbiolo",
+"url": "https://www.uhrskov-vine.dk/le-radici-2022-barolo-docg-revello",
+"ps": 179.0,
+"p6": null,
+"p12": null,
+"before": null,
+"exp": null,
+"first": "2026-11-26",
+"since": "2026-11-26"
 },
 "uhrskov|https://www.uhrskov-vine.dk/les-baudes-1er-cru-chambolle-musigny-2022-ghislaine-barthod": {
 "shop": "uhrskov",
@@ -16896,6 +16981,20 @@
 "exp": null,
 "first": "2026-11-24",
 "since": "2026-11-24"
+},
+"uhrskov|https://www.uhrskov-vine.dk/magnum-barolo-2021-bartolo-mascarello-docg": {
+"shop": "uhrskov",
+"src": "uhrskov_nebbiolo.json",
+"name": "Bartolo Mascarello MAGNUM Barolo 2021 Bartolo Mascarello DOCG ",
+"group": "nebbiolo",
+"url": "https://www.uhrskov-vine.dk/magnum-barolo-2021-bartolo-mascarello-docg",
+"ps": 4895.0,
+"p6": null,
+"p12": null,
+"before": null,
+"exp": null,
+"first": "2026-11-26",
+"since": "2026-11-26"
 },
 "uhrskov|https://www.uhrskov-vine.dk/magnum-barolo-cerequio-2018-docg-vietti-piemonte": {
 "shop": "uhrskov",

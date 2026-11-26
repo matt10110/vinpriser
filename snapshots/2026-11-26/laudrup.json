@@ -1,7 +1,7 @@
 {
  "url": "https://laudrup.dk/collections/tilbud?page={p}",
- "total_reported": 113,
- "count": 114,
+ "total_reported": 122,
+ "count": 123,
  "items": [
   {
    "href": "https://laudrup.dk/products/laudrup-vin-gavekort",
@@ -571,6 +571,51 @@
   {
    "href": "https://laudrup.dk/products/castello-del-terriccio-tassinaia-toscana-igt",
    "text": "SPAR 60%\nSPAR 60%\n\nItalien\n|\nToscana\n|\nBlend\n\n2022 Castello del Terriccio Tassinaia Toscana IGT\n\n169,00 kr. 419,00 kr.\n4,1\nVivino",
+   "page": 3
+  },
+  {
+   "href": "https://laudrup.dk/products/clos-bellane-chateauneuf-du-pape-urgonien-1-14",
+   "text": "SPAR 37%\nSPAR 37%\n\nFrankrig\n|\nRhône\n|\nGrenache\n\n2020 Clos Bellane Chateauneuf-du-Pape Urgonien 1.14\n\n449,00 kr. 705,00 kr.",
+   "page": 3
+  },
+  {
+   "href": "https://laudrup.dk/products/rico-nuevo-vereda-de-las-tordigas-garnacha",
+   "text": "SPAR 39%\nSPAR 39%\n\nSpanien\n|\nSierra de Gredos\n|\nGrenache\n\n2021 Rico Nuevo Vereda de Las Tordigas Garnacha\n\n185,00 kr. 299,00 kr.\n94\npoint\nJames Suckling",
+   "page": 3
+  },
+  {
+   "href": "https://laudrup.dk/products/van-volxem-bockstein-riesling-spatlese-1",
+   "text": "Tyskland\n|\nMosel\n|\nRiesling\n\n2023 Van Volxem Bockstein Riesling Spätlese\n\nFra 356,00 kr.\nSpar\n20%\nved køb af 6 stk\n96\npoint\nRobert Parker",
+   "page": 3
+  },
+  {
+   "href": "https://laudrup.dk/products/inospito-touriga-nacional",
+   "text": "SPAR 51%\nSPAR 51%\n\nPortugal\n|\nDouro\n|\nTouriga Nacional\n\n2023 Inospito Touriga Nacional\n\n199,00 kr. 401,00 kr.\n94\npoint\nJames Suckling",
+   "page": 3
+  },
+  {
+   "href": "https://laudrup.dk/products/inospito-rabigato-branco",
+   "text": "SPAR 50%\nSPAR 50%\n\nPortugal\n|\nDouro\n|\nRabigato\n\n2023 Inospito Rabigato Branco\n\n153,00 kr. 305,00 kr.\n92\npoint\nJames Suckling",
+   "page": 3
+  },
+  {
+   "href": "https://laudrup.dk/products/inospito-vinhas-velhas-branco",
+   "text": "SPAR 51%\nSPAR 51%\n\nPortugal\n|\nDouro\n|\nBlend\n\n2022 Inospito Vinhas Velhas Branco\n\n199,00 kr. 401,00 kr.\n92\npoint\nJames Suckling",
+   "page": 3
+  },
+  {
+   "href": "https://laudrup.dk/products/inospito-vinhas-velhas-branco-1",
+   "text": "SPAR 51%\nSPAR 51%\n\nPortugal\n|\nDouro\n|\nBlend\n\n2023 Inospito Vinhas Velhas Branco\n\n199,00 kr. 401,00 kr.\n92\npoint\nJames Suckling",
+   "page": 3
+  },
+  {
+   "href": "https://laudrup.dk/products/landcraft-loureiro-vinho-verde-1",
+   "text": "SPAR 50%\nSPAR 50%\n\nPortugal\n|\nVinho Verde\n|\nLoureiro\n\n2024 Landcraft Loureiro Vinho Verde\n\n93,00 kr. 185,00 kr.\n91\npoint\nJames Suckling",
+   "page": 3
+  },
+  {
+   "href": "https://laudrup.dk/products/landcraft-alvarinho-vinho-verde",
+   "text": "SPAR 50%\nSPAR 50%\n\nPortugal\n|\nVinho Verde\n|\nAlbariño\n\n2024 Landcraft Alvarinho Vinho Verde\n\n109,00 kr. 215,00 kr.",
    "page": 3
   }
  ],

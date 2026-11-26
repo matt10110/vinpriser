@@ -34,12 +34,12 @@
  "kilder": {
   "supervin.json": {
    "ok": true,
-   "vine": 356,
+   "vine": 357,
    "overvaaget_siden": "2026-11-24"
   },
   "jyskvin_tilbud.json": {
-   "ok": false,
-   "vine": 0,
+   "ok": true,
+   "vine": 201,
    "overvaaget_siden": "2026-11-24"
   },
   "uhrskov.json": {
@@ -59,7 +59,7 @@
   },
   "uhrskov_nebbiolo.json": {
    "ok": true,
-   "vine": 213,
+   "vine": 217,
    "overvaaget_siden": "2026-11-24"
   },
   "uhrskov_tysk_hvid.json": {
@@ -69,7 +69,7 @@
   },
   "laudrup.json": {
    "ok": true,
-   "vine": 30,
+   "vine": 31,
    "overvaaget_siden": "2026-11-24"
   }
  },

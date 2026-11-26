@@ -1,8 +1,8 @@
 {
  "url": "https://www.supervin.dk/vin?Products_dk%5Btoggle%5D%5Bon_discount%5D=true",
  "variant": "netvaerk",
- "total_reported": 1785,
- "count": 356,
+ "total_reported": 1782,
+ "count": 357,
  "truncated": false,
  "hits": [
   {
@@ -2222,6 +2222,82 @@
    "group": "bourgogne"
   },
   {
+   "objectID": "108159",
+   "field_product": "Martin Codax Marieta Ribeiro 2022",
+   "field_producer": "/producent/bodegas-martin-codax{(-_-)}Bodegas Martin Codax",
+   "field_vintage": 2022,
+   "country": "Spanien",
+   "area": "Galicien",
+   "district": "Øvrige",
+   "facet_types": [
+    "Hvidvin"
+   ],
+   "field_grapes": [
+    "Palomino"
+   ],
+   "default_price": 94.95,
+   "price_table": {
+    "def": 1,
+    "unit": "fl.",
+    "pricings": [
+     {
+      "ex": 127.96,
+      "inc": 159.95,
+      "min": 1,
+      "max": -1,
+      "discount": {
+       "price": 94.95,
+       "to": "2080-01-01T00:00:00+00:00"
+      }
+     }
+    ]
+   },
+   "wine_ratings": [
+    {
+     "reviewer": "Flaskehalsen",
+     "max_rating": "",
+     "rating_label": "",
+     "rating": 93,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "Mad og Monopolet",
+     "max_rating": "",
+     "rating_label": "",
+     "rating": 92,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "Houlberg",
+     "max_rating": "",
+     "rating_label": "",
+     "rating": 90,
+     "is_previous_vintage": false
+    }
+   ],
+   "ratings": {
+    "Flaskehalsen": 93,
+    "Mad og Monopolet": 92,
+    "Houlberg": 90
+   },
+   "organic": 0,
+   "tags": [
+    {
+     "icon": "/assets/country_icons/es_round.svg",
+     "altText": "Spanien",
+     "text": "",
+     "color": "",
+     "type": "country"
+    }
+   ],
+   "discount_expiration_date": 3471292800,
+   "commerce_stock_bool": 1,
+   "is_leftover": true,
+   "content_label": "75 cl",
+   "node_path": "martin-codax-marieta-ribeiro-2022",
+   "group": "galicien_bierzo"
+  },
+  {
    "objectID": "166321",
    "field_product": "Domaine Les Vignes Devant Bourgogne Chardonnay Clos de Chenôves 2021",
    "field_producer": "/producent/domaine-les-vignes-devant{(-_-)}Domaine Les Vignes Devant",
@@ -3588,6 +3664,71 @@
    "group": "bourgogne"
   },
   {
+   "objectID": "166585",
+   "field_product": "Prosper Maufoux Mâcon IGE Grand Terroir 2024",
+   "field_producer": "/producent/prosper-maufoux{(-_-)}Prosper Maufoux",
+   "field_vintage": 2024,
+   "country": "Frankrig",
+   "area": "Bourgogne",
+   "district": "Mâcon",
+   "facet_types": [
+    "Hvidvin"
+   ],
+   "field_grapes": [
+    "Chardonnay"
+   ],
+   "default_price": 129.95,
+   "price_table": {
+    "def": 6,
+    "unit": "fl.",
+    "pricings": [
+     {
+      "ex": 183.96,
+      "inc": 229.95,
+      "min": 1,
+      "max": 5,
+      "discount": []
+     },
+     {
+      "ex": 147.96,
+      "inc": 184.95,
+      "min": 6,
+      "max": -1,
+      "discount": {
+       "price": 129.95,
+       "to": "2026-11-30T23:00:00+00:00"
+      }
+     }
+    ]
+   },
+   "wine_ratings": [
+    {
+     "reviewer": "Vivino",
+     "max_rating": "",
+     "rating_label": "4,0 stjerner",
+     "rating": null,
+     "is_previous_vintage": false
+    }
+   ],
+   "ratings": [],
+   "organic": 0,
+   "tags": [
+    {
+     "icon": "/assets/country_icons/fr_round.svg",
+     "altText": "Frankrig",
+     "text": "",
+     "color": "",
+     "type": "country"
+    }
+   ],
+   "discount_expiration_date": 1796079600,
+   "commerce_stock_bool": 1,
+   "is_leftover": false,
+   "content_label": "75 cl",
+   "node_path": "prosper-maufoux-macon-ige-grand-terroir-2024",
+   "group": "bourgogne"
+  },
+  {
    "objectID": "81956",
    "field_product": "Domaine Claudine Gerard Bourgogne Hautes-Côtes de Beaune 2022",
    "field_producer": "/producent/domaine-claudine-gerard{(-_-)}Domaine Claudine Gerard",
@@ -4574,6 +4715,63 @@
    "group": "galicien_bierzo"
   },
   {
+   "objectID": "166616",
+   "field_product": "Cave de Vinzelles Pouilly-Vinzelles 1er Cru Les Quarts 2025",
+   "field_producer": "/producent/cave-de-vinzelles{(-_-)}Cave de Vinzelles",
+   "field_vintage": 2025,
+   "country": "Frankrig",
+   "area": "Bourgogne",
+   "district": "Øvrige",
+   "facet_types": [
+    "Hvidvin"
+   ],
+   "field_grapes": [
+    "Chardonnay"
+   ],
+   "default_price": 153.73,
+   "price_table": {
+    "def": 6,
+    "unit": "fl.",
+    "pricings": [
+     {
+      "ex": 319.96,
+      "inc": 399.95,
+      "min": 1,
+      "max": 5,
+      "discount": []
+     },
+     {
+      "ex": 239.96,
+      "inc": 299.95,
+      "min": 6,
+      "max": -1,
+      "discount": {
+       "price": 153.73,
+       "to": "2026-11-30T23:00:00+00:00"
+      }
+     }
+    ]
+   },
+   "wine_ratings": [],
+   "ratings": [],
+   "organic": 0,
+   "tags": [
+    {
+     "icon": "/assets/country_icons/fr_round.svg",
+     "altText": "Frankrig",
+     "text": "",
+     "color": "",
+     "type": "country"
+    }
+   ],
+   "discount_expiration_date": 1796079600,
+   "commerce_stock_bool": 1,
+   "is_leftover": false,
+   "content_label": "75 cl",
+   "node_path": "cave-de-vinzelles-pouilly-vinzelles-1er-cru-les-quarts-2025",
+   "group": "bourgogne"
+  },
+  {
    "objectID": "166791",
    "field_product": "Charles Henri Bourguignon Auxey-Duresses La Canée 2020",
    "field_producer": "/producent/charles-henri-bourguignon{(-_-)}Charles Henri Bourguignon",
@@ -5281,6 +5479,81 @@
    "group": "bourgogne"
   },
   {
+   "objectID": "118479",
+   "field_product": "Vignoble Saint Paul Rully Blanc 2022",
+   "field_producer": "/producent/stephane-brocard{(-_-)}Stéphane Brocard",
+   "field_vintage": 2022,
+   "country": "Frankrig",
+   "area": "Bourgogne",
+   "district": "Rully",
+   "facet_types": [
+    "Hvidvin"
+   ],
+   "field_grapes": [
+    "Chardonnay"
+   ],
+   "default_price": 163.88,
+   "price_table": {
+    "def": 6,
+    "unit": "fl.",
+    "pricings": [
+     {
+      "ex": 247.96,
+      "inc": 309.95,
+      "min": 1,
+      "max": 5,
+      "discount": []
+     },
+     {
+      "ex": 203.96,
+      "inc": 254.95,
+      "min": 6,
+      "max": -1,
+      "discount": {
+       "price": 163.88,
+       "to": "2026-11-30T23:00:00+00:00"
+      }
+     }
+    ]
+   },
+   "wine_ratings": [
+    {
+     "reviewer": "Mad og Monopolet",
+     "max_rating": "",
+     "rating_label": "",
+     "rating": 93,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "Flaskehalsen",
+     "max_rating": "",
+     "rating_label": "",
+     "rating": 92,
+     "is_previous_vintage": false
+    }
+   ],
+   "ratings": {
+    "Mad og Monopolet": 93,
+    "Flaskehalsen": 92
+   },
+   "organic": 0,
+   "tags": [
+    {
+     "icon": "/assets/country_icons/fr_round.svg",
+     "altText": "Frankrig",
+     "text": "",
+     "color": "",
+     "type": "country"
+    }
+   ],
+   "discount_expiration_date": 1796079600,
+   "commerce_stock_bool": 1,
+   "is_leftover": false,
+   "content_label": "75 cl",
+   "node_path": "stephane-brocard-rully-vignoble-st-paul",
+   "group": "bourgogne"
+  },
+  {
    "objectID": "167078",
    "field_product": "Domaine George Chablis Lieu-dit Talva Monopole 2025",
    "field_producer": "/producent/domaine-george{(-_-)}Domaine George",
@@ -5429,6 +5702,63 @@
    "content_label": "75 cl",
    "node_path": "axel-pauly-helden-riesling-trocken-mosel-2024",
    "group": "riesling_de"
+  },
+  {
+   "objectID": "166433",
+   "field_product": "Domaine Tremeaux Mercurey Vieilles Vignes 2024",
+   "field_producer": "/producent/domaine-tremeaux{(-_-)}Domaine Tremeaux",
+   "field_vintage": 2024,
+   "country": "Frankrig",
+   "area": "Bourgogne",
+   "district": "Mercurey",
+   "facet_types": [
+    "Rødvin"
+   ],
+   "field_grapes": [
+    "Pinot Noir"
+   ],
+   "default_price": 166.66,
+   "price_table": {
+    "def": 6,
+    "unit": "fl.",
+    "pricings": [
+     {
+      "ex": 239.96,
+      "inc": 299.95,
+      "min": 1,
+      "max": 5,
+      "discount": []
+     },
+     {
+      "ex": 199.96,
+      "inc": 249.95,
+      "min": 6,
+      "max": -1,
+      "discount": {
+       "price": 166.66,
+       "to": "2026-11-30T23:00:00+00:00"
+      }
+     }
+    ]
+   },
+   "wine_ratings": [],
+   "ratings": [],
+   "organic": 0,
+   "tags": [
+    {
+     "icon": "/assets/country_icons/fr_round.svg",
+     "altText": "Frankrig",
+     "text": "",
+     "color": "",
+     "type": "country"
+    }
+   ],
+   "discount_expiration_date": 1796079600,
+   "commerce_stock_bool": 1,
+   "is_leftover": false,
+   "content_label": "75 cl",
+   "node_path": "domaine-tremeaux-mercurey-2024",
+   "group": "bourgogne"
   },
   {
    "objectID": "166648",
@@ -6149,63 +6479,6 @@
    "group": "riesling_de"
   },
   {
-   "objectID": "166616",
-   "field_product": "Cave de Vinzelles Pouilly-Vinzelles 1er Cru Les Quarts 2025",
-   "field_producer": "/producent/cave-de-vinzelles{(-_-)}Cave de Vinzelles",
-   "field_vintage": 2025,
-   "country": "Frankrig",
-   "area": "Bourgogne",
-   "district": "Øvrige",
-   "facet_types": [
-    "Hvidvin"
-   ],
-   "field_grapes": [
-    "Chardonnay"
-   ],
-   "default_price": 179.95,
-   "price_table": {
-    "def": 6,
-    "unit": "fl.",
-    "pricings": [
-     {
-      "ex": 319.96,
-      "inc": 399.95,
-      "min": 1,
-      "max": 5,
-      "discount": []
-     },
-     {
-      "ex": 239.96,
-      "inc": 299.95,
-      "min": 6,
-      "max": -1,
-      "discount": {
-       "price": 179.95,
-       "to": "2027-01-06T23:00:00+00:00"
-      }
-     }
-    ]
-   },
-   "wine_ratings": [],
-   "ratings": [],
-   "organic": 0,
-   "tags": [
-    {
-     "icon": "/assets/country_icons/fr_round.svg",
-     "altText": "Frankrig",
-     "text": "",
-     "color": "",
-     "type": "country"
-    }
-   ],
-   "discount_expiration_date": 1799276400,
-   "commerce_stock_bool": 1,
-   "is_leftover": false,
-   "content_label": "75 cl",
-   "node_path": "cave-de-vinzelles-pouilly-vinzelles-1er-cru-les-quarts-2025",
-   "group": "bourgogne"
-  },
-  {
    "objectID": "166319",
    "field_product": "Domaine Chavet Pouilly-Fuissé 2025",
    "field_producer": "/producent/stephane-brocard{(-_-)}Stéphane Brocard",
@@ -6507,6 +6780,134 @@
    "group": "bourgogne"
   },
   {
+   "objectID": "164586",
+   "field_product": "Domaine Chavy-Chouet Bourgogne Rouge La Taupe 2022",
+   "field_vintage": 2022,
+   "country": "Frankrig",
+   "area": "Bourgogne",
+   "district": "Øvrige",
+   "facet_types": [
+    "Rødvin"
+   ],
+   "field_grapes": [
+    "Pinot Noir"
+   ],
+   "default_price": 182.95,
+   "price_table": {
+    "def": 6,
+    "unit": "fl.",
+    "pricings": [
+     {
+      "ex": 367.96,
+      "inc": 459.95,
+      "min": 1,
+      "max": 5,
+      "discount": []
+     },
+     {
+      "ex": 307.96,
+      "inc": 384.95,
+      "min": 6,
+      "max": -1,
+      "discount": {
+       "price": 182.95,
+       "to": "2026-11-30T23:00:00+00:00"
+      }
+     }
+    ]
+   },
+   "wine_ratings": [
+    {
+     "reviewer": "Shanteh Wale",
+     "max_rating": "",
+     "rating_label": "",
+     "rating": 95,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "Wine Orbit",
+     "max_rating": "",
+     "rating_label": "",
+     "rating": 94,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "Wine Pilot",
+     "max_rating": "",
+     "rating_label": "",
+     "rating": 93,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "John Szabo, Master Sommelier",
+     "max_rating": "",
+     "rating_label": "Value: ★★★★★ 5/5",
+     "rating": 92,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "Michael Godel",
+     "max_rating": "",
+     "rating_label": "",
+     "rating": 92,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "Jeb Dunnuck",
+     "max_rating": "",
+     "rating_label": "",
+     "rating": 91,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "Sara d'Amato",
+     "max_rating": "",
+     "rating_label": "",
+     "rating": 91,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "Jasper Morris MW, Inside Burgundy",
+     "max_rating": "",
+     "rating_label": "★★★★ – Excellent within its category",
+     "rating": null,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "Vivino",
+     "max_rating": "",
+     "rating_label": "⭐ 4,1",
+     "rating": null,
+     "is_previous_vintage": false
+    }
+   ],
+   "ratings": {
+    "Shanteh Wale": 95,
+    "Wine Orbit": 94,
+    "Wine Pilot": 93,
+    "John Szabo, Master Sommelier": 92,
+    "Michael Godel": 92,
+    "Jeb Dunnuck": 91,
+    "Sara d'Amato": 91
+   },
+   "organic": 0,
+   "tags": [
+    {
+     "icon": "/assets/country_icons/fr_round.svg",
+     "altText": "Frankrig",
+     "text": "",
+     "color": "",
+     "type": "country"
+    }
+   ],
+   "discount_expiration_date": 1796079600,
+   "commerce_stock_bool": 1,
+   "is_leftover": false,
+   "content_label": "75 cl",
+   "node_path": "domaine-chavy-chouet-bourgogne-rouge-la-taupe-2022",
+   "group": "bourgogne"
+  },
+  {
    "objectID": "118262",
    "field_product": "Tesch Riesling Rothenberg Nahe 2023",
    "field_producer": "/producent/weingut-tesch{(-_-)}Weingut Tesch",
@@ -6628,63 +7029,6 @@
    "is_leftover": false,
    "content_label": "75 cl",
    "node_path": "domaine-louis-lequin-santenay-les-charmes-2020",
-   "group": "bourgogne"
-  },
-  {
-   "objectID": "166433",
-   "field_product": "Domaine Tremeaux Mercurey Vieilles Vignes 2024",
-   "field_producer": "/producent/domaine-tremeaux{(-_-)}Domaine Tremeaux",
-   "field_vintage": 2024,
-   "country": "Frankrig",
-   "area": "Bourgogne",
-   "district": "Mercurey",
-   "facet_types": [
-    "Rødvin"
-   ],
-   "field_grapes": [
-    "Pinot Noir"
-   ],
-   "default_price": 189.95,
-   "price_table": {
-    "def": 6,
-    "unit": "fl.",
-    "pricings": [
-     {
-      "ex": 239.96,
-      "inc": 299.95,
-      "min": 1,
-      "max": 5,
-      "discount": []
-     },
-     {
-      "ex": 199.96,
-      "inc": 249.95,
-      "min": 6,
-      "max": -1,
-      "discount": {
-       "price": 189.95,
-       "to": "2027-01-06T23:00:00+00:00"
-      }
-     }
-    ]
-   },
-   "wine_ratings": [],
-   "ratings": [],
-   "organic": 0,
-   "tags": [
-    {
-     "icon": "/assets/country_icons/fr_round.svg",
-     "altText": "Frankrig",
-     "text": "",
-     "color": "",
-     "type": "country"
-    }
-   ],
-   "discount_expiration_date": 1799276400,
-   "commerce_stock_bool": 1,
-   "is_leftover": false,
-   "content_label": "75 cl",
-   "node_path": "domaine-tremeaux-mercurey-2024",
    "group": "bourgogne"
   },
   {
@@ -6839,6 +7183,90 @@
    "is_leftover": false,
    "content_label": "75 cl",
    "node_path": "bourgogne-pinot-noir-cote-d-or-2023",
+   "group": "bourgogne"
+  },
+  {
+   "objectID": "166437",
+   "field_product": "Domaine Jean Monnier & Fils Bourgogne Côte d'Or Chardonnay 2022",
+   "field_producer": "/producent/domaine-jean-monnier-fils{(-_-)}Domaine Jean Monnier & Fils",
+   "field_vintage": 2022,
+   "country": "Frankrig",
+   "area": "Bourgogne",
+   "district": "Bourgogne Côte d'Or",
+   "facet_types": [
+    "Hvidvin"
+   ],
+   "field_grapes": [
+    "Chardonnay"
+   ],
+   "default_price": 189.95,
+   "price_table": {
+    "def": 1,
+    "unit": "fl.",
+    "pricings": [
+     {
+      "ex": 239.96,
+      "inc": 299.95,
+      "min": 1,
+      "max": -1,
+      "discount": {
+       "price": 189.95,
+       "to": "2080-01-01T00:00:00+00:00"
+      }
+     }
+    ]
+   },
+   "wine_ratings": [
+    {
+     "reviewer": "Dorthe Kristine",
+     "max_rating": "",
+     "rating_label": "",
+     "rating": 94,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "Vinonyme",
+     "max_rating": "",
+     "rating_label": "",
+     "rating": 92,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "Vin.connaisseur",
+     "max_rating": "",
+     "rating_label": "Value: ★★★★★ 5/6",
+     "rating": 91,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "Flaskehalsen",
+     "max_rating": "",
+     "rating_label": "",
+     "rating": 91,
+     "is_previous_vintage": false
+    }
+   ],
+   "ratings": {
+    "Dorthe Kristine": 94,
+    "Vinonyme": 92,
+    "Vin.connaisseur": 91,
+    "Flaskehalsen": 91
+   },
+   "organic": 0,
+   "tags": [
+    {
+     "icon": "/assets/country_icons/fr_round.svg",
+     "altText": "Frankrig",
+     "text": "",
+     "color": "",
+     "type": "country"
+    }
+   ],
+   "discount_expiration_date": 3471292800,
+   "commerce_stock_bool": 1,
+   "is_leftover": true,
+   "content_label": "75 cl",
+   "node_path": "bourgogne-chardonnay-cote-d-or-2022",
    "group": "bourgogne"
   },
   {
@@ -7749,172 +8177,6 @@
    "is_leftover": false,
    "content_label": "75 cl",
    "node_path": "henri-de-villamont-rully-blanc-2022",
-   "group": "bourgogne"
-  },
-  {
-   "objectID": "166437",
-   "field_product": "Domaine Jean Monnier & Fils Bourgogne Côte d'Or Chardonnay 2022",
-   "field_producer": "/producent/domaine-jean-monnier-fils{(-_-)}Domaine Jean Monnier & Fils",
-   "field_vintage": 2022,
-   "country": "Frankrig",
-   "area": "Bourgogne",
-   "district": "Bourgogne Côte d'Or",
-   "facet_types": [
-    "Hvidvin"
-   ],
-   "field_grapes": [
-    "Chardonnay"
-   ],
-   "default_price": 199.95,
-   "price_table": {
-    "def": 6,
-    "unit": "fl.",
-    "pricings": [
-     {
-      "ex": 239.96,
-      "inc": 299.95,
-      "min": 1,
-      "max": 5,
-      "discount": []
-     },
-     {
-      "ex": 199.96,
-      "inc": 249.95,
-      "min": 6,
-      "max": -1,
-      "discount": {
-       "price": 199.95,
-       "to": "2027-01-06T23:00:00+00:00"
-      }
-     }
-    ]
-   },
-   "wine_ratings": [
-    {
-     "reviewer": "Dorthe Kristine",
-     "max_rating": "",
-     "rating_label": "",
-     "rating": 94,
-     "is_previous_vintage": false
-    },
-    {
-     "reviewer": "Vinonyme",
-     "max_rating": "",
-     "rating_label": "",
-     "rating": 92,
-     "is_previous_vintage": false
-    },
-    {
-     "reviewer": "Vin.connaisseur",
-     "max_rating": "",
-     "rating_label": "Value: ★★★★★ 5/6",
-     "rating": 91,
-     "is_previous_vintage": false
-    },
-    {
-     "reviewer": "Flaskehalsen",
-     "max_rating": "",
-     "rating_label": "",
-     "rating": 91,
-     "is_previous_vintage": false
-    }
-   ],
-   "ratings": {
-    "Dorthe Kristine": 94,
-    "Vinonyme": 92,
-    "Vin.connaisseur": 91,
-    "Flaskehalsen": 91
-   },
-   "organic": 0,
-   "tags": [
-    {
-     "icon": "/assets/country_icons/fr_round.svg",
-     "altText": "Frankrig",
-     "text": "",
-     "color": "",
-     "type": "country"
-    }
-   ],
-   "discount_expiration_date": 1799276400,
-   "commerce_stock_bool": 1,
-   "is_leftover": false,
-   "content_label": "75 cl",
-   "node_path": "bourgogne-chardonnay-cote-d-or-2022",
-   "group": "bourgogne"
-  },
-  {
-   "objectID": "118479",
-   "field_product": "Vignoble Saint Paul Rully Blanc 2022",
-   "field_producer": "/producent/stephane-brocard{(-_-)}Stéphane Brocard",
-   "field_vintage": 2022,
-   "country": "Frankrig",
-   "area": "Bourgogne",
-   "district": "Rully",
-   "facet_types": [
-    "Hvidvin"
-   ],
-   "field_grapes": [
-    "Chardonnay"
-   ],
-   "default_price": 199.95,
-   "price_table": {
-    "def": 6,
-    "unit": "fl.",
-    "pricings": [
-     {
-      "ex": 247.96,
-      "inc": 309.95,
-      "min": 1,
-      "max": 5,
-      "discount": []
-     },
-     {
-      "ex": 203.96,
-      "inc": 254.95,
-      "min": 6,
-      "max": -1,
-      "discount": {
-       "price": 199.95,
-       "to": "2027-01-06T23:00:00+00:00"
-      }
-     }
-    ]
-   },
-   "wine_ratings": [
-    {
-     "reviewer": "Mad og Monopolet",
-     "max_rating": "",
-     "rating_label": "",
-     "rating": 93,
-     "is_previous_vintage": false
-    },
-    {
-     "reviewer": "Flaskehalsen",
-     "max_rating": "",
-     "rating_label": "",
-     "rating": 92,
-     "is_previous_vintage": false
-    }
-   ],
-   "ratings": {
-    "Mad og Monopolet": 93,
-    "Flaskehalsen": 92
-   },
-   "organic": 0,
-   "tags": [
-    {
-     "icon": "/assets/country_icons/fr_round.svg",
-     "altText": "Frankrig",
-     "text": "",
-     "color": "",
-     "type": "country"
-    }
-   ],
-   "discount_expiration_date": 1799276400,
-   "commerce_stock_bool": 1,
-   "is_leftover": false,
-   "content_label": "75 cl",
-   "node_path": "stephane-brocard-rully-vignoble-st-paul",
    "group": "bourgogne"
   },
   {
@@ -8995,6 +9257,96 @@
    "group": "nebbiolo"
   },
   {
+   "objectID": "164309",
+   "field_product": "Domaine Geantet Pansiot Bourgogne Pinot Fin 2023",
+   "field_producer": "/producent/domaine-geantet-pansiot{(-_-)}Domaine Geantet Pansiot",
+   "field_vintage": 2023,
+   "country": "Frankrig",
+   "area": "Bourgogne",
+   "district": "Øvrige",
+   "facet_types": [
+    "Rødvin"
+   ],
+   "field_grapes": [
+    "Pinot Noir"
+   ],
+   "default_price": 226.88,
+   "price_table": {
+    "def": 6,
+    "unit": "fl.",
+    "pricings": [
+     {
+      "ex": 407.96,
+      "inc": 509.95,
+      "min": 1,
+      "max": 5,
+      "discount": []
+     },
+     {
+      "ex": 323.96,
+      "inc": 404.95,
+      "min": 6,
+      "max": -1,
+      "discount": {
+       "price": 226.88,
+       "to": "2026-11-30T23:00:00+00:00"
+      }
+     }
+    ]
+   },
+   "wine_ratings": [
+    {
+     "reviewer": "Flaskehalsen",
+     "max_rating": "",
+     "rating_label": "",
+     "rating": 93,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "Vin.connaisseur",
+     "max_rating": "",
+     "rating_label": "",
+     "rating": 92,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "James Suckling",
+     "max_rating": "",
+     "rating_label": "",
+     "rating": 91,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "Vivino",
+     "max_rating": "",
+     "rating_label": "⭐ 4,1",
+     "rating": null,
+     "is_previous_vintage": false
+    }
+   ],
+   "ratings": {
+    "Flaskehalsen": 93,
+    "Vin.connaisseur": 92,
+    "James Suckling": 91
+   },
+   "organic": 0,
+   "tags": [
+    {
+     "icon": "/assets/country_icons/fr_round.svg",
+     "altText": "Frankrig",
+     "text": "",
+     "color": "",
+     "type": "country"
+    }
+   ],
+   "discount_expiration_date": 1796079600,
+   "commerce_stock_bool": 1,
+   "is_leftover": false,
+   "content_label": "75 cl",
+   "node_path": "domaine-geantet-pansiot-bourgogne-pinot-fin-2023",
+   "group": "bourgogne"
+  },
+  {
    "objectID": "167300",
    "field_product": "Domaine Pascal Renaud Pouilly-Fuissé 1'er Cru \"Aux Chailloux\" 2023",
    "field_producer": "/producent/domaine-pascal-renaud{(-_-)}Domaine Pascal Renaud",
@@ -9825,134 +10177,6 @@
    "content_label": "75 cl",
    "node_path": "broccardo-barolo-bricco-san-pietro-2022",
    "group": "nebbiolo"
-  },
-  {
-   "objectID": "164586",
-   "field_product": "Domaine Chavy-Chouet Bourgogne Rouge La Taupe 2022",
-   "field_vintage": 2022,
-   "country": "Frankrig",
-   "area": "Bourgogne",
-   "district": "Øvrige",
-   "facet_types": [
-    "Rødvin"
-   ],
-   "field_grapes": [
-    "Pinot Noir"
-   ],
-   "default_price": 249.95,
-   "price_table": {
-    "def": 6,
-    "unit": "fl.",
-    "pricings": [
-     {
-      "ex": 367.96,
-      "inc": 459.95,
-      "min": 1,
-      "max": 5,
-      "discount": []
-     },
-     {
-      "ex": 307.96,
-      "inc": 384.95,
-      "min": 6,
-      "max": -1,
-      "discount": {
-       "price": 249.95,
-       "to": "2027-01-06T23:00:00+00:00"
-      }
-     }
-    ]
-   },
-   "wine_ratings": [
-    {
-     "reviewer": "Shanteh Wale",
-     "max_rating": "",
-     "rating_label": "",
-     "rating": 95,
-     "is_previous_vintage": false
-    },
-    {
-     "reviewer": "Wine Orbit",
-     "max_rating": "",
-     "rating_label": "",
-     "rating": 94,
-     "is_previous_vintage": false
-    },
-    {
-     "reviewer": "Wine Pilot",
-     "max_rating": "",
-     "rating_label": "",
-     "rating": 93,
-     "is_previous_vintage": false
-    },
-    {
-     "reviewer": "John Szabo, Master Sommelier",
-     "max_rating": "",
-     "rating_label": "Value: ★★★★★ 5/5",
-     "rating": 92,
-     "is_previous_vintage": false
-    },
-    {
-     "reviewer": "Michael Godel",
-     "max_rating": "",
-     "rating_label": "",
-     "rating": 92,
-     "is_previous_vintage": false
-    },
-    {
-     "reviewer": "Jeb Dunnuck",
-     "max_rating": "",
-     "rating_label": "",
-     "rating": 91,
-     "is_previous_vintage": false
-    },
-    {
-     "reviewer": "Sara d'Amato",
-     "max_rating": "",
-     "rating_label": "",
-     "rating": 91,
-     "is_previous_vintage": false
-    },
-    {
-     "reviewer": "Jasper Morris MW, Inside Burgundy",
-     "max_rating": "",
-     "rating_label": "★★★★ – Excellent within its category",
-     "rating": null,
-     "is_previous_vintage": false
-    },
-    {
-     "reviewer": "Vivino",
-     "max_rating": "",
-     "rating_label": "⭐ 4,1",
-     "rating": null,
-     "is_previous_vintage": false
-    }
-   ],
-   "ratings": {
-    "Shanteh Wale": 95,
-    "Wine Orbit": 94,
-    "Wine Pilot": 93,
-    "John Szabo, Master Sommelier": 92,
-    "Michael Godel": 92,
-    "Jeb Dunnuck": 91,
-    "Sara d'Amato": 91
-   },
-   "organic": 0,
-   "tags": [
-    {
-     "icon": "/assets/country_icons/fr_round.svg",
-     "altText": "Frankrig",
-     "text": "",
-     "color": "",
-     "type": "country"
-    }
-   ],
-   "discount_expiration_date": 1799276400,
-   "commerce_stock_bool": 1,
-   "is_leftover": false,
-   "content_label": "75 cl",
-   "node_path": "domaine-chavy-chouet-bourgogne-rouge-la-taupe-2022",
-   "group": "bourgogne"
   },
   {
    "objectID": "88801",
@@ -11520,27 +11744,27 @@
    "group": "bourgogne"
   },
   {
-   "objectID": "164309",
-   "field_product": "Domaine Geantet Pansiot Bourgogne Pinot Fin 2023",
-   "field_producer": "/producent/domaine-geantet-pansiot{(-_-)}Domaine Geantet Pansiot",
-   "field_vintage": 2023,
-   "country": "Frankrig",
-   "area": "Bourgogne",
-   "district": "Øvrige",
+   "objectID": "32785",
+   "field_product": "Broccardo Barolo San Giovanni Riserva 2017",
+   "field_producer": "/producent/broccardo{(-_-)}Broccardo",
+   "field_vintage": 2017,
+   "country": "Italien",
+   "area": "Piemonte",
+   "district": "Barolo",
    "facet_types": [
     "Rødvin"
    ],
    "field_grapes": [
-    "Pinot Noir"
+    "Nebbiolo"
    ],
-   "default_price": 284.95,
+   "default_price": 296.38,
    "price_table": {
     "def": 6,
     "unit": "fl.",
     "pricings": [
      {
-      "ex": 407.96,
-      "inc": 509.95,
+      "ex": 391.96,
+      "inc": 489.95,
       "min": 1,
       "max": 5,
       "discount": []
@@ -11551,97 +11775,7 @@
       "min": 6,
       "max": -1,
       "discount": {
-       "price": 284.95,
-       "to": "2027-01-06T23:00:00+00:00"
-      }
-     }
-    ]
-   },
-   "wine_ratings": [
-    {
-     "reviewer": "Flaskehalsen",
-     "max_rating": "",
-     "rating_label": "",
-     "rating": 93,
-     "is_previous_vintage": false
-    },
-    {
-     "reviewer": "Vin.connaisseur",
-     "max_rating": "",
-     "rating_label": "",
-     "rating": 92,
-     "is_previous_vintage": false
-    },
-    {
-     "reviewer": "James Suckling",
-     "max_rating": "",
-     "rating_label": "",
-     "rating": 91,
-     "is_previous_vintage": false
-    },
-    {
-     "reviewer": "Vivino",
-     "max_rating": "",
-     "rating_label": "⭐ 4,1",
-     "rating": null,
-     "is_previous_vintage": false
-    }
-   ],
-   "ratings": {
-    "Flaskehalsen": 93,
-    "Vin.connaisseur": 92,
-    "James Suckling": 91
-   },
-   "organic": 0,
-   "tags": [
-    {
-     "icon": "/assets/country_icons/fr_round.svg",
-     "altText": "Frankrig",
-     "text": "",
-     "color": "",
-     "type": "country"
-    }
-   ],
-   "discount_expiration_date": 1799276400,
-   "commerce_stock_bool": 1,
-   "is_leftover": false,
-   "content_label": "75 cl",
-   "node_path": "domaine-geantet-pansiot-bourgogne-pinot-fin-2023",
-   "group": "bourgogne"
-  },
-  {
-   "objectID": "164456",
-   "field_product": "Henri de Villamont Volnay 2017",
-   "field_producer": "/producent/henri-de-villamont{(-_-)}Henri de Villamont",
-   "field_vintage": 2017,
-   "country": "Frankrig",
-   "area": "Bourgogne",
-   "district": "Volnay",
-   "facet_types": [
-    "Rødvin"
-   ],
-   "field_grapes": [
-    "Pinot Noir"
-   ],
-   "default_price": 297.11,
-   "price_table": {
-    "def": 6,
-    "unit": "fl.",
-    "pricings": [
-     {
-      "ex": 567.96,
-      "inc": 709.95,
-      "min": 1,
-      "max": 5,
-      "discount": []
-     },
-     {
-      "ex": 443.96,
-      "inc": 554.95,
-      "min": 6,
-      "max": -1,
-      "discount": {
-       "price": 297.11,
+       "price": 296.38,
        "to": "2026-11-30T23:00:00+00:00"
       }
      }
@@ -11649,19 +11783,61 @@
    },
    "wine_ratings": [
     {
-     "reviewer": "Vivino",
+     "reviewer": "Mad og Monopolet",
      "max_rating": "",
-     "rating_label": "⭐ 4,0",
-     "rating": null,
+     "rating_label": "",
+     "rating": 95,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "Houlberg",
+     "max_rating": "",
+     "rating_label": "",
+     "rating": 94,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "James Suckling",
+     "max_rating": "",
+     "rating_label": "",
+     "rating": 93,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "Vinbladet",
+     "max_rating": "",
+     "rating_label": "",
+     "rating": 92,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "Vinhulen.dk",
+     "max_rating": "",
+     "rating_label": "",
+     "rating": 92,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "Flaskehalsen",
+     "max_rating": "",
+     "rating_label": "BEDSTE RØDVINE UNDER 400,-",
+     "rating": 95,
      "is_previous_vintage": false
     }
    ],
-   "ratings": [],
+   "ratings": {
+    "Mad og Monopolet": 95,
+    "Houlberg": 94,
+    "James Suckling": 93,
+    "Vinbladet": 92,
+    "Vinhulen.dk": 92,
+    "Flaskehalsen": 95
+   },
    "organic": 0,
    "tags": [
     {
-     "icon": "/assets/country_icons/fr_round.svg",
-     "altText": "Frankrig",
+     "icon": "/assets/country_icons/it_round.svg",
+     "altText": "Italien",
      "text": "",
      "color": "",
      "type": "country"
@@ -11671,8 +11847,8 @@
    "commerce_stock_bool": 1,
    "is_leftover": false,
    "content_label": "75 cl",
-   "node_path": "henri-de-villamont-volnay-2017",
-   "group": "bourgogne"
+   "node_path": "broccardo-barolo-san-giovanni-riserva-2017",
+   "group": "nebbiolo"
   },
   {
    "objectID": "20246",
@@ -13976,113 +14152,6 @@
    "content_label": "75 cl",
    "node_path": "domaine-maldant-pauvelot-aloxe-corton-1-cru-valozieres-2018",
    "group": "bourgogne"
-  },
-  {
-   "objectID": "32785",
-   "field_product": "Broccardo Barolo San Giovanni Riserva 2017",
-   "field_producer": "/producent/broccardo{(-_-)}Broccardo",
-   "field_vintage": 2017,
-   "country": "Italien",
-   "area": "Piemonte",
-   "district": "Barolo",
-   "facet_types": [
-    "Rødvin"
-   ],
-   "field_grapes": [
-    "Nebbiolo"
-   ],
-   "default_price": 349.95,
-   "price_table": {
-    "def": 6,
-    "unit": "fl.",
-    "pricings": [
-     {
-      "ex": 391.96,
-      "inc": 489.95,
-      "min": 1,
-      "max": 5,
-      "discount": []
-     },
-     {
-      "ex": 323.96,
-      "inc": 404.95,
-      "min": 6,
-      "max": -1,
-      "discount": {
-       "price": 349.95,
-       "to": "2027-01-06T23:00:00+00:00"
-      }
-     }
-    ]
-   },
-   "wine_ratings": [
-    {
-     "reviewer": "Mad og Monopolet",
-     "max_rating": "",
-     "rating_label": "",
-     "rating": 95,
-     "is_previous_vintage": false
-    },
-    {
-     "reviewer": "Houlberg",
-     "max_rating": "",
-     "rating_label": "",
-     "rating": 94,
-     "is_previous_vintage": false
-    },
-    {
-     "reviewer": "James Suckling",
-     "max_rating": "",
-     "rating_label": "",
-     "rating": 93,
-     "is_previous_vintage": false
-    },
-    {
-     "reviewer": "Vinbladet",
-     "max_rating": "",
-     "rating_label": "",
-     "rating": 92,
-     "is_previous_vintage": false
-    },
-    {
-     "reviewer": "Vinhulen.dk",
-     "max_rating": "",
-     "rating_label": "",
-     "rating": 92,
-     "is_previous_vintage": false
-    },
-    {
-     "reviewer": "Flaskehalsen",
-     "max_rating": "",
-     "rating_label": "BEDSTE RØDVINE UNDER 400,-",
-     "rating": 95,
-     "is_previous_vintage": false
-    }
-   ],
-   "ratings": {
-    "Mad og Monopolet": 95,
-    "Houlberg": 94,
-    "James Suckling": 93,
-    "Vinbladet": 92,
-    "Vinhulen.dk": 92,
-    "Flaskehalsen": 95
-   },
-   "organic": 0,
-   "tags": [
-    {
-     "icon": "/assets/country_icons/it_round.svg",
-     "altText": "Italien",
-     "text": "",
-     "color": "",
-     "type": "country"
-    }
-   ],
-   "discount_expiration_date": 1799276400,
-   "commerce_stock_bool": 1,
-   "is_leftover": false,
-   "content_label": "75 cl",
-   "node_path": "broccardo-barolo-san-giovanni-riserva-2017",
-   "group": "nebbiolo"
   },
   {
    "objectID": "164734",
@@ -16955,6 +17024,64 @@
    "group": "bourgogne"
   },
   {
+   "objectID": "164456",
+   "field_product": "Henri de Villamont Volnay 2017",
+   "field_producer": "/producent/henri-de-villamont{(-_-)}Henri de Villamont",
+   "field_vintage": 2017,
+   "country": "Frankrig",
+   "area": "Bourgogne",
+   "district": "Volnay",
+   "facet_types": [
+    "Rødvin"
+   ],
+   "field_grapes": [
+    "Pinot Noir"
+   ],
+   "default_price": 404.95,
+   "price_table": {
+    "def": 1,
+    "unit": "fl.",
+    "pricings": [
+     {
+      "ex": 567.96,
+      "inc": 709.95,
+      "min": 1,
+      "max": -1,
+      "discount": {
+       "price": 404.95,
+       "to": "2080-01-01T00:00:00+00:00"
+      }
+     }
+    ]
+   },
+   "wine_ratings": [
+    {
+     "reviewer": "Vivino",
+     "max_rating": "",
+     "rating_label": "⭐ 4,0",
+     "rating": null,
+     "is_previous_vintage": false
+    }
+   ],
+   "ratings": [],
+   "organic": 0,
+   "tags": [
+    {
+     "icon": "/assets/country_icons/fr_round.svg",
+     "altText": "Frankrig",
+     "text": "",
+     "color": "",
+     "type": "country"
+    }
+   ],
+   "discount_expiration_date": 3471292800,
+   "commerce_stock_bool": 1,
+   "is_leftover": true,
+   "content_label": "75 cl",
+   "node_path": "henri-de-villamont-volnay-2017",
+   "group": "bourgogne"
+  },
+  {
    "objectID": "10098",
    "field_product": "Manzone Barolo DOCG Castelletto 2015",
    "field_producer": "/producent/manzone{(-_-)}Manzone",
@@ -18014,6 +18141,63 @@
    "is_leftover": false,
    "content_label": "75 cl",
    "node_path": "henri-de-villamont-puligny-montrachet-2024",
+   "group": "bourgogne"
+  },
+  {
+   "objectID": "109339",
+   "field_product": "Domaine Michel Rebourgeon Pommard Les Perrières 2022",
+   "field_producer": "/producent/domaine-michel-rebourgeon{(-_-)}Domaine Michel Rebourgeon",
+   "field_vintage": 2022,
+   "country": "Frankrig",
+   "area": "Bourgogne",
+   "district": "Pommard",
+   "facet_types": [
+    "Rødvin"
+   ],
+   "field_grapes": [
+    "Pinot Noir"
+   ],
+   "default_price": 447.98,
+   "price_table": {
+    "def": 6,
+    "unit": "fl.",
+    "pricings": [
+     {
+      "ex": 727.96,
+      "inc": 909.95,
+      "min": 1,
+      "max": 5,
+      "discount": []
+     },
+     {
+      "ex": 603.96,
+      "inc": 754.95,
+      "min": 6,
+      "max": -1,
+      "discount": {
+       "price": 447.98,
+       "to": "2026-11-30T23:00:00+00:00"
+      }
+     }
+    ]
+   },
+   "wine_ratings": [],
+   "ratings": [],
+   "organic": 0,
+   "tags": [
+    {
+     "icon": "/assets/country_icons/fr_round.svg",
+     "altText": "Frankrig",
+     "text": "",
+     "color": "",
+     "type": "country"
+    }
+   ],
+   "discount_expiration_date": 1796079600,
+   "commerce_stock_bool": 1,
+   "is_leftover": false,
+   "content_label": "75 cl",
+   "node_path": "michel-rebourgeon-pommard-les-perrieres-2022",
    "group": "bourgogne"
   },
   {
@@ -19584,137 +19768,6 @@
    "group": "bourgogne"
   },
   {
-   "objectID": "10676",
-   "field_product": "Parusso Barolo DOCG 2016 Mosconi",
-   "field_producer": "/producent/parusso{(-_-)}Parusso",
-   "field_vintage": 2016,
-   "country": "Italien",
-   "area": "Piemonte",
-   "district": "Barolo",
-   "facet_types": [
-    "Rødvin"
-   ],
-   "field_grapes": [
-    "Nebbiolo"
-   ],
-   "default_price": 499.95,
-   "price_table": {
-    "def": 1,
-    "unit": "fl.",
-    "pricings": [
-     {
-      "ex": 647.96,
-      "inc": 809.95,
-      "min": 1,
-      "max": -1,
-      "discount": {
-       "price": 499.95,
-       "to": "2080-01-01T00:00:00+00:00"
-      }
-     }
-    ]
-   },
-   "wine_ratings": [
-    {
-     "reviewer": "James Suckling",
-     "max_rating": "",
-     "rating_label": "",
-     "rating": 97,
-     "is_previous_vintage": false
-    },
-    {
-     "reviewer": "GardiniNotes.com",
-     "max_rating": "",
-     "rating_label": "",
-     "rating": 97,
-     "is_previous_vintage": false
-    },
-    {
-     "reviewer": "Vinum",
-     "max_rating": "",
-     "rating_label": "",
-     "rating": 96,
-     "is_previous_vintage": false
-    },
-    {
-     "reviewer": "WinesCritic.com",
-     "max_rating": "",
-     "rating_label": "",
-     "rating": 96,
-     "is_previous_vintage": false
-    },
-    {
-     "reviewer": "Robert Parker",
-     "max_rating": "",
-     "rating_label": "",
-     "rating": 95,
-     "is_previous_vintage": false
-    },
-    {
-     "reviewer": "Vinous",
-     "max_rating": "",
-     "rating_label": "",
-     "rating": 95,
-     "is_previous_vintage": false
-    },
-    {
-     "reviewer": "Falstaff",
-     "max_rating": "",
-     "rating_label": "",
-     "rating": 94,
-     "is_previous_vintage": false
-    },
-    {
-     "reviewer": "Andreas Larsson Blind Tasted",
-     "max_rating": "",
-     "rating_label": "",
-     "rating": 94,
-     "is_previous_vintage": false
-    },
-    {
-     "reviewer": "Andreas Larsson, Tasted",
-     "max_rating": "",
-     "rating_label": "",
-     "rating": 94,
-     "is_previous_vintage": false
-    },
-    {
-     "reviewer": "Vivino",
-     "max_rating": "",
-     "rating_label": "⭐ 4,4",
-     "rating": null,
-     "is_previous_vintage": false
-    }
-   ],
-   "ratings": {
-    "James Suckling": 97,
-    "GardiniNotes.com": 97,
-    "Vinum": 96,
-    "WinesCritic.com": 96,
-    "Robert Parker": 95,
-    "Vinous": 95,
-    "Falstaff": 94,
-    "Andreas Larsson Blind Tasted": 94,
-    "Andreas Larsson, Tasted": 94
-   },
-   "organic": 0,
-   "tags": [
-    {
-     "icon": "/assets/country_icons/it_round.svg",
-     "altText": "Italien",
-     "text": "",
-     "color": "",
-     "type": "country"
-    }
-   ],
-   "discount_expiration_date": 3471292800,
-   "commerce_stock_bool": 1,
-   "is_leftover": true,
-   "content_label": "75 cl",
-   "node_path": "parusso-barolo-docg-2016-mosconi",
-   "group": "nebbiolo"
-  },
-  {
    "objectID": "109336",
    "field_product": "Michel Rebourgeon Volnay 1er Cru Les Brouillards 2022",
    "field_producer": "/producent/domaine-michel-rebourgeon{(-_-)}Domaine Michel Rebourgeon",
@@ -19914,6 +19967,77 @@
    "is_leftover": false,
    "content_label": "75 cl",
    "node_path": "prosper-maufoux-saint-aubin-1er-cru-clos-du-chateau-2021",
+   "group": "bourgogne"
+  },
+  {
+   "objectID": "164530",
+   "field_product": "Domaine Chavy-Chouet Puligny-Montrachet Les Enseigneres 2023",
+   "field_vintage": 2023,
+   "country": "Frankrig",
+   "area": "Bourgogne",
+   "district": "Puligny-Montrachet",
+   "facet_types": [
+    "Hvidvin"
+   ],
+   "field_grapes": [
+    "Chardonnay"
+   ],
+   "default_price": 538.78,
+   "price_table": {
+    "def": 6,
+    "unit": "fl.",
+    "pricings": [
+     {
+      "ex": 904,
+      "inc": 1130,
+      "min": 1,
+      "max": 5,
+      "discount": []
+     },
+     {
+      "ex": 803.96,
+      "inc": 1004.95,
+      "min": 6,
+      "max": -1,
+      "discount": {
+       "price": 538.78,
+       "to": "2026-11-30T23:00:00+00:00"
+      }
+     }
+    ]
+   },
+   "wine_ratings": [
+    {
+     "reviewer": "Jasper Morris MW, Inside Burgundy",
+     "max_rating": "",
+     "rating_label": "★★★★ – Excellent within its category",
+     "rating": null,
+     "is_previous_vintage": false
+    },
+    {
+     "reviewer": "Vivino",
+     "max_rating": "",
+     "rating_label": "⭐4,4",
+     "rating": null,
+     "is_previous_vintage": false
+    }
+   ],
+   "ratings": [],
+   "organic": 0,
+   "tags": [
+    {
+     "icon": "/assets/country_icons/fr_round.svg",
+     "altText": "Frankrig",
+     "text": "",
+     "color": "",
+     "type": "country"
+    }
+   ],
+   "discount_expiration_date": 1796079600,
+   "commerce_stock_bool": 1,
+   "is_leftover": false,
+   "content_label": "75 cl",
+   "node_path": "domaine-chavy-chouet-puligny-montrachet-les-enseigneres-2023",
    "group": "bourgogne"
   },
   {
@@ -20952,63 +21076,6 @@
    "is_leftover": false,
    "content_label": "75 cl",
    "node_path": "domaine-roblot-marchand-et-fils-vosne-romanee-1-cru-2023",
-   "group": "bourgogne"
-  },
-  {
-   "objectID": "109339",
-   "field_product": "Domaine Michel Rebourgeon Pommard Les Perrières 2022",
-   "field_producer": "/producent/domaine-michel-rebourgeon{(-_-)}Domaine Michel Rebourgeon",
-   "field_vintage": 2022,
-   "country": "Frankrig",
-   "area": "Bourgogne",
-   "district": "Pommard",
-   "facet_types": [
-    "Rødvin"
-   ],
-   "field_grapes": [
-    "Pinot Noir"
-   ],
-   "default_price": 574.95,
-   "price_table": {
-    "def": 6,
-    "unit": "fl.",
-    "pricings": [
-     {
-      "ex": 727.96,
-      "inc": 909.95,
-      "min": 1,
-      "max": 5,
-      "discount": []
-     },
-     {
-      "ex": 603.96,
-      "inc": 754.95,
-      "min": 6,
-      "max": -1,
-      "discount": {
-       "price": 574.95,
-       "to": "2027-01-06T23:00:00+00:00"
-      }
-     }
-    ]
-   },
-   "wine_ratings": [],
-   "ratings": [],
-   "organic": 0,
-   "tags": [
-    {
-     "icon": "/assets/country_icons/fr_round.svg",
-     "altText": "Frankrig",
-     "text": "",
-     "color": "",
-     "type": "country"
-    }
-   ],
-   "discount_expiration_date": 1799276400,
-   "commerce_stock_bool": 1,
-   "is_leftover": false,
-   "content_label": "75 cl",
-   "node_path": "michel-rebourgeon-pommard-les-perrieres-2022",
    "group": "bourgogne"
   },
   {
@@ -22523,77 +22590,6 @@
    "is_leftover": false,
    "content_label": "75 cl",
    "node_path": "domaine-chavy-chouet-meursault-les-narvaux-2023",
-   "group": "bourgogne"
-  },
-  {
-   "objectID": "164530",
-   "field_product": "Domaine Chavy-Chouet Puligny-Montrachet Les Enseigneres 2023",
-   "field_vintage": 2023,
-   "country": "Frankrig",
-   "area": "Bourgogne",
-   "district": "Puligny-Montrachet",
-   "facet_types": [
-    "Hvidvin"
-   ],
-   "field_grapes": [
-    "Chardonnay"
-   ],
-   "default_price": 699.95,
-   "price_table": {
-    "def": 6,
-    "unit": "fl.",
-    "pricings": [
-     {
-      "ex": 904,
-      "inc": 1130,
-      "min": 1,
-      "max": 5,
-      "discount": []
-     },
-     {
-      "ex": 803.96,
-      "inc": 1004.95,
-      "min": 6,
-      "max": -1,
-      "discount": {
-       "price": 699.95,
-       "to": "2027-01-06T23:00:00+00:00"
-      }
-     }
-    ]
-   },
-   "wine_ratings": [
-    {
-     "reviewer": "Jasper Morris MW, Inside Burgundy",
-     "max_rating": "",
-     "rating_label": "★★★★ – Excellent within its category",
-     "rating": null,
-     "is_previous_vintage": false
-    },
-    {
-     "reviewer": "Vivino",
-     "max_rating": "",
-     "rating_label": "⭐4,4",
-     "rating": null,
-     "is_previous_vintage": false
-    }
-   ],
-   "ratings": [],
-   "organic": 0,
-   "tags": [
-    {
-     "icon": "/assets/country_icons/fr_round.svg",
-     "altText": "Frankrig",
-     "text": "",
-     "color": "",
-     "type": "country"
-    }
-   ],
-   "discount_expiration_date": 1799276400,
-   "commerce_stock_bool": 1,
-   "is_leftover": false,
-   "content_label": "75 cl",
-   "node_path": "domaine-chavy-chouet-puligny-montrachet-les-enseigneres-2023",
    "group": "bourgogne"
   },
   {
@@ -28287,18 +28283,18 @@
   {
    "variant": "netvaerk",
    "url": "https://www.supervin.dk/vin?Products_dk%5Btoggle%5D%5Bon_discount%5D=true",
-   "count": 1785,
-   "total": 1785,
+   "count": 1782,
+   "total": 1782,
    "responses": 38,
    "params": "attributesToHighlight=%5B%5D&clickAnalytics=true&facetFilters=%5B%5B%22attribute_set%3AVin%22%5D%2C%5B%22on_discount%3A1%22%5D%5D&facets=%5B%22alcohol%22%2C%22area%22%2C%22attribute_set%22%2C%22categories%22%2C%22closure%22%2C%22commerce_stock_bool%22%2C%22content_label%22%2C%22country%22%2C%22culture%22%2C%22default_price%22%2C%22discount_expiration_date%22%2C%22district%22%2C%22facet_types%22%2C%22field_food%22%2C%22field_grapes%22%2C%22field_klassikere%22%2C%22field_non_alcoholic%22%2C%22field_non_wine%22%2C%22field_vintage%22%2C%22has_vf_value%22%2C%22is_leftover%22%2C%22is_rated%22%2C%22o",
    "groups": [
     {
      "params": "attributesToHighlight=%5B%5D&clickAnalytics=true&facetFilters=%5B%5B%22attribute_set%3AVin%22%5D%2C%5B%22on_discount%3A1%22%5D%5D&facets=%5B%22alcohol%22%2C%22area%22%2C%22attribute_set%22%2C%22categories%22%2C%22closure%22%2C%22commerce_stock_bool%22%2C%22content_label%22%2C%22country%22%2C%22cultu",
-     "nbHits": 1785,
-     "count": 1785
+     "nbHits": 1782,
+     "count": 1782
     }
    ]
   }
  ],
- "count_all": 1785
+ "count_all": 1782
 }
