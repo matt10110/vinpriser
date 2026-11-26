@@ -3116,6 +3116,20 @@
 "first": "2026-11-24",
 "since": "2026-11-24"
 },
+"laudrup|https://laudrup.dk/products/neirano-barbaresco-docg": {
+"shop": "laudrup",
+"src": "laudrup.json",
+"name": "SPAR 60% SPAR 60% Italien | Piemonte | Nebbiolo 2016 Neirano Barbaresco DOCG 145,00 kr. 359,00 kr. 3,9 Vivino",
+"group": "nebbiolo",
+"url": "https://laudrup.dk/products/neirano-barbaresco-docg",
+"ps": 145.0,
+"p6": null,
+"p12": null,
+"before": 359.0,
+"exp": null,
+"first": "2026-11-26",
+"since": "2026-11-26"
+},
 "laudrup|https://laudrup.dk/products/p-hardi-gevrey-chambertin-champerrier-du-dessus-1": {
 "shop": "laudrup",
 "src": "laudrup.json",
@@ -3156,7 +3170,8 @@
 "before": null,
 "exp": null,
 "first": "2026-11-24",
-"since": "2026-11-24"
+"since": "2026-11-24",
+"gone": "2026-11-26"
 },
 "laudrup|https://laudrup.dk/products/patrick-pestre-hautes-cotes-de-beaune-blanc-1": {
 "shop": "laudrup",
@@ -3240,7 +3255,8 @@
 "before": null,
 "exp": null,
 "first": "2026-11-24",
-"since": "2026-11-24"
+"since": "2026-11-24",
+"gone": "2026-11-26"
 },
 "laudrup|https://laudrup.dk/products/paul-gauffroy-rully-blanc": {
 "shop": "laudrup",
@@ -3618,8 +3634,7 @@
 "before": 189.95,
 "exp": "2027-03-31",
 "first": "2026-11-24",
-"since": "2026-11-24",
-"gone": "2026-11-25"
+"since": "2026-11-26"
 },
 "supervin|bertrand-de-monceny-meursault-vieilles-vignes-2023": {
 "shop": "supervin",
@@ -4362,7 +4377,8 @@
 "before": 359.95,
 "exp": null,
 "first": "2026-11-24",
-"since": "2026-11-25"
+"since": "2026-11-25",
+"gone": "2026-11-26"
 },
 "supervin|domaine-caillot-monthelie-rouge-2017": {
 "shop": "supervin",
@@ -5748,7 +5764,8 @@
 "before": 409.95,
 "exp": null,
 "first": "2026-11-24",
-"since": "2026-11-24"
+"since": "2026-11-24",
+"gone": "2026-11-26"
 },
 "supervin|henri-de-villamont-beaune-les-epenottes-2021": {
 "shop": "supervin",
@@ -6250,7 +6267,7 @@
 "p6": 69.95,
 "p12": null,
 "before": 159.95,
-"exp": "2026-11-30",
+"exp": "2026-12-31",
 "first": "2026-11-24",
 "since": "2026-11-24"
 },
@@ -6317,12 +6334,12 @@
 "group": "nebbiolo",
 "url": "https://www.supervin.dk/manzone-barolo-docg-bricat-2020",
 "ps": 609.95,
-"p6": 304.95,
+"p6": 299.95,
 "p12": null,
 "before": 609.95,
 "exp": "2027-01-06",
 "first": "2026-11-24",
-"since": "2026-11-24"
+"since": "2026-11-26"
 },
 "supervin|manzone-barolo-docg-bricat-2021": {
 "shop": "supervin",
