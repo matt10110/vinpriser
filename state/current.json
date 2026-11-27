@@ -16,14 +16,14 @@
 "jyskvin|https://www.jyskvin.dk/auxey-duresses-1er-cru-le-bas-des-duresses-2022-1586936": {
 "shop": "jyskvin",
 "src": "jyskvin_tilbud.json",
-"name": "Auxey Duresses 1er Cru 'Le Bas des Duresses'… DOMAINE DENIS CARRÉ, FRANKRIG 275,00 DKK v/1 stk. 465,00 DKK",
+"name": "Auxey Duresses 1er Cru 'Le Bas des Duresses'… DOMAINE DENIS CARRÉ, FRANKRIG 275,00 DKK v/1 stk. 465,00 DKK Tilbud Denne pris udløber om: 2 d",
 "group": "bourgogne",
 "url": "https://www.jyskvin.dk/auxey-duresses-1er-cru-le-bas-des-duresses-2022-1586936",
 "ps": 275.0,
 "p6": null,
 "p12": null,
-"before": null,
-"exp": null,
+"before": 465.0,
+"exp": "2026-11-29",
 "first": "2026-11-24",
 "since": "2026-11-24"
 },
@@ -321,6 +321,20 @@
 "first": "2026-11-24",
 "since": "2026-11-24"
 },
+"jyskvin|https://www.jyskvin.dk/barolo-cannubi-2018-2410736": {
+"shop": "jyskvin",
+"src": "jyskvin_tilbud.json",
+"name": "94 point James Suckling 94+ point Robert Parker’s Wine Adv... Barolo, Cannubi 2018 VIRNA BORGOGNO, ITALIEN 269,00 DKK v/6 stk. 670,00 DKK v/",
+"group": "nebbiolo",
+"url": "https://www.jyskvin.dk/barolo-cannubi-2018-2410736",
+"ps": 670.0,
+"p6": 269.0,
+"p12": null,
+"before": null,
+"exp": "2026-11-29",
+"first": "2026-11-27",
+"since": "2026-11-27"
+},
 "jyskvin|https://www.jyskvin.dk/barolo-del-comune-la-morra-2021-2392336": {
 "shop": "jyskvin",
 "src": "jyskvin_tilbud.json",
@@ -478,16 +492,16 @@
 "jyskvin|https://www.jyskvin.dk/barolo-noi-2019-2410636": {
 "shop": "jyskvin",
 "src": "jyskvin_tilbud.json",
-"name": "94 point James Suckling 94 point Robert Parker’s Wine Advocate Barolo, Noi 2019 VIRNA BORGOGNO, ITALIEN 319,00 DKK v/6 stk. 355,00 DKK v/1 s",
+"name": "94 point James Suckling 94 point Robert Parker’s Wine Advocate Barolo, Noi 2019 VIRNA BORGOGNO, ITALIEN 179,00 DKK v/6 stk. 355,00 DKK v/1 s",
 "group": "nebbiolo",
 "url": "https://www.jyskvin.dk/barolo-noi-2019-2410636",
 "ps": 355.0,
-"p6": 319.0,
+"p6": 179.0,
 "p12": null,
 "before": null,
-"exp": null,
+"exp": "2026-11-29",
 "first": "2026-11-24",
-"since": "2026-11-24"
+"since": "2026-11-27"
 },
 "jyskvin|https://www.jyskvin.dk/barolo-riserva-runcot-2020-2404136": {
 "shop": "jyskvin",
@@ -521,7 +535,7 @@
 "jyskvin|https://www.jyskvin.dk/beaune-1er-cru-les-tuvilains-2023-1609236": {
 "shop": "jyskvin",
 "src": "jyskvin_tilbud.json",
-"name": "Beaune 1er Cru 'Les Tuvilains' 2023 DOMAINE DENIS CARRÉ, FRANKRIG 285,00 DKK v/1 stk. 455,00 DKK Tilbud Denne pris udløber om: 3 dage 02 tim",
+"name": "Beaune 1er Cru 'Les Tuvilains' 2023 DOMAINE DENIS CARRÉ, FRANKRIG 285,00 DKK v/1 stk. 455,00 DKK Tilbud Denne pris udløber om: 2 dage 17 tim",
 "group": "bourgogne",
 "url": "https://www.jyskvin.dk/beaune-1er-cru-les-tuvilains-2023-1609236",
 "ps": 285.0,
@@ -563,7 +577,7 @@
 "jyskvin|https://www.jyskvin.dk/bourgogne-chardonnay-2023-1587536": {
 "shop": "jyskvin",
 "src": "jyskvin_tilbud.json",
-"name": "Houlbergs Vinblog Bourgogne Chardonnay 2023 DOMAINE SORINE, FRANKRIG 175,00 DKK v/3 stk. 285,00 DKK v/1 stk. Tilbud Denne pris udløber om: 3",
+"name": "Houlbergs Vinblog Bourgogne Chardonnay 2023 DOMAINE SORINE, FRANKRIG 175,00 DKK v/3 stk. 285,00 DKK v/1 stk. Tilbud Denne pris udløber om: 2",
 "group": "bourgogne",
 "url": "https://www.jyskvin.dk/bourgogne-chardonnay-2023-1587536",
 "ps": 175.0,
@@ -577,16 +591,16 @@
 "jyskvin|https://www.jyskvin.dk/bourgogne-chardonnay-cotes-d-auxerre-2023-1593236": {
 "shop": "jyskvin",
 "src": "jyskvin_tilbud.json",
-"name": "93 point Vin.connaisseur Houlbergs Vinblog Bourgogne Chardonnay, Côtes d'… DOMAINE GRIVOT-GOISOT, FRANKRIG 189,00 DKK v/6 stk. 215,00 DKK v/",
+"name": "93 point Vin.connaisseur Houlbergs Vinblog Bourgogne Chardonnay, Côtes d'… DOMAINE GRIVOT-GOISOT, FRANKRIG 125,00 DKK v/6 stk. 215,00 DKK v/",
 "group": "bourgogne",
 "url": "https://www.jyskvin.dk/bourgogne-chardonnay-cotes-d-auxerre-2023-1593236",
 "ps": 215.0,
-"p6": 189.0,
+"p6": 125.0,
 "p12": null,
 "before": null,
-"exp": null,
+"exp": "2026-11-29",
 "first": "2026-11-24",
-"since": "2026-11-24"
+"since": "2026-11-27"
 },
 "jyskvin|https://www.jyskvin.dk/bourgogne-chardonnay-cuvee-elegance-2023-1596936": {
 "shop": "jyskvin",
@@ -1111,7 +1125,7 @@
 "jyskvin|https://www.jyskvin.dk/kinki-2023-3181736": {
 "shop": "jyskvin",
 "src": "jyskvin_tilbud.json",
-"name": "96 point Vinous 96 point Jeb Dunnuck Kinki 2023 VERONICA ORTEGA, SPANIEN 230,00 DKK v/1 stk. 330,00 DKK Tilbud Denne pris udløber om: 3 dage",
+"name": "96 point Vinous 96 point Jeb Dunnuck Kinki 2023 VERONICA ORTEGA, SPANIEN 230,00 DKK v/1 stk. 330,00 DKK Tilbud Denne pris udløber om: 2 dage",
 "group": "galicien_bierzo",
 "url": "https://www.jyskvin.dk/kinki-2023-3181736",
 "ps": 230.0,
@@ -1153,30 +1167,30 @@
 "jyskvin|https://www.jyskvin.dk/langhe-nebbiolo-il-2020-2411636": {
 "shop": "jyskvin",
 "src": "jyskvin_tilbud.json",
-"name": "90 point Robert Parker’s Wine Advocate Langhe Nebbiolo \"Il\" 2020 VIRNA BORGOGNO, ITALIEN 219,00 DKK v/6 stk. 245,00 DKK v/1 stk.",
+"name": "90 point Robert Parker’s Wine Advocate Langhe Nebbiolo \"Il\" 2020 VIRNA BORGOGNO, ITALIEN 99,95 DKK v/6 stk. 245,00 DKK v/1 stk. Tilbud Denne",
 "group": "nebbiolo",
 "url": "https://www.jyskvin.dk/langhe-nebbiolo-il-2020-2411636",
 "ps": 245.0,
-"p6": 219.0,
+"p6": 99.95,
 "p12": null,
 "before": null,
-"exp": null,
+"exp": "2026-11-29",
 "first": "2026-11-24",
-"since": "2026-11-24"
+"since": "2026-11-27"
 },
 "jyskvin|https://www.jyskvin.dk/langhe-nebbiolo-il-2021-2410536": {
 "shop": "jyskvin",
 "src": "jyskvin_tilbud.json",
-"name": "91 point James Suckling Langhe Nebbiolo \"Il\" 2021 VIRNA BORGOGNO, ITALIEN 219,00 DKK v/6 stk. 245,00 DKK v/1 stk.",
+"name": "91 point James Suckling Langhe Nebbiolo \"Il\" 2021 VIRNA BORGOGNO, ITALIEN 99,95 DKK v/6 stk. 245,00 DKK v/1 stk. Tilbud Denne pris udløber o",
 "group": "nebbiolo",
 "url": "https://www.jyskvin.dk/langhe-nebbiolo-il-2021-2410536",
 "ps": 245.0,
-"p6": 219.0,
+"p6": 99.95,
 "p12": null,
 "before": null,
-"exp": null,
+"exp": "2026-11-29",
 "first": "2026-11-24",
-"since": "2026-11-24"
+"since": "2026-11-27"
 },
 "jyskvin|https://www.jyskvin.dk/langhe-nebbiolo-magnum-2024-2398044": {
 "shop": "jyskvin",
@@ -1308,16 +1322,16 @@
 "jyskvin|https://www.jyskvin.dk/matilda-nieves-2023-3185736": {
 "shop": "jyskvin",
 "src": "jyskvin_tilbud.json",
-"name": "Vinhjernen TESTVINDER Din Vin Guide Matilda Nieves 2023 BODEGAS RECTORAL DE AMANDI, SPANIEN 115,00 DKK v/6 stk. 155,00 DKK v/1 stk.",
+"name": "Vinhjernen TESTVINDER Din Vin Guide Matilda Nieves 2023 BODEGAS RECTORAL DE AMANDI, SPANIEN 99,95 DKK v/6 stk. 155,00 DKK v/1 stk. Tilbud De",
 "group": "galicien_bierzo",
 "url": "https://www.jyskvin.dk/matilda-nieves-2023-3185736",
 "ps": 155.0,
-"p6": 115.0,
+"p6": 99.95,
 "p12": null,
 "before": null,
-"exp": null,
+"exp": "2026-11-29",
 "first": "2026-11-24",
-"since": "2026-11-24"
+"since": "2026-11-27"
 },
 "jyskvin|https://www.jyskvin.dk/mazis-chambertin-grand-cru-2022-1555636": {
 "shop": "jyskvin",
@@ -1740,6 +1754,20 @@
 "exp": null,
 "first": "2026-11-24",
 "since": "2026-11-24"
+},
+"jyskvin|https://www.jyskvin.dk/pommard-1er-cru-les-charmots-2023-1593136": {
+"shop": "jyskvin",
+"src": "jyskvin_tilbud.json",
+"name": "Pommard 1er Cru 'Les Charmots' 2023 BENOIT GIRARDIN, FRANKRIG 320,00 DKK v/1 stk. 530,00 DKK Tilbud Denne pris udløber om: 2 dage 17 timer 4",
+"group": "bourgogne",
+"url": "https://www.jyskvin.dk/pommard-1er-cru-les-charmots-2023-1593136",
+"ps": 320.0,
+"p6": null,
+"p12": null,
+"before": 530.0,
+"exp": "2026-11-29",
+"first": "2026-11-27",
+"since": "2026-11-27"
 },
 "jyskvin|https://www.jyskvin.dk/pommard-1er-cru-les-charmots-2024-1644236": {
 "shop": "jyskvin",
@@ -2612,7 +2640,7 @@
 "jyskvin|https://www.jyskvin.dk/terrassen-riesling-trocken-2023-4274136": {
 "shop": "jyskvin",
 "src": "jyskvin_tilbud.json",
-"name": "Terrassen, Riesling Trocken 2023 WEINGUT FRIES, TYSKLAND 159,00 DKK v/6 stk. 250,00 DKK v/1 stk. Tilbud Denne pris udløber om: 3 dage 02 tim",
+"name": "Terrassen, Riesling Trocken 2023 WEINGUT FRIES, TYSKLAND 159,00 DKK v/6 stk. 250,00 DKK v/1 stk. Tilbud Denne pris udløber om: 2 dage 17 tim",
 "group": "riesling_de",
 "url": "https://www.jyskvin.dk/terrassen-riesling-trocken-2023-4274136",
 "ps": 250.0,
@@ -6689,7 +6717,8 @@
 "before": 159.95,
 "exp": null,
 "first": "2026-11-26",
-"since": "2026-11-26"
+"since": "2026-11-26",
+"gone": "2026-11-27"
 },
 "supervin|martin-codax-pizarras-de-otero-bierzo-2025": {
 "shop": "supervin",
