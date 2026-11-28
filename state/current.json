@@ -16,7 +16,7 @@
 "jyskvin|https://www.jyskvin.dk/auxey-duresses-1er-cru-le-bas-des-duresses-2022-1586936": {
 "shop": "jyskvin",
 "src": "jyskvin_tilbud.json",
-"name": "Auxey Duresses 1er Cru 'Le Bas des Duresses'… DOMAINE DENIS CARRÉ, FRANKRIG 275,00 DKK v/1 stk. 465,00 DKK Tilbud Denne pris udløber om: 2 d",
+"name": "Auxey Duresses 1er Cru 'Le Bas des Duresses'… DOMAINE DENIS CARRÉ, FRANKRIG 275,00 DKK v/1 stk. 465,00 DKK Tilbud Denne pris udløber om: 1 d",
 "group": "bourgogne",
 "url": "https://www.jyskvin.dk/auxey-duresses-1er-cru-le-bas-des-duresses-2022-1586936",
 "ps": 275.0,
@@ -331,7 +331,7 @@
 "p6": 269.0,
 "p12": null,
 "before": null,
-"exp": "2026-11-29",
+"exp": null,
 "first": "2026-11-27",
 "since": "2026-11-27"
 },
@@ -535,7 +535,7 @@
 "jyskvin|https://www.jyskvin.dk/beaune-1er-cru-les-tuvilains-2023-1609236": {
 "shop": "jyskvin",
 "src": "jyskvin_tilbud.json",
-"name": "Beaune 1er Cru 'Les Tuvilains' 2023 DOMAINE DENIS CARRÉ, FRANKRIG 285,00 DKK v/1 stk. 455,00 DKK Tilbud Denne pris udløber om: 2 dage 17 tim",
+"name": "Beaune 1er Cru 'Les Tuvilains' 2023 DOMAINE DENIS CARRÉ, FRANKRIG 285,00 DKK v/1 stk. 455,00 DKK Tilbud Denne pris udløber om: 1 dage 17 tim",
 "group": "bourgogne",
 "url": "https://www.jyskvin.dk/beaune-1er-cru-les-tuvilains-2023-1609236",
 "ps": 285.0,
@@ -577,7 +577,7 @@
 "jyskvin|https://www.jyskvin.dk/bourgogne-chardonnay-2023-1587536": {
 "shop": "jyskvin",
 "src": "jyskvin_tilbud.json",
-"name": "Houlbergs Vinblog Bourgogne Chardonnay 2023 DOMAINE SORINE, FRANKRIG 175,00 DKK v/3 stk. 285,00 DKK v/1 stk. Tilbud Denne pris udløber om: 2",
+"name": "Houlbergs Vinblog Bourgogne Chardonnay 2023 DOMAINE SORINE, FRANKRIG 175,00 DKK v/3 stk. 285,00 DKK v/1 stk. Tilbud Denne pris udløber om: 1",
 "group": "bourgogne",
 "url": "https://www.jyskvin.dk/bourgogne-chardonnay-2023-1587536",
 "ps": 175.0,
@@ -771,6 +771,20 @@
 "exp": null,
 "first": "2026-11-24",
 "since": "2026-11-24"
+},
+"jyskvin|https://www.jyskvin.dk/charmes-chambertin-grand-cru-2021-1555336": {
+"shop": "jyskvin",
+"src": "jyskvin_tilbud.json",
+"name": "Charmes Chambertin Grand Cru 2021 DOMAINE TORTOCHOT, FRANKRIG 1.395,00 DKK v/1 stk. 2.190,00 DKK Tilbud Denne pris udløber om: 1 dage 17 tim",
+"group": "bourgogne",
+"url": "https://www.jyskvin.dk/charmes-chambertin-grand-cru-2021-1555336",
+"ps": 1395.0,
+"p6": null,
+"p12": null,
+"before": 2190.0,
+"exp": "2026-11-29",
+"first": "2026-11-28",
+"since": "2026-11-28"
 },
 "jyskvin|https://www.jyskvin.dk/chassagne-montrachet-cuvee-heritage-2021-1567436": {
 "shop": "jyskvin",
@@ -1125,7 +1139,7 @@
 "jyskvin|https://www.jyskvin.dk/kinki-2023-3181736": {
 "shop": "jyskvin",
 "src": "jyskvin_tilbud.json",
-"name": "96 point Vinous 96 point Jeb Dunnuck Kinki 2023 VERONICA ORTEGA, SPANIEN 230,00 DKK v/1 stk. 330,00 DKK Tilbud Denne pris udløber om: 2 dage",
+"name": "96 point Vinous 96 point Jeb Dunnuck Kinki 2023 VERONICA ORTEGA, SPANIEN 230,00 DKK v/1 stk. 330,00 DKK Tilbud Denne pris udløber om: 1 dage",
 "group": "galicien_bierzo",
 "url": "https://www.jyskvin.dk/kinki-2023-3181736",
 "ps": 230.0,
@@ -1153,7 +1167,7 @@
 "jyskvin|https://www.jyskvin.dk/langhe-nebbiolo-avene-2024-2407736": {
 "shop": "jyskvin",
 "src": "jyskvin_tilbud.json",
-"name": "Nr. 3 | 100-150 | Nebbiolo-test Berl... Langhe Nebbiolo, Avene 2024 MASSIMO RIVETTI, ITALIEN 145,00 DKK v/6 stk. 175,00 DKK v/1 stk.",
+"name": "93 point James Suckling Nr. 3 | 100-150 | Nebbiolo-test Berl... Langhe Nebbiolo, Avene 2024 MASSIMO RIVETTI, ITALIEN 145,00 DKK v/6 stk. 175",
 "group": "nebbiolo",
 "url": "https://www.jyskvin.dk/langhe-nebbiolo-avene-2024-2407736",
 "ps": 175.0,
@@ -1336,16 +1350,16 @@
 "jyskvin|https://www.jyskvin.dk/mazis-chambertin-grand-cru-2022-1555636": {
 "shop": "jyskvin",
 "src": "jyskvin_tilbud.json",
-"name": "96 point The World of Fine Wine 94-96 point Vinous Mazis-Chambertin Grand Cru 2022 DOMAINE TORTOCHOT, FRANKRIG 2.700,00 DKK v/2 stk. 3.130,0",
+"name": "96 point The World of Fine Wine 94-96 point Vinous Mazis-Chambertin Grand Cru 2022 DOMAINE TORTOCHOT, FRANKRIG 1.950,00 DKK v/1 stk. 3.130,0",
 "group": "bourgogne",
 "url": "https://www.jyskvin.dk/mazis-chambertin-grand-cru-2022-1555636",
-"ps": 2700.0,
+"ps": 1950.0,
 "p6": null,
 "p12": null,
-"before": null,
-"exp": null,
+"before": 3130.0,
+"exp": "2026-11-29",
 "first": "2026-11-24",
-"since": "2026-11-24"
+"since": "2026-11-28"
 },
 "jyskvin|https://www.jyskvin.dk/melaphyr-riesling-trocken-2025-4279636": {
 "shop": "jyskvin",
@@ -1758,7 +1772,7 @@
 "jyskvin|https://www.jyskvin.dk/pommard-1er-cru-les-charmots-2023-1593136": {
 "shop": "jyskvin",
 "src": "jyskvin_tilbud.json",
-"name": "Pommard 1er Cru 'Les Charmots' 2023 BENOIT GIRARDIN, FRANKRIG 320,00 DKK v/1 stk. 530,00 DKK Tilbud Denne pris udløber om: 2 dage 17 timer 4",
+"name": "Pommard 1er Cru 'Les Charmots' 2023 BENOIT GIRARDIN, FRANKRIG 320,00 DKK v/1 stk. 530,00 DKK Tilbud Denne pris udløber om: 1 dage 17 timer 4",
 "group": "bourgogne",
 "url": "https://www.jyskvin.dk/pommard-1er-cru-les-charmots-2023-1593136",
 "ps": 320.0,
@@ -1824,6 +1838,20 @@
 "exp": null,
 "first": "2026-11-24",
 "since": "2026-11-24"
+},
+"jyskvin|https://www.jyskvin.dk/pouilly-fuisse-1er-cru-les-vignes-blanches-2022-1620136": {
+"shop": "jyskvin",
+"src": "jyskvin_tilbud.json",
+"name": "Pouilly-Fuissé 1er Cru, Les Vignes Blanches 2… DOMAINE SEBASTIEN GIROUX, FRANKRIG 289,00 DKK v/1 stk. 409,00 DKK Tilbud Denne pris udløber o",
+"group": "bourgogne",
+"url": "https://www.jyskvin.dk/pouilly-fuisse-1er-cru-les-vignes-blanches-2022-1620136",
+"ps": 289.0,
+"p6": null,
+"p12": null,
+"before": 409.0,
+"exp": "2026-11-29",
+"first": "2026-11-28",
+"since": "2026-11-28"
 },
 "jyskvin|https://www.jyskvin.dk/pouilly-fuisse-les-raidillons-2021-1545936": {
 "shop": "jyskvin",
@@ -2640,7 +2668,7 @@
 "jyskvin|https://www.jyskvin.dk/terrassen-riesling-trocken-2023-4274136": {
 "shop": "jyskvin",
 "src": "jyskvin_tilbud.json",
-"name": "Terrassen, Riesling Trocken 2023 WEINGUT FRIES, TYSKLAND 159,00 DKK v/6 stk. 250,00 DKK v/1 stk. Tilbud Denne pris udløber om: 2 dage 17 tim",
+"name": "Terrassen, Riesling Trocken 2023 WEINGUT FRIES, TYSKLAND 159,00 DKK v/6 stk. 250,00 DKK v/1 stk. Tilbud Denne pris udløber om: 1 dage 17 tim",
 "group": "riesling_de",
 "url": "https://www.jyskvin.dk/terrassen-riesling-trocken-2023-4274136",
 "ps": 250.0,
@@ -2988,7 +3016,8 @@
 "before": 395.0,
 "exp": null,
 "first": "2026-11-24",
-"since": "2026-11-24"
+"since": "2026-11-24",
+"gone": "2026-11-28"
 },
 "laudrup|https://laudrup.dk/products/aj-vaona-gevrey-chambertin": {
 "shop": "laudrup",
@@ -3016,7 +3045,8 @@
 "before": 1199.0,
 "exp": null,
 "first": "2026-11-24",
-"since": "2026-11-24"
+"since": "2026-11-24",
+"gone": "2026-11-28"
 },
 "laudrup|https://laudrup.dk/products/aj-vaona-vosne-romanee": {
 "shop": "laudrup",
@@ -3049,7 +3079,7 @@
 "laudrup|https://laudrup.dk/products/bader-laroche-rheinhessen": {
 "shop": "laudrup",
 "src": "laudrup.json",
-"name": "SPAR 61% SPAR 61% Tyskland | Rheinhessen | Riesling 2021 Bäder LaRoche Rheinhessen 159,00 kr. 399,00 kr. 4,2 Vivino",
+"name": "UDSOLGT UDSOLGT Tyskland | Rheinhessen | Riesling 2021 Bäder LaRoche Rheinhessen 159,00 kr. 399,00 kr. 4,2 Vivino",
 "group": "riesling_de",
 "url": "https://laudrup.dk/products/bader-laroche-rheinhessen",
 "ps": 159.0,
@@ -3300,6 +3330,20 @@
 "first": "2026-11-24",
 "since": "2026-11-24"
 },
+"laudrup|https://laudrup.dk/products/pio-cesare-barolo-1": {
+"shop": "laudrup",
+"src": "laudrup.json",
+"name": "SPAR 49% SPAR 49% Italien | Piemonte | Nebbiolo 2022 Pio Cesare Barolo 449,00 kr. 865,00 kr. 4,2 Vivino",
+"group": "nebbiolo",
+"url": "https://laudrup.dk/products/pio-cesare-barolo-1",
+"ps": 449.0,
+"p6": null,
+"p12": null,
+"before": 865.0,
+"exp": null,
+"first": "2026-11-28",
+"since": "2026-11-28"
+},
 "laudrup|https://laudrup.dk/products/pio-cesare-barolo-ornato": {
 "shop": "laudrup",
 "src": "laudrup.json",
@@ -3368,7 +3412,8 @@
 "before": 265.0,
 "exp": null,
 "first": "2026-11-25",
-"since": "2026-11-25"
+"since": "2026-11-25",
+"gone": "2026-11-28"
 },
 "laudrup|https://laudrup.dk/products/rebholz-weisser-burgunder-oko-bio-1": {
 "shop": "laudrup",
@@ -3429,7 +3474,7 @@
 "laudrup|https://laudrup.dk/products/vincent-bouzereau-bourgogne-rouge-cote-dor": {
 "shop": "laudrup",
 "src": "laudrup.json",
-"name": "SPAR 38% SPAR 38% Frankrig | Bourgogne | Pinot Noir 2023 Vincent Bouzereau Bourgogne Rouge Cote d'Or 229,00 kr. 365,00 kr.",
+"name": "UDSOLGT UDSOLGT Frankrig | Bourgogne | Pinot Noir 2023 Vincent Bouzereau Bourgogne Rouge Cote d'Or 229,00 kr. 365,00 kr.",
 "group": "bourgogne",
 "url": "https://laudrup.dk/products/vincent-bouzereau-bourgogne-rouge-cote-dor",
 "ps": 229.0,
@@ -3719,7 +3764,8 @@
 "before": 299.95,
 "exp": null,
 "first": "2026-11-24",
-"since": "2026-11-26"
+"since": "2026-11-26",
+"gone": "2026-11-28"
 },
 "supervin|bourgogne-pinot-noir-cote-d-or-2023": {
 "shop": "supervin",
@@ -4518,7 +4564,8 @@
 "before": 1130,
 "exp": "2026-11-30",
 "first": "2026-11-24",
-"since": "2026-11-26"
+"since": "2026-11-26",
+"gone": "2026-11-28"
 },
 "supervin|domaine-claudine-gerard-bourgogne-hautes-cotes-de-beaune-2022": {
 "shop": "supervin",
@@ -4988,13 +5035,13 @@
 "name": "Domaine Les Vignes Devant Rully Les Varots Blanc 2023",
 "group": "bourgogne",
 "url": "https://www.supervin.dk/domaine-les-vignes-devant-rully-les-varots-blanc-2023",
-"ps": 299.95,
-"p6": 157.85,
+"ps": 189.95,
+"p6": null,
 "p12": null,
 "before": 299.95,
-"exp": "2026-11-30",
+"exp": null,
 "first": "2026-11-24",
-"since": "2026-11-25"
+"since": "2026-11-28"
 },
 "supervin|domaine-les-vignes-devant-rully-les-varots-rouge-2024": {
 "shop": "supervin",
@@ -5022,7 +5069,8 @@
 "before": 609.95,
 "exp": "2026-11-30",
 "first": "2026-11-24",
-"since": "2026-11-24"
+"since": "2026-11-24",
+"gone": "2026-11-28"
 },
 "supervin|domaine-louis-lequin-corton-grand-cru-les-languettes-2017": {
 "shop": "supervin",
@@ -5204,7 +5252,8 @@
 "before": 349.95,
 "exp": "2027-01-06",
 "first": "2026-11-24",
-"since": "2026-11-24"
+"since": "2026-11-24",
+"gone": "2026-11-28"
 },
 "supervin|domaine-louis-lequin-et-fils-santenay-vieilles-vignes-2020": {
 "shop": "supervin",
@@ -7293,7 +7342,8 @@
 "before": 1009.95,
 "exp": "2026-11-30",
 "first": "2026-11-24",
-"since": "2026-11-24"
+"since": "2026-11-24",
+"gone": "2026-11-28"
 },
 "supervin|pommard-1er-cru-argillieres-2022": {
 "shop": "supervin",
@@ -8413,7 +8463,8 @@
 "before": 179.95,
 "exp": null,
 "first": "2026-11-24",
-"since": "2026-11-24"
+"since": "2026-11-24",
+"gone": "2026-11-28"
 },
 "supervin|tesch-riesling-trocken-queen-of-whites-nahe-2025": {
 "shop": "supervin",
@@ -8488,7 +8539,7 @@
 "supervin|weingut-tesch-riesling-library-box-2026": {
 "shop": "supervin",
 "src": "supervin.json",
-"name": "Weingut Tesch – Riesling Library Box 2026",
+"name": "Weingut Tesch – Riesling Library Box",
 "group": "riesling_de",
 "url": "https://www.supervin.dk/weingut-tesch-riesling-library-box-2026",
 "ps": 899.95,
@@ -12292,6 +12343,34 @@
 "exp": null,
 "first": "2026-11-24",
 "since": "2026-11-24"
+},
+"uhrskov|https://www.uhrskov-vine.dk/chablis-grand-cru-les-clos-2023-louis-michel": {
+"shop": "uhrskov",
+"src": "uhrskov_hvid.json",
+"name": "Chablis Grand Cru Les Clos 2023, Louis Michel ",
+"group": "bourgogne",
+"url": "https://www.uhrskov-vine.dk/chablis-grand-cru-les-clos-2023-louis-michel",
+"ps": 829.0,
+"p6": null,
+"p12": null,
+"before": null,
+"exp": null,
+"first": "2026-11-28",
+"since": "2026-11-28"
+},
+"uhrskov|https://www.uhrskov-vine.dk/chablis-grand-cru-les-clos-2024-louis-michel": {
+"shop": "uhrskov",
+"src": "uhrskov_hvid.json",
+"name": "Chablis Grand Cru Les Clos 2024, Louis Michel ",
+"group": "bourgogne",
+"url": "https://www.uhrskov-vine.dk/chablis-grand-cru-les-clos-2024-louis-michel",
+"ps": 829.0,
+"p6": null,
+"p12": null,
+"before": null,
+"exp": null,
+"first": "2026-11-28",
+"since": "2026-11-28"
 },
 "uhrskov|https://www.uhrskov-vine.dk/chablis-grand-cru-les-clos-jean-collet-2020": {
 "shop": "uhrskov",
